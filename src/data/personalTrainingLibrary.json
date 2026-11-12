@@ -1,0 +1,3028 @@
+{
+  "version": "2026-10-30",
+  "media": {
+    "incline": {
+      "animation": "/media/personal-v15/incline.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/incline.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "；专业审校待审"
+    },
+    "pushup": {
+      "animation": "/media/personal-v15/pushup.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/pushup.mp4'}",
+      "technicalReview": "已有个人版技术放行视频；非专业审校；专业审校待审"
+    },
+    "pulldown": {
+      "animation": "/media/personal-library-20261030/f95993f4ef57f299.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/remaining-revision-2026-10-30/generated/pulldown-front/sequence.mp4'}",
+      "technicalReview": "设计师明确视觉通过；历史技术风险独立保留；专业审校待审"
+    },
+    "one-arm-row": {
+      "segments": {
+        "left": {
+          "animation": "/media/personal-library-20261030/08e39bd068f7f1d0.mp4",
+          "animationFormat": "mp4"
+        },
+        "right": {
+          "animation": "/media/personal-v15/one-arm-row.mp4",
+          "animationFormat": "mp4"
+        }
+      },
+      "sourcePath": "{'segments': {'left': {'animation': '/reports/ritmo-video-library-completion/closure-2026-10-30/generated/one-arm-row/sequence.mp4', 'animationFormat': 'mp4'}, 'right': {'animation': '/media/personal-v15/one-arm-row.mp4', 'animationFormat': 'mp4'}}}",
+      "technicalReview": "对侧采用不同观察视角；动作幅度、负重与单侧每组计数仍需逐项确认。；专业审校待审"
+    },
+    "raise": {
+      "animation": "/media/personal-v15/raise.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/raise.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "；专业审校待审"
+    },
+    "press": {
+      "animation": "/media/personal-v15/press.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/press.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "；专业审校待审"
+    },
+    "curl": {
+      "animation": "/media/personal-v15/curl.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/curl.mp4'}",
+      "technicalReview": "已有个人版技术放行视频；非专业审校；专业审校待审"
+    },
+    "triceps": {
+      "animation": "/media/personal-library-20261030/df9d3d0f95ec24b3.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-v15-sequence-batch2/triceps-sequence.mp4'}",
+      "technicalReview": "设计师明确视觉通过；历史技术风险独立保留；专业审校待审"
+    },
+    "plank": {
+      "animation": "/media/personal-v15/plank.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/plank.mp4'}",
+      "technicalReview": "已有个人版技术放行视频；非专业审校；专业审校待审"
+    },
+    "crunch": {
+      "animation": "/media/personal-library-20261030/baf40f20b3bec1c7.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/closure-2026-10-30/generated/crunch/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "颈部舒适范围及卷曲幅度仍待个人核对；专业审校待进行。；专业审校待审"
+    },
+    "pike-pushup": {
+      "animation": "/media/personal-library-20261030/0c5ee94372195b44.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-v15-b-repair-batch1/pike-pushup-candidate.mp4'}",
+      "technicalReview": "设计师明确视觉通过；历史技术风险独立保留；专业审校待审"
+    },
+    "superman": {
+      "animation": "/media/personal-library-20261030/763acdbbaebd8921.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-v15-sequence-batch3/superman-sequence.mp4'}",
+      "technicalReview": "设计师明确视觉通过；历史技术风险独立保留；专业审校待审"
+    },
+    "body-squat": {
+      "animation": "/media/personal-library-20261030/29e8c47ef333f0b4.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-v15-b-repair-batch3/two-frame-v2/body-squat-two-frame.mp4'}",
+      "technicalReview": "设计师明确视觉通过；历史技术风险独立保留；专业审校待审"
+    },
+    "glute-bridge": {
+      "animation": "/media/personal-v15/glute-bridge.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/glute-bridge.mp4'}",
+      "technicalReview": "已有个人版技术放行视频；非专业审校；专业审校待审"
+    },
+    "hasan:0659": {
+      "animation": "/media/personal-v15/hasan-0659.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/hasan-0659.mp4'}",
+      "technicalReview": "已有个人版技术放行视频；非专业审校；专业审校待审"
+    },
+    "hasan:1311": {
+      "animation": "/media/personal-v15/hasan-1311.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/hasan-1311.mp4'}",
+      "technicalReview": "已有个人版技术放行视频；非专业审校；专业审校待审"
+    },
+    "hasan:1297": {
+      "animation": "/media/personal-library-20261030/b6ab28632363b1f5.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-v15-sequence-batch5/isometric-chest-squeeze-sequence.mp4'}",
+      "technicalReview": "设计师明确视觉通过；历史技术风险独立保留；专业审校待审"
+    },
+    "hasan:0289": {
+      "animation": "/media/personal-library-20261030/710017514b2b5467.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/revision-2026-10-30/generated/flat-db-press/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "按反馈重画近镜右手闭合握持，再由A生成推起帧；拇指方向请重点复核。头、凳和双脚对位稳定，未把拇指方向写成专业结论。；专业审校待审"
+    },
+    "hasan:0293": {
+      "animation": "/media/personal-library-20261030/1ddaec266a0b2fa8.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-v15-b-repair-batch1/revision-2026-10-23/bent-row-revision.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "旧状态为暂缓；此次只提升为可供视觉验收候选，不自动正式放行。；专业审校待审"
+    },
+    "hasan:0406": {
+      "animation": "/media/personal-v15/hasan-0406.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/hasan-0406.mp4'}",
+      "technicalReview": "已有个人版技术放行视频；非专业审校；专业审校待审"
+    },
+    "hasan:0861": {
+      "animation": "/media/personal-library-20261030/fbf8fd2e75cf5280.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-v15-sequence-batch4/cable-row-sequence.mp4'}",
+      "technicalReview": "设计师明确视觉通过；历史技术风险独立保留；专业审校待审"
+    },
+    "hasan:0027": {
+      "animation": "/media/personal-v15/hasan-0027.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/hasan-0027.mp4'}",
+      "technicalReview": "已有个人版技术放行视频；非专业审校；专业审校待审"
+    },
+    "hasan:0380": {
+      "animation": "/media/personal-v15/hasan-0380.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/hasan-0380.mp4'}",
+      "technicalReview": "已有个人版技术放行视频；非专业审校；专业审校待审"
+    },
+    "hasan:0310": {
+      "animation": "/media/personal-v15/hasan-0310.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/hasan-0310.mp4'}",
+      "technicalReview": "已有个人版技术放行视频；非专业审校；专业审校待审"
+    },
+    "hasan:0203": {
+      "animation": "/media/personal-library-20261030/1eefed0c6c618bd6.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-v15-b-repair-batch2/revision-2026-10-23-v2/rear-delt-cable-row-v2.mp4'}",
+      "technicalReview": "设计师明确视觉通过；历史技术风险独立保留；专业审校待审"
+    },
+    "hasan:0259": {
+      "animation": "/media/personal-v15/hasan-0259.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/hasan-0259.mp4'}",
+      "technicalReview": "已有个人版技术放行视频；非专业审校；专业审校待审"
+    },
+    "hasan:0298": {
+      "animation": "/media/personal-v15/hasan-0298.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/hasan-0298.mp4'}",
+      "technicalReview": "已有个人版技术放行视频；非专业审校；专业审校待审"
+    },
+    "hasan:2188": {
+      "animation": "/media/personal-library-20261030/30acafd08b403dff.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/generated/seated-overhead-extension/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：关键帧切换仅表达姿势，不是连续运动捕捉。；专业审校待审"
+    },
+    "hasan:0241": {
+      "animation": "/media/personal-v15/hasan-0241.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/hasan-0241.mp4'}",
+      "technicalReview": "已有个人版技术放行视频；非专业审校；专业审校待审"
+    },
+    "hasan:0031": {
+      "animation": "/media/personal-library-20261030/86d98852f63fdd19.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-v15-b-repair-batch1/revision-2026-10-23-v3/barbell-curl-v3.mp4'}",
+      "technicalReview": "设计师明确视觉通过；历史技术风险独立保留；专业审校待审"
+    },
+    "hasan:1760": {
+      "animation": "/media/personal-v15/hasan-1760.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/hasan-1760.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "；专业审校待审"
+    },
+    "hasan:0381": {
+      "animation": "/media/personal-library-20261030/ab870c25bd78726f.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-v15-sequence-batch4/reverse-lunge-final-v4/layer-align-v1/reverse-lunge-sequence-final.mp4'}",
+      "technicalReview": "设计师明确视觉通过；历史技术风险独立保留；专业审校待审"
+    },
+    "hasan:1459": {
+      "animation": "/media/personal-library-20261030/1bf008d36ed32888.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/remaining-side-revision-2026-10-30/reused/rdl-reuse/sequence.mp4'}",
+      "technicalReview": "以髋铰链覆盖腿后侧链训练目标，屈膝→髋伸，器械隔离→双哑铃复合动作；不视为腿弯举的等价复刻。；专业审校待审"
+    },
+    "hasan:0585": {
+      "animation": "/media/personal-v15/hasan-0585.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/hasan-0585.mp4'}",
+      "technicalReview": "已有个人版技术放行视频；非专业审校；专业审校待审"
+    },
+    "hasan:3211": {
+      "animation": "/media/personal-library-20261030/c1d224d7dca38505.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/revision-2026-10-30/generated/kneeling-pushup/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "保留A，重画B；双掌、双膝、鞋尖与垫角对位稳定，修复原B的整个人物位置偏移。；专业审校待审"
+    },
+    "hasan:0227": {
+      "animation": "/media/personal-v15/hasan-0227.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/hasan-0227.mp4'}",
+      "technicalReview": "已有个人版技术放行视频；非专业审校；专业审校待审"
+    },
+    "hasan:2327": {
+      "animation": "/media/personal-library-20261030/9315d6e7328c0a11.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/generated/supinated-row/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：关键帧切换仅表达姿势，不是连续运动捕捉。；专业审校待审"
+    },
+    "hasan:0091": {
+      "animation": "/media/personal-library-20261030/e66470346803ce09.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/remaining-revision-2026-10-30/generated/seated-barbell-press/sequence.mp4'}",
+      "technicalReview": "设计师明确视觉通过；历史技术风险独立保留；专业审校待审"
+    },
+    "hasan:0194": {
+      "animation": "/media/personal-library-20261030/c5c014319009506d.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/remaining-side-revision-2026-10-30/generated/rope-overhead-side/sequence.mp4'}",
+      "technicalReview": "设计师本次明确通过；专业审校待审；专业审校待审"
+    },
+    "hasan:0576": {
+      "animation": "/media/personal-library-20261030/dac78b01ef4727e5.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-v15-sequence-batch7/chest-press-sequence.mp4'}",
+      "technicalReview": "设计师明确视觉通过；历史技术风险独立保留；专业审校待审"
+    },
+    "hasan:0573": {
+      "animation": "/media/personal-library-20261030/979139d64704bd40.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/remaining-side-revision-2026-10-30/generated/back-extension-side/sequence.mp4'}",
+      "technicalReview": "设计师本次明确通过；专业审校待审；专业审校待审"
+    },
+    "hasan:0042": {
+      "animation": "/media/personal-library-20261030/65f22b86f2ac3c97.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/remaining-revision-2026-10-30/generated/front-squat-front/sequence.mp4'}",
+      "technicalReview": "设计师明确视觉通过；历史技术风险独立保留；专业审校待审"
+    },
+    "fly": {
+      "animation": "/media/personal-library-20261030/362f3ca98e39ad11.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-v15-b-repair-batch2/revision-2026-10-23-v3/fly-front-v3.mp4'}",
+      "technicalReview": "设计师明确视觉通过；历史技术风险独立保留；专业审校待审"
+    },
+    "straight-pull": {
+      "animation": "/media/personal-library-20261030/14a6bf154a6a7bae.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/remaining-revision-2026-10-30/generated/straight-pull-side/sequence.mp4'}",
+      "technicalReview": "设计师明确视觉通过；历史技术风险独立保留；专业审校待审"
+    },
+    "squat": {
+      "animation": "/media/personal-library-20261030/91a9526dffe83de3.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/remaining-revision-2026-10-30/generated/smith-squat-front/sequence.mp4'}",
+      "technicalReview": "设计师明确视觉通过；历史技术风险独立保留；专业审校待审"
+    },
+    "leg-press": {
+      "animation": "/media/personal-library-20261030/bd614e4aa67db9fc.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-v15-b-repair-batch3/two-frame-v4/leg-press-technical-trial.mp4'}",
+      "technicalReview": "设计师明确视觉通过；历史技术风险独立保留；专业审校待审"
+    },
+    "ritmo:warmup:standing-chest-open-close": {
+      "animation": "/media/personal-v16/standing-chest-open-close.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v16/standing-chest-open-close.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "水平胸前开合并非360°肩绕环；不恢复旧错误绕环轨迹。；专业审校待审"
+    },
+    "ritmo:warmup:low-high-chest-squeeze": {
+      "animation": "/media/personal-library-20261030/8bec87783ee5079a.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/revision-2026-10-30-r2/generated/diagonal-raise/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "本轮B已改善过度屈肘和双手不内收的问题；全身/脚位对位稳定，输出原视频轨迹Sequence候选。哑铃重力与胸部训练目标的适配问题仍独立待核，不冒充绳索夹胸。；专业审校待审"
+    },
+    "hasan:0308": {
+      "animation": "/media/personal-library-20261030/90ee655adf0f8a74.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/generated/flat-db-fly/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：前两版出现头部漂移及屈肘过大；r2稳定。轻屈肘幅度与舒适活动范围仍需逐帧确认。；专业审校待审"
+    },
+    "ritmo:video:standing-low-diagonal-raise": {
+      "animation": "/media/personal-library-20261030/8bec87783ee5079a.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/revision-2026-10-30-r2/generated/diagonal-raise/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "本轮B已改善过度屈肘和双手不内收的问题；全身/脚位对位稳定，输出原视频轨迹Sequence候选。哑铃重力与胸部训练目标的适配问题仍独立待核，不冒充绳索夹胸。；专业审校待审"
+    },
+    "ritmo:video:straight-arm-supported-chest-stretch": {
+      "segments": {
+        "left": {
+          "staticImage": "/media/personal-library-20261030/aaf8bd12c590557c.webp"
+        },
+        "right": {
+          "staticImage": "/media/personal-library-20261030/ccb1d54048afd167.webp"
+        }
+      },
+      "sourcePath": "{'segments': {'left': {'staticImage': '/reports/ritmo-video-library-completion/generated/straight-arm-chest-video/left-720.webp'}, 'right': {'staticImage': '/reports/ritmo-video-library-completion/generated/straight-arm-chest-video/right-720.webp'}}}",
+      "technicalReview": "本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：左侧正面三分之四、右侧背面三分之四展示，均直肘扶同一竖架，不复用旧屈肘门框拉伸ID。；专业审校待审"
+    },
+    "ritmo:warmup:light-lateral-raise": {
+      "animation": "/media/personal-v15/raise.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/raise.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "；专业审校待审"
+    },
+    "ritmo:warmup:lean-lateral-raise": {
+      "animation": "/media/personal-v16/lean-lateral-raise.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v16/lean-lateral-raise.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "；专业审校待审"
+    },
+    "ritmo:warmup:bent-rear-raise": {
+      "animation": "/media/personal-library-20261030/6762ec86c7406c69.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/generated/rear-warmup-90/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：关键帧切换仅表达姿势，不是连续运动捕捉。；专业审校待审"
+    },
+    "ritmo:video:seated-bent-rear-fly": {
+      "animation": "/media/personal-library-20261030/fff33be1f3a871e1.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/generated/seated-rear-fly/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：关键帧切换仅表达姿势，不是连续运动捕捉。；专业审校待审"
+    },
+    "ritmo:video:seated-arnold-press": {
+      "animation": "/media/personal-library-20261030/4045fde3d164ffdf.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/generated/arnold-press/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：初版头部裁切及凳子漂移已弃用；r1统一较远镜头，手机中人物偏小需视觉确认。；专业审校待审"
+    },
+    "ritmo:stretch:cross-body-rear-delt": {
+      "segments": {
+        "left": {
+          "staticImage": "/media/personal-v16/cross-body-rear-delt-left.png"
+        },
+        "right": {
+          "staticImage": "/media/personal-v16/cross-body-rear-delt-right.png"
+        }
+      },
+      "sourcePath": "{'segments': {'left': {'staticImage': '/media/personal-v16/cross-body-rear-delt-left.png'}, 'right': {'staticImage': '/media/personal-v16/cross-body-rear-delt-right.png'}}}",
+      "technicalReview": "；专业审校待审"
+    },
+    "ritmo:video:arm-back-supported-front-delt": {
+      "segments": {
+        "left": {
+          "staticImage": "/media/personal-library-20261030/30571710ca46e791.webp"
+        },
+        "right": {
+          "staticImage": "/media/personal-library-20261030/d26c215732bbd5e6.webp"
+        }
+      },
+      "sourcePath": "{'segments': {'left': {'staticImage': '/reports/ritmo-video-library-completion/revision-2026-10-30/generated/front-delt-video/left-720.webp'}, 'right': {'staticImage': '/reports/ritmo-video-library-completion/revision-2026-10-30/generated/front-delt-video/right-720.webp'}}}",
+      "technicalReview": "按源视频改为扶架单臂后伸、分腿屈膝；左用正斜视、右用背斜视核对实际手臂。支架接触完整，肩伸幅度及适用性待专业审校。；专业审校待审"
+    },
+    "ritmo:warmup:bent-scapular-activation": {
+      "animation": "/media/personal-library-20261030/be57f16d98a81c10.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/revision-2026-10-30/generated/bent-scapular-activation/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "保留俯身W式肩部旋转候选，固定躯干和脚位；原视频动作命名、幅度及肩袖激活目标仍待核验，不能作为已放行教学。；专业审校待审"
+    },
+    "ritmo:warmup:elbows-tucked-external-rotation": {
+      "animation": "/media/personal-library-20261030/f7b3f19fef374225.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/back-view-external-rotation-2026-10-30/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "仅轻负荷肩关节热身活动，非有效肩袖抗阻训练；重力方向疑问与专业待审保留；专业审校待审"
+    },
+    "ritmo:video:row-half-deadlift": {
+      "animation": "/media/personal-library-20261030/5a9b08559c603a25.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/generated/row-half-deadlift/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：复合动作按直立→髋屈→划船→髋屈→直立排列；并非普通划船的别名。；专业审校待审"
+    },
+    "ritmo:stretch:standing-supported-lat": {
+      "staticImage": "/media/personal-v16/standing-supported-lat.png",
+      "sourcePath": "{'staticImage': '/media/personal-v16/standing-supported-lat.png'}",
+      "technicalReview": "；专业审校待审"
+    },
+    "ritmo:stretch:single-side-supported-lat": {
+      "segments": {
+        "left": {
+          "staticImage": "/media/personal-library-20261030/9566edfb16273f8a.webp"
+        },
+        "right": {
+          "staticImage": "/media/personal-library-20261030/69ab375045dfcb9c.webp"
+        }
+      },
+      "sourcePath": "{'segments': {'left': {'staticImage': '/reports/ritmo-video-library-completion/closure-2026-10-30/generated/single-side-supported-lat/left-r1-720.webp'}, 'right': {'staticImage': '/reports/ritmo-video-library-completion/closure-2026-10-30/generated/single-side-supported-lat/right-720.webp'}}}",
+      "technicalReview": "高低手支撑需牢固；两侧侧弯幅度仍有差异，静态图片无法证明实际牵拉感。；专业审校待审"
+    },
+    "ritmo:warmup:light-alternating-curl": {
+      "animation": "/media/personal-v16/light-alternating-curl.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v16/light-alternating-curl.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "；专业审校待审"
+    },
+    "ritmo:warmup:light-two-hand-overhead-extension": {
+      "animation": "/media/personal-v16/light-two-hand-overhead-extension.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v16/light-two-hand-overhead-extension.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "；专业审校待审"
+    },
+    "ritmo:video:alternating-db-curl": {
+      "animation": "/media/personal-v16/light-alternating-curl.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v16/light-alternating-curl.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "；专业审校待审"
+    },
+    "ritmo:video:standing-supinating-curl": {
+      "animation": "/media/personal-library-20261030/e1e9ab1ee1f69d0b.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/generated/supinating-curl/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：关键帧切换仅表达姿势，不是连续运动捕捉。；专业审校待审"
+    },
+    "ritmo:video:rack-supported-kickback": {
+      "segments": {
+        "left": {
+          "animation": "/media/personal-library-20261030/eecff0e4fb26a1dd.mp4",
+          "animationFormat": "mp4"
+        },
+        "right": {
+          "animation": "/media/personal-library-20261030/5e45fc303101542f.mp4",
+          "animationFormat": "mp4"
+        }
+      },
+      "sourcePath": "{'segments': {'left': {'animation': '/reports/ritmo-video-library-completion/closure-2026-10-30/revision-feedback-1/generated/supported-kickback/sequence.mp4', 'animationFormat': 'mp4'}, 'right': {'animation': '/reports/ritmo-video-library-completion/generated/supported-kickback/sequence.mp4', 'animationFormat': 'mp4'}}}",
+      "technicalReview": "修正后的左侧已获设计师视觉通过。关键帧肘位有轻微变化，专业动作审校仍待进行；旧拒收左侧保留历史，不用于当前映射。；专业审校待审"
+    },
+    "hasan:0313": {
+      "animation": "/media/personal-library-20261030/6efcf3c65234f188.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/generated/hammer-curl/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：初版B手掌旋后，不用于锤式；B-r1改中立握。初版B只另列旋后弯举独立变式。；专业审校待审"
+    },
+    "ritmo:stretch:overhead-triceps": {
+      "segments": {
+        "left": {
+          "staticImage": "/media/personal-v16/overhead-triceps-left.png"
+        },
+        "right": {
+          "staticImage": "/media/personal-v16/overhead-triceps-right.png"
+        }
+      },
+      "sourcePath": "{'segments': {'left': {'staticImage': '/media/personal-v16/overhead-triceps-left.png'}, 'right': {'staticImage': '/media/personal-v16/overhead-triceps-right.png'}}}",
+      "technicalReview": "；专业审校待审"
+    },
+    "ritmo:video:straight-arm-wrist-traction": {
+      "segments": {
+        "left": {
+          "staticImage": "/media/personal-library-20261030/a25663875bfe203b.webp"
+        },
+        "right": {
+          "staticImage": "/media/personal-library-20261030/9efeb68e62472d9b.webp"
+        }
+      },
+      "sourcePath": "{'segments': {'left': {'staticImage': '/reports/ritmo-video-library-completion/revision-2026-10-30/generated/wrist-traction/left-r2-720.webp'}, 'right': {'staticImage': '/reports/ritmo-video-library-completion/revision-2026-10-30/generated/wrist-traction/right-720.webp'}}}",
+      "technicalReview": "正面右图及第一次修正重复同一侧；left-r2改三分之二侧面，近镜左臂伸直、右手牵拉左腕；right为正面右臂伸直。牵拉方向与目标仍待原视频专项核验。；专业审校待审"
+    },
+    "ritmo:warmup:bodyweight-squat": {
+      "animation": "/media/personal-v16/bodyweight-squat-v16.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v16/bodyweight-squat-v16.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "；专业审校待审"
+    },
+    "ritmo:warmup:squat-to-toe-grasp": {
+      "animation": "/media/personal-library-20261030/35babc1039bde472.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/generated/squat-to-toe-grasp/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：两手分别抓同侧鞋尖、足点稳定；上抬髋后膝伸幅度小于原视频，待用户核对范围。；专业审校待审"
+    },
+    "hasan:0434": {
+      "animation": "/media/personal-library-20261030/ff419f37a02c3d94.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/generated/db-straight-leg-deadlift/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：初版足位漂移已弃用；r1足位较稳定。膝盖微屈不锁死；腰背与活动范围待用户确认。；专业审校待审"
+    },
+    "ritmo:video:rear-foot-elevated-db-split-squat": {
+      "segments": {
+        "left": {
+          "animation": "/media/personal-library-20261030/b66315957608e50e.mp4",
+          "animationFormat": "mp4"
+        },
+        "right": {
+          "animation": "/media/personal-library-20261030/ee246217910cb932.mp4",
+          "animationFormat": "mp4"
+        }
+      },
+      "sourcePath": "{'segments': {'left': {'animation': '/reports/ritmo-video-library-completion/generated/bulgarian-split-squat/sequence.mp4', 'animationFormat': 'mp4'}, 'right': {'animation': '/reports/ritmo-video-library-completion/closure-2026-10-30/generated/bulgarian-split-squat/sequence.mp4', 'animationFormat': 'mp4'}}}",
+      "technicalReview": "平台高度、训练负重与膝髋活动范围待确认；两侧并非简单镜像。；专业审校待审"
+    },
+    "hasan:0417": {
+      "animation": "/media/personal-library-20261030/1837cb31b9aba521.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/generated/standing-calf-raise/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：脚跟上提幅度较克制，前掌接地及完整循环需用户视觉确认。；专业审校待审"
+    },
+    "ritmo:stretch:standing-quad": {
+      "segments": {
+        "left": {
+          "staticImage": "/media/personal-v16/standing-quad-left.webp"
+        },
+        "right": {
+          "staticImage": "/media/personal-v16/standing-quad-right.webp"
+        }
+      },
+      "sourcePath": "{'segments': {'left': {'staticImage': '/media/personal-v16/standing-quad-left.webp'}, 'right': {'staticImage': '/media/personal-v16/standing-quad-right.webp'}}}",
+      "technicalReview": "；专业审校待审"
+    },
+    "ritmo:stretch:double-knee-hug": {
+      "staticImage": "/media/personal-v16/double-knee-hug-v2.webp",
+      "sourcePath": "{'staticImage': '/media/personal-v16/double-knee-hug-v2.webp'}",
+      "technicalReview": "一般臀部/下背屈曲伸展，不等同4字姿势的髋外旋/梨状肌牵拉。；专业审校待审"
+    },
+    "ritmo:stretch:cross-leg-posterior-chain": {
+      "segments": {
+        "left": {
+          "staticImage": "/media/personal-library-20261030/e5b85a2b2b65c8e9.webp"
+        },
+        "right": {
+          "staticImage": "/media/personal-library-20261030/8bb2b36f2c61dee6.webp"
+        }
+      },
+      "sourcePath": "{'segments': {'left': {'staticImage': '/reports/ritmo-video-library-completion/revision-2026-10-30-r2/generated/cross-leg-stretch/left-angle2-720.webp'}, 'right': {'staticImage': '/reports/ritmo-video-library-completion/revision-2026-10-30-r2/generated/cross-leg-stretch/right-angle2-720.webp'}}}",
+      "technicalReview": "首轮斜侧视交叉关系不足；第二轮改正面偏斜视角，左/右前交叉腿分别生成，两条髋—膝—踝链更可辨。未见前版明显腿融合，膝线、目标侧与舒适活动范围仍请设计师和专业人员复核。；专业审校待审"
+    },
+    "ritmo:warmup:forearm-plank-activation": {
+      "animation": "/media/personal-v15/plank.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/media/personal-v15/plank.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "；专业审校待审"
+    },
+    "ritmo:video:seated-knee-tuck": {
+      "animation": "/media/personal-library-20261030/6dbb655df32d66a3.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/generated/seated-knee-tuck/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：关键帧切换仅表达姿势，不是连续运动捕捉。；专业审校待审"
+    },
+    "ritmo:alternative:forearm-side-plank-hold": {
+      "segments": {
+        "left": {
+          "staticImage": "/media/personal-library-20261030/5f067d838d70a433.webp"
+        },
+        "right": {
+          "staticImage": "/media/personal-library-20261030/edf6f15ab0e4c264.webp"
+        }
+      },
+      "sourcePath": "{'segments': {'left': {'staticImage': '/reports/ritmo-video-library-completion/revision-2026-10-30-r2/generated/side-plank-alternative/left-720.webp'}, 'right': {'staticImage': '/reports/ritmo-video-library-completion/revision-2026-10-30-r2/generated/side-plank-alternative/right-720.webp'}}}",
+      "technicalReview": "静态侧向稳定不等同动态左右转髋；原失败媒体不放行。；专业审校待审"
+    },
+    "ritmo:video:alternating-twist-crunch": {
+      "animation": "/media/personal-library-20261030/c6404ab33e26348c.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'animation': '/reports/ritmo-video-library-completion/revision-2026-10-30/generated/alternating-twist-crunch/sequence.mp4', 'animationFormat': 'mp4'}",
+      "technicalReview": "改用脚端正面偏高视角；B/C能看出相反方向，脚、膝、骨盆和垫角保持；轻度胸廓转动，仍待动作审校。；专业审校待审"
+    },
+    "ritmo:stretch:prone-abdominal-extension": {
+      "staticImage": "/media/personal-v16/prone-abdominal-extension.png",
+      "sourcePath": "{'staticImage': '/media/personal-v16/prone-abdominal-extension.png'}",
+      "technicalReview": "伸展保持而非转体；20秒为已记录RITMO默认，不冒充原视频剂量。；专业审校待审"
+    },
+    "one-arm-row:left": {
+      "animation": "/media/personal-library-20261030/08e39bd068f7f1d0.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'segments': {'left': {'animation': '/reports/ritmo-video-library-completion/closure-2026-10-30/generated/one-arm-row/sequence.mp4', 'animationFormat': 'mp4'}, 'right': {'animation': '/media/personal-v15/one-arm-row.mp4', 'animationFormat': 'mp4'}}}",
+      "technicalReview": "对侧采用不同观察视角；动作幅度、负重与单侧每组计数仍需逐项确认。；专业审校待审"
+    },
+    "one-arm-row:right": {
+      "animation": "/media/personal-v15/one-arm-row.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'segments': {'left': {'animation': '/reports/ritmo-video-library-completion/closure-2026-10-30/generated/one-arm-row/sequence.mp4', 'animationFormat': 'mp4'}, 'right': {'animation': '/media/personal-v15/one-arm-row.mp4', 'animationFormat': 'mp4'}}}",
+      "technicalReview": "对侧采用不同观察视角；动作幅度、负重与单侧每组计数仍需逐项确认。；专业审校待审"
+    },
+    "ritmo:video:rack-supported-kickback:left": {
+      "animation": "/media/personal-library-20261030/eecff0e4fb26a1dd.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'segments': {'left': {'animation': '/reports/ritmo-video-library-completion/closure-2026-10-30/revision-feedback-1/generated/supported-kickback/sequence.mp4', 'animationFormat': 'mp4'}, 'right': {'animation': '/reports/ritmo-video-library-completion/generated/supported-kickback/sequence.mp4', 'animationFormat': 'mp4'}}}",
+      "technicalReview": "修正后的左侧已获设计师视觉通过。关键帧肘位有轻微变化，专业动作审校仍待进行；旧拒收左侧保留历史，不用于当前映射。；专业审校待审"
+    },
+    "ritmo:video:rack-supported-kickback:right": {
+      "animation": "/media/personal-library-20261030/5e45fc303101542f.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'segments': {'left': {'animation': '/reports/ritmo-video-library-completion/closure-2026-10-30/revision-feedback-1/generated/supported-kickback/sequence.mp4', 'animationFormat': 'mp4'}, 'right': {'animation': '/reports/ritmo-video-library-completion/generated/supported-kickback/sequence.mp4', 'animationFormat': 'mp4'}}}",
+      "technicalReview": "修正后的左侧已获设计师视觉通过。关键帧肘位有轻微变化，专业动作审校仍待进行；旧拒收左侧保留历史，不用于当前映射。；专业审校待审"
+    },
+    "ritmo:video:rear-foot-elevated-db-split-squat:left": {
+      "animation": "/media/personal-library-20261030/b66315957608e50e.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'segments': {'left': {'animation': '/reports/ritmo-video-library-completion/generated/bulgarian-split-squat/sequence.mp4', 'animationFormat': 'mp4'}, 'right': {'animation': '/reports/ritmo-video-library-completion/closure-2026-10-30/generated/bulgarian-split-squat/sequence.mp4', 'animationFormat': 'mp4'}}}",
+      "technicalReview": "平台高度、训练负重与膝髋活动范围待确认；两侧并非简单镜像。；专业审校待审"
+    },
+    "ritmo:video:rear-foot-elevated-db-split-squat:right": {
+      "animation": "/media/personal-library-20261030/ee246217910cb932.mp4",
+      "animationFormat": "mp4",
+      "sourcePath": "{'segments': {'left': {'animation': '/reports/ritmo-video-library-completion/generated/bulgarian-split-squat/sequence.mp4', 'animationFormat': 'mp4'}, 'right': {'animation': '/reports/ritmo-video-library-completion/closure-2026-10-30/generated/bulgarian-split-squat/sequence.mp4', 'animationFormat': 'mp4'}}}",
+      "technicalReview": "平台高度、训练负重与膝髋活动范围待确认；两侧并非简单镜像。；专业审校待审"
+    },
+    "ritmo:alternative:forearm-side-plank-hold:left": {
+      "staticImage": "/media/personal-library-20261030/5f067d838d70a433.webp",
+      "sourcePath": "{'segments': {'left': {'staticImage': '/reports/ritmo-video-library-completion/revision-2026-10-30-r2/generated/side-plank-alternative/left-720.webp'}, 'right': {'staticImage': '/reports/ritmo-video-library-completion/revision-2026-10-30-r2/generated/side-plank-alternative/right-720.webp'}}}",
+      "technicalReview": "静态侧向稳定不等同动态左右转髋；原失败媒体不放行。；专业审校待审"
+    },
+    "ritmo:alternative:forearm-side-plank-hold:right": {
+      "staticImage": "/media/personal-library-20261030/edf6f15ab0e4c264.webp",
+      "sourcePath": "{'segments': {'left': {'staticImage': '/reports/ritmo-video-library-completion/revision-2026-10-30-r2/generated/side-plank-alternative/left-720.webp'}, 'right': {'staticImage': '/reports/ritmo-video-library-completion/revision-2026-10-30-r2/generated/side-plank-alternative/right-720.webp'}}}",
+      "technicalReview": "静态侧向稳定不等同动态左右转髋；原失败媒体不放行。；专业审校待审"
+    }
+  },
+  "specs": [
+    {
+      "id": "incline",
+      "name": "上斜哑铃卧推",
+      "standardName": "上斜哑铃卧推",
+      "muscle": "胸",
+      "equipment": "哑铃＋可调训练凳",
+      "variant": "10–12次×4–5组",
+      "primaryMuscleIds": [
+        "CHEST"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 4,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "incline",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。",
+      "dataVersion": 1,
+      "sourceActionId": "incline",
+      "sourceVideo": "687610",
+      "sourceDose": "10–12次×4–5组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "hasan:0289",
+      "name": "平板哑铃卧推",
+      "standardName": "平板哑铃卧推",
+      "muscle": "胸",
+      "equipment": "哑铃＋平凳",
+      "variant": "10–12次×4–5组",
+      "primaryMuscleIds": [
+        "CHEST"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 4,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "hasan:0289",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。按反馈重画近镜右手闭合握持，再由A生成推起帧；拇指方向请重点复核。头、凳和双脚对位稳定，未把拇指方向写成专业结论。",
+      "dataVersion": 1,
+      "sourceActionId": "hasan:0289",
+      "sourceVideo": "687610",
+      "sourceDose": "10–12次×4–5组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "hasan:0308",
+      "name": "平板哑铃飞鸟",
+      "standardName": "平板哑铃飞鸟",
+      "muscle": "胸",
+      "equipment": "哑铃＋平凳",
+      "variant": "10–12次；组数未给",
+      "primaryMuscleIds": [
+        "CHEST"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 3,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "hasan:0308",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：前两版出现头部漂移及屈肘过大；r2稳定。轻屈肘幅度与舒适活动范围仍需逐帧确认。",
+      "dataVersion": 1,
+      "sourceActionId": "hasan:0308",
+      "sourceVideo": "687610",
+      "sourceDose": "10–12次；组数未给",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "ritmo:video:standing-low-diagonal-raise",
+      "name": "站姿低位向侧上方哑铃斜举",
+      "standardName": "站姿低位向侧上方哑铃斜举",
+      "muscle": "胸",
+      "equipment": "哑铃",
+      "variant": "10–12次×3–4组",
+      "primaryMuscleIds": [
+        "CHEST"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 3,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "ritmo:video:standing-low-diagonal-raise",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本轮B已改善过度屈肘和双手不内收的问题；全身/脚位对位稳定，输出原视频轨迹Sequence候选。哑铃重力与胸部训练目标的适配问题仍独立待核，不冒充绳索夹胸。",
+      "dataVersion": 1,
+      "sourceActionId": "ritmo:video:standing-low-diagonal-raise",
+      "sourceVideo": "687610",
+      "sourceDose": "10–12次×3–4组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "hasan:3211",
+      "name": "跪姿俯卧撑",
+      "standardName": "跪姿俯卧撑",
+      "muscle": "胸",
+      "equipment": "徒手",
+      "variant": "10–12次×3–4组",
+      "primaryMuscleIds": [
+        "CHEST"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 3,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "hasan:3211",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。保留A，重画B；双掌、双膝、鞋尖与垫角对位稳定，修复原B的整个人物位置偏移。",
+      "dataVersion": 1,
+      "sourceActionId": "hasan:3211",
+      "sourceVideo": "687610",
+      "sourceDose": "10–12次×3–4组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "hasan:0293",
+      "name": "双臂俯身哑铃划船",
+      "standardName": "双臂俯身哑铃划船",
+      "muscle": "背",
+      "equipment": "哑铃",
+      "variant": "10–12次×4–5组",
+      "primaryMuscleIds": [
+        "LATS",
+        "RHOMBOIDS"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 4,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "hasan:0293",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。旧状态为暂缓；此次只提升为可供视觉验收候选，不自动正式放行。",
+      "dataVersion": 1,
+      "sourceActionId": "hasan:0293",
+      "sourceVideo": "532155",
+      "sourceDose": "10–12次×4–5组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "hasan:2327",
+      "name": "反握俯身哑铃划船",
+      "standardName": "反握俯身哑铃划船",
+      "muscle": "背",
+      "equipment": "哑铃",
+      "variant": "10–12次×4–5组",
+      "primaryMuscleIds": [
+        "LATS",
+        "RHOMBOIDS"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 4,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "hasan:2327",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：关键帧切换仅表达姿势，不是连续运动捕捉。",
+      "dataVersion": 1,
+      "sourceActionId": "hasan:2327",
+      "sourceVideo": "532155",
+      "sourceDose": "10–12次×4–5组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "one-arm-row:left",
+      "name": "支撑单臂哑铃划船 · 左侧",
+      "standardName": "支撑单臂哑铃划船 · 左侧",
+      "muscle": "背",
+      "equipment": "哑铃＋固定支撑",
+      "variant": "每侧10–12次×4–5组；左侧独立执行",
+      "primaryMuscleIds": [
+        "LATS",
+        "RHOMBOIDS"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 4,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "one-arm-row:left",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。对侧采用不同观察视角；动作幅度、负重与单侧每组计数仍需逐项确认。",
+      "dataVersion": 1,
+      "sourceActionId": "one-arm-row",
+      "sourceVideo": "532155",
+      "sourceDose": "每侧10–12次×4–5组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "one-arm-row:right",
+      "name": "支撑单臂哑铃划船 · 右侧",
+      "standardName": "支撑单臂哑铃划船 · 右侧",
+      "muscle": "背",
+      "equipment": "哑铃＋固定支撑",
+      "variant": "每侧10–12次×4–5组；右侧独立执行",
+      "primaryMuscleIds": [
+        "LATS",
+        "RHOMBOIDS"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 4,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "one-arm-row:right",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。对侧采用不同观察视角；动作幅度、负重与单侧每组计数仍需逐项确认。",
+      "dataVersion": 1,
+      "sourceActionId": "one-arm-row",
+      "sourceVideo": "532155",
+      "sourceDose": "每侧10–12次×4–5组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "ritmo:video:row-half-deadlift",
+      "name": "哑铃划船＋半程硬拉组合",
+      "standardName": "哑铃划船＋半程硬拉组合",
+      "muscle": "背",
+      "equipment": "哑铃",
+      "variant": "10–12次×4–5组",
+      "primaryMuscleIds": [
+        "LATS",
+        "RHOMBOIDS"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 4,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "ritmo:video:row-half-deadlift",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：复合动作按直立→髋屈→划船→髋屈→直立排列；并非普通划船的别名。",
+      "dataVersion": 1,
+      "sourceActionId": "ritmo:video:row-half-deadlift",
+      "sourceVideo": "532155",
+      "sourceDose": "10–12次×4–5组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "press",
+      "name": "坐姿哑铃推举",
+      "standardName": "坐姿哑铃推举",
+      "muscle": "肩",
+      "equipment": "哑铃＋靠背凳",
+      "variant": "10–12次×4–5组",
+      "primaryMuscleIds": [
+        "SHOULDERS_FRONT",
+        "SHOULDERS_SIDE"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 4,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "press",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。",
+      "dataVersion": 1,
+      "sourceActionId": "press",
+      "sourceVideo": "245563",
+      "sourceDose": "10–12次×4–5组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "raise",
+      "name": "站姿哑铃侧平举",
+      "standardName": "站姿哑铃侧平举",
+      "muscle": "肩",
+      "equipment": "哑铃",
+      "variant": "10–12次；组数未给",
+      "primaryMuscleIds": [
+        "SHOULDERS_SIDE"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 3,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "raise",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。",
+      "dataVersion": 1,
+      "sourceActionId": "raise",
+      "sourceVideo": "245563",
+      "sourceDose": "10–12次；组数未给",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "ritmo:video:seated-bent-rear-fly",
+      "name": "坐姿俯身哑铃反向飞鸟",
+      "standardName": "坐姿俯身哑铃反向飞鸟",
+      "muscle": "肩",
+      "equipment": "哑铃＋平凳",
+      "variant": "10–12次×4–5组",
+      "primaryMuscleIds": [
+        "SHOULDERS_REAR"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 4,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "ritmo:video:seated-bent-rear-fly",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：关键帧切换仅表达姿势，不是连续运动捕捉。",
+      "dataVersion": 1,
+      "sourceActionId": "ritmo:video:seated-bent-rear-fly",
+      "sourceVideo": "245563",
+      "sourceDose": "10–12次×4–5组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "ritmo:video:seated-arnold-press",
+      "name": "坐姿阿诺德推举",
+      "standardName": "坐姿阿诺德推举",
+      "muscle": "肩",
+      "equipment": "哑铃＋靠背凳",
+      "variant": "10–12次×4–5组",
+      "primaryMuscleIds": [
+        "SHOULDERS_FRONT",
+        "SHOULDERS_SIDE"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 4,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "ritmo:video:seated-arnold-press",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：初版头部裁切及凳子漂移已弃用；r1统一较远镜头，手机中人物偏小需视觉确认。",
+      "dataVersion": 1,
+      "sourceActionId": "ritmo:video:seated-arnold-press",
+      "sourceVideo": "245563",
+      "sourceDose": "10–12次×4–5组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "ritmo:video:alternating-db-curl",
+      "name": "站姿交替哑铃弯举",
+      "standardName": "站姿交替哑铃弯举",
+      "muscle": "手臂",
+      "equipment": "哑铃",
+      "variant": "约12次至力竭；组数未给",
+      "primaryMuscleIds": [
+        "BICEPS"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 3,
+      "reps": 12,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "ritmo:video:alternating-db-curl",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。",
+      "dataVersion": 1,
+      "sourceActionId": "ritmo:video:alternating-db-curl",
+      "sourceVideo": "314043",
+      "sourceDose": "约12次至力竭；组数未给",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "hasan:2188",
+      "name": "坐姿双手单哑铃过顶臂屈伸",
+      "standardName": "坐姿双手单哑铃过顶臂屈伸",
+      "muscle": "手臂",
+      "equipment": "一只哑铃＋凳",
+      "variant": "10–12次；组数未给",
+      "primaryMuscleIds": [
+        "TRICEPS"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 3,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "hasan:2188",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：关键帧切换仅表达姿势，不是连续运动捕捉。",
+      "dataVersion": 1,
+      "sourceActionId": "hasan:2188",
+      "sourceVideo": "314043",
+      "sourceDose": "10–12次；组数未给",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "ritmo:video:standing-supinating-curl",
+      "name": "站姿旋后哑铃弯举",
+      "standardName": "站姿旋后哑铃弯举",
+      "muscle": "手臂",
+      "equipment": "哑铃",
+      "variant": "10–12次×3–4组",
+      "primaryMuscleIds": [
+        "BICEPS"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 3,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "ritmo:video:standing-supinating-curl",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：关键帧切换仅表达姿势，不是连续运动捕捉。",
+      "dataVersion": 1,
+      "sourceActionId": "ritmo:video:standing-supinating-curl",
+      "sourceVideo": "314043",
+      "sourceDose": "10–12次×3–4组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "ritmo:video:rack-supported-kickback:left",
+      "name": "扶架单臂哑铃后踢 · 左侧",
+      "standardName": "扶架单臂哑铃后踢 · 左侧",
+      "muscle": "手臂",
+      "equipment": "哑铃＋固定支撑",
+      "variant": "每侧10–12次×3–4组；左侧独立执行",
+      "primaryMuscleIds": [
+        "TRICEPS"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 3,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "ritmo:video:rack-supported-kickback:left",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。修正后的左侧已获设计师视觉通过。关键帧肘位有轻微变化，专业动作审校仍待进行；旧拒收左侧保留历史，不用于当前映射。",
+      "dataVersion": 1,
+      "sourceActionId": "ritmo:video:rack-supported-kickback",
+      "sourceVideo": "314043",
+      "sourceDose": "每侧10–12次×3–4组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "ritmo:video:rack-supported-kickback:right",
+      "name": "扶架单臂哑铃后踢 · 右侧",
+      "standardName": "扶架单臂哑铃后踢 · 右侧",
+      "muscle": "手臂",
+      "equipment": "哑铃＋固定支撑",
+      "variant": "每侧10–12次×3–4组；右侧独立执行",
+      "primaryMuscleIds": [
+        "TRICEPS"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 3,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "ritmo:video:rack-supported-kickback:right",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。修正后的左侧已获设计师视觉通过。关键帧肘位有轻微变化，专业动作审校仍待进行；旧拒收左侧保留历史，不用于当前映射。",
+      "dataVersion": 1,
+      "sourceActionId": "ritmo:video:rack-supported-kickback",
+      "sourceVideo": "314043",
+      "sourceDose": "每侧10–12次×3–4组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "hasan:0313",
+      "name": "站姿双臂中立握锤式弯举",
+      "standardName": "站姿双臂中立握锤式弯举",
+      "muscle": "手臂",
+      "equipment": "哑铃",
+      "variant": "10–12次×3–4组",
+      "primaryMuscleIds": [
+        "BICEPS"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 3,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "hasan:0313",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：初版B手掌旋后，不用于锤式；B-r1改中立握。初版B只另列旋后弯举独立变式。",
+      "dataVersion": 1,
+      "sourceActionId": "hasan:0313",
+      "sourceVideo": "314043",
+      "sourceDose": "10–12次×3–4组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "hasan:1760",
+      "name": "高脚杯深蹲",
+      "standardName": "高脚杯深蹲",
+      "muscle": "腿",
+      "equipment": "一只哑铃",
+      "variant": "10–12次×4–5组",
+      "primaryMuscleIds": [
+        "QUADS",
+        "GLUTES"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 4,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "hasan:1760",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。",
+      "dataVersion": 1,
+      "sourceActionId": "hasan:1760",
+      "sourceVideo": "287739",
+      "sourceDose": "10–12次×4–5组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "hasan:0434",
+      "name": "哑铃直腿硬拉（膝微屈）",
+      "standardName": "哑铃直腿硬拉（膝微屈）",
+      "muscle": "腿",
+      "equipment": "哑铃",
+      "variant": "10–12次×4–5组",
+      "primaryMuscleIds": [
+        "HAMSTRINGS",
+        "GLUTES"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 4,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "hasan:0434",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：初版足位漂移已弃用；r1足位较稳定。膝盖微屈不锁死；腰背与活动范围待用户确认。",
+      "dataVersion": 1,
+      "sourceActionId": "hasan:0434",
+      "sourceVideo": "287739",
+      "sourceDose": "10–12次×4–5组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "ritmo:video:rear-foot-elevated-db-split-squat:left",
+      "name": "后脚抬高哑铃分腿蹲 · 左侧",
+      "standardName": "后脚抬高哑铃分腿蹲 · 左侧",
+      "muscle": "腿",
+      "equipment": "哑铃＋稳定凳",
+      "variant": "每侧10–12次×4–5组；左侧独立执行",
+      "primaryMuscleIds": [
+        "QUADS",
+        "GLUTES"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 4,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "ritmo:video:rear-foot-elevated-db-split-squat:left",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。平台高度、训练负重与膝髋活动范围待确认；两侧并非简单镜像。",
+      "dataVersion": 1,
+      "sourceActionId": "ritmo:video:rear-foot-elevated-db-split-squat",
+      "sourceVideo": "287739",
+      "sourceDose": "每侧10–12次×4–5组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "ritmo:video:rear-foot-elevated-db-split-squat:right",
+      "name": "后脚抬高哑铃分腿蹲 · 右侧",
+      "standardName": "后脚抬高哑铃分腿蹲 · 右侧",
+      "muscle": "腿",
+      "equipment": "哑铃＋稳定凳",
+      "variant": "每侧10–12次×4–5组；右侧独立执行",
+      "primaryMuscleIds": [
+        "QUADS",
+        "GLUTES"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 4,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "ritmo:video:rear-foot-elevated-db-split-squat:right",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。平台高度、训练负重与膝髋活动范围待确认；两侧并非简单镜像。",
+      "dataVersion": 1,
+      "sourceActionId": "ritmo:video:rear-foot-elevated-db-split-squat",
+      "sourceVideo": "287739",
+      "sourceDose": "每侧10–12次×4–5组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "hasan:0417",
+      "name": "双哑铃站姿提踵",
+      "standardName": "双哑铃站姿提踵",
+      "muscle": "腿",
+      "equipment": "哑铃",
+      "variant": "15–20次×4–5组",
+      "primaryMuscleIds": [
+        "CALVES"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 4,
+      "reps": 15,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "hasan:0417",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：脚跟上提幅度较克制，前掌接地及完整循环需用户视觉确认。",
+      "dataVersion": 1,
+      "sourceActionId": "hasan:0417",
+      "sourceVideo": "287739",
+      "sourceDose": "15–20次×4–5组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "crunch",
+      "name": "仰卧前伸臂卷腹",
+      "standardName": "仰卧前伸臂卷腹",
+      "muscle": "核心",
+      "equipment": "徒手",
+      "variant": "10–15次；组数未给",
+      "primaryMuscleIds": [
+        "CORE"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 3,
+      "reps": 10,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "crunch",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。颈部舒适范围及卷曲幅度仍待个人核对；专业审校待进行。",
+      "dataVersion": 1,
+      "sourceActionId": "crunch",
+      "sourceVideo": "203452",
+      "sourceDose": "10–15次；组数未给",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "ritmo:video:seated-knee-tuck",
+      "name": "坐姿收膝伸腿",
+      "standardName": "坐姿收膝伸腿",
+      "muscle": "核心",
+      "equipment": "徒手",
+      "variant": "15–20次×3–4组",
+      "primaryMuscleIds": [
+        "CORE"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 3,
+      "reps": 15,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "ritmo:video:seated-knee-tuck",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：关键帧切换仅表达姿势，不是连续运动捕捉。",
+      "dataVersion": 1,
+      "sourceActionId": "ritmo:video:seated-knee-tuck",
+      "sourceVideo": "203452",
+      "sourceDose": "15–20次×3–4组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "ritmo:alternative:forearm-side-plank-hold:left",
+      "name": "前臂侧支撑静态保持 · 左侧",
+      "standardName": "前臂侧支撑静态保持 · 左侧",
+      "muscle": "核心",
+      "equipment": "徒手",
+      "variant": "双前臂动态转髋→单侧前臂静态保持；左侧独立执行",
+      "primaryMuscleIds": [
+        "OBLIQUES"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "duration",
+      "sets": 3,
+      "reps": 0,
+      "targetDurationSeconds": 20,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "ritmo:alternative:forearm-side-plank-hold:left",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。静态侧向稳定不等同动态左右转髋；原失败媒体不放行。",
+      "dataVersion": 1,
+      "sourceActionId": "ritmo:alternative:forearm-side-plank-hold",
+      "sourceVideo": "203452",
+      "sourceDose": "15–30秒（1:32字幕核实）；组数未给",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "ritmo:alternative:forearm-side-plank-hold:right",
+      "name": "前臂侧支撑静态保持 · 右侧",
+      "standardName": "前臂侧支撑静态保持 · 右侧",
+      "muscle": "核心",
+      "equipment": "徒手",
+      "variant": "双前臂动态转髋→单侧前臂静态保持；右侧独立执行",
+      "primaryMuscleIds": [
+        "OBLIQUES"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "duration",
+      "sets": 3,
+      "reps": 0,
+      "targetDurationSeconds": 20,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "ritmo:alternative:forearm-side-plank-hold:right",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。静态侧向稳定不等同动态左右转髋；原失败媒体不放行。",
+      "dataVersion": 1,
+      "sourceActionId": "ritmo:alternative:forearm-side-plank-hold",
+      "sourceVideo": "203452",
+      "sourceDose": "15–30秒（1:32字幕核实）；组数未给",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    },
+    {
+      "id": "ritmo:video:alternating-twist-crunch",
+      "name": "仰卧交替转体卷腹",
+      "standardName": "仰卧交替转体卷腹",
+      "muscle": "核心",
+      "equipment": "徒手",
+      "variant": "15–20次×3–4组",
+      "primaryMuscleIds": [
+        "OBLIQUES"
+      ],
+      "secondaryMuscleIds": [],
+      "measurementType": "reps",
+      "sets": 3,
+      "reps": 15,
+      "targetDurationSeconds": 0,
+      "weight": 0,
+      "restSeconds": 90,
+      "mediaId": "ritmo:video:alternating-twist-crunch",
+      "dataSource": "RITMO V1.3 local defaults",
+      "reviewStatus": "pending_professional_review",
+      "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。改用脚端正面偏高视角；B/C能看出相反方向，脚、膝、骨盆和垫角保持；轻度胸廓转动，仍待动作审校。",
+      "dataVersion": 1,
+      "sourceActionId": "ritmo:video:alternating-twist-crunch",
+      "sourceVideo": "203452",
+      "sourceDose": "15–20次×3–4组",
+      "homeTemplateEquipment": true,
+      "mediaSegment": "whole",
+      "parameterConfirmation": "defaults_pending"
+    }
+  ],
+  "homePlans": [
+    {
+      "id": "ritmo:template:personal-video:chest",
+      "name": "胸部训练",
+      "environment": "家里",
+      "exercises": [
+        {
+          "id": "incline",
+          "name": "上斜哑铃卧推",
+          "standardName": "上斜哑铃卧推",
+          "muscle": "胸",
+          "equipment": "哑铃＋可调训练凳",
+          "variant": "10–12次×4–5组",
+          "primaryMuscleIds": [
+            "CHEST"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 4,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "incline",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。",
+          "dataVersion": 1,
+          "sourceActionId": "incline",
+          "sourceVideo": "687610",
+          "sourceDose": "10–12次×4–5组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "hasan:0289",
+          "name": "平板哑铃卧推",
+          "standardName": "平板哑铃卧推",
+          "muscle": "胸",
+          "equipment": "哑铃＋平凳",
+          "variant": "10–12次×4–5组",
+          "primaryMuscleIds": [
+            "CHEST"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 4,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "hasan:0289",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。按反馈重画近镜右手闭合握持，再由A生成推起帧；拇指方向请重点复核。头、凳和双脚对位稳定，未把拇指方向写成专业结论。",
+          "dataVersion": 1,
+          "sourceActionId": "hasan:0289",
+          "sourceVideo": "687610",
+          "sourceDose": "10–12次×4–5组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "hasan:0308",
+          "name": "平板哑铃飞鸟",
+          "standardName": "平板哑铃飞鸟",
+          "muscle": "胸",
+          "equipment": "哑铃＋平凳",
+          "variant": "10–12次；组数未给",
+          "primaryMuscleIds": [
+            "CHEST"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 3,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "hasan:0308",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：前两版出现头部漂移及屈肘过大；r2稳定。轻屈肘幅度与舒适活动范围仍需逐帧确认。",
+          "dataVersion": 1,
+          "sourceActionId": "hasan:0308",
+          "sourceVideo": "687610",
+          "sourceDose": "10–12次；组数未给",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "ritmo:video:standing-low-diagonal-raise",
+          "name": "站姿低位向侧上方哑铃斜举",
+          "standardName": "站姿低位向侧上方哑铃斜举",
+          "muscle": "胸",
+          "equipment": "哑铃",
+          "variant": "10–12次×3–4组",
+          "primaryMuscleIds": [
+            "CHEST"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 3,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "ritmo:video:standing-low-diagonal-raise",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本轮B已改善过度屈肘和双手不内收的问题；全身/脚位对位稳定，输出原视频轨迹Sequence候选。哑铃重力与胸部训练目标的适配问题仍独立待核，不冒充绳索夹胸。",
+          "dataVersion": 1,
+          "sourceActionId": "ritmo:video:standing-low-diagonal-raise",
+          "sourceVideo": "687610",
+          "sourceDose": "10–12次×3–4组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "hasan:3211",
+          "name": "跪姿俯卧撑",
+          "standardName": "跪姿俯卧撑",
+          "muscle": "胸",
+          "equipment": "徒手",
+          "variant": "10–12次×3–4组",
+          "primaryMuscleIds": [
+            "CHEST"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 3,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "hasan:3211",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。保留A，重画B；双掌、双膝、鞋尖与垫角对位稳定，修复原B的整个人物位置偏移。",
+          "dataVersion": 1,
+          "sourceActionId": "hasan:3211",
+          "sourceVideo": "687610",
+          "sourceDose": "10–12次×3–4组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        }
+      ],
+      "phaseItems": {
+        "warmup": [
+          {
+            "id": "ritmo:warmup:standing-chest-open-close",
+            "phase": "warmup",
+            "name": "徒手站姿胸前开合",
+            "groups": [
+              "胸"
+            ],
+            "equipment": "bodyweight",
+            "measurementType": "reps",
+            "target": 12,
+            "segments": [
+              "whole"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 1,
+            "matchStatus": "new_definition",
+            "sourceVideo": "687610 0:22–0:30",
+            "sourceDose": "前绕10次、后绕10次；组数未给",
+            "defaultDose": "12次 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          },
+          {
+            "id": "ritmo:warmup:low-high-chest-squeeze",
+            "phase": "warmup",
+            "name": "轻哑铃低位向侧上方斜举",
+            "groups": [
+              "胸"
+            ],
+            "equipment": "dumbbell",
+            "measurementType": "reps",
+            "target": 10,
+            "segments": [
+              "whole",
+              "whole"
+            ],
+            "sets": 2,
+            "segmentsPerSet": 1,
+            "matchStatus": "new_definition",
+            "sourceVideo": "687610 0:31–0:42",
+            "sourceDose": "10次×2组（0:40字幕核实）",
+            "defaultDose": "10次 · 2组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          }
+        ],
+        "cooldown": [
+          {
+            "id": "ritmo:video:straight-arm-supported-chest-stretch",
+            "phase": "cooldown",
+            "name": "扶架直臂胸部拉伸",
+            "groups": [
+              "胸"
+            ],
+            "equipment": "fixed-support",
+            "measurementType": "duration",
+            "target": 30,
+            "segments": [
+              "left",
+              "right"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 2,
+            "matchStatus": "new_definition",
+            "sourceVideo": "687610 3:51–4:01",
+            "sourceDose": "左右侧；时长未给",
+            "defaultDose": "30秒 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          }
+        ]
+      },
+      "requirements": "需要哑铃、训练凳及牢固固定支撑",
+      "templateSource": "six-personal-videos-20261030"
+    },
+    {
+      "id": "ritmo:template:personal-video:back",
+      "name": "背部训练",
+      "environment": "家里",
+      "exercises": [
+        {
+          "id": "hasan:0293",
+          "name": "双臂俯身哑铃划船",
+          "standardName": "双臂俯身哑铃划船",
+          "muscle": "背",
+          "equipment": "哑铃",
+          "variant": "10–12次×4–5组",
+          "primaryMuscleIds": [
+            "LATS",
+            "RHOMBOIDS"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 4,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "hasan:0293",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。旧状态为暂缓；此次只提升为可供视觉验收候选，不自动正式放行。",
+          "dataVersion": 1,
+          "sourceActionId": "hasan:0293",
+          "sourceVideo": "532155",
+          "sourceDose": "10–12次×4–5组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "hasan:2327",
+          "name": "反握俯身哑铃划船",
+          "standardName": "反握俯身哑铃划船",
+          "muscle": "背",
+          "equipment": "哑铃",
+          "variant": "10–12次×4–5组",
+          "primaryMuscleIds": [
+            "LATS",
+            "RHOMBOIDS"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 4,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "hasan:2327",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：关键帧切换仅表达姿势，不是连续运动捕捉。",
+          "dataVersion": 1,
+          "sourceActionId": "hasan:2327",
+          "sourceVideo": "532155",
+          "sourceDose": "10–12次×4–5组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "one-arm-row:left",
+          "name": "支撑单臂哑铃划船 · 左侧",
+          "standardName": "支撑单臂哑铃划船 · 左侧",
+          "muscle": "背",
+          "equipment": "哑铃＋固定支撑",
+          "variant": "每侧10–12次×4–5组；左侧独立执行",
+          "primaryMuscleIds": [
+            "LATS",
+            "RHOMBOIDS"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 4,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "one-arm-row:left",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。对侧采用不同观察视角；动作幅度、负重与单侧每组计数仍需逐项确认。",
+          "dataVersion": 1,
+          "sourceActionId": "one-arm-row",
+          "sourceVideo": "532155",
+          "sourceDose": "每侧10–12次×4–5组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "one-arm-row:right",
+          "name": "支撑单臂哑铃划船 · 右侧",
+          "standardName": "支撑单臂哑铃划船 · 右侧",
+          "muscle": "背",
+          "equipment": "哑铃＋固定支撑",
+          "variant": "每侧10–12次×4–5组；右侧独立执行",
+          "primaryMuscleIds": [
+            "LATS",
+            "RHOMBOIDS"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 4,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "one-arm-row:right",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。对侧采用不同观察视角；动作幅度、负重与单侧每组计数仍需逐项确认。",
+          "dataVersion": 1,
+          "sourceActionId": "one-arm-row",
+          "sourceVideo": "532155",
+          "sourceDose": "每侧10–12次×4–5组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "ritmo:video:row-half-deadlift",
+          "name": "哑铃划船＋半程硬拉组合",
+          "standardName": "哑铃划船＋半程硬拉组合",
+          "muscle": "背",
+          "equipment": "哑铃",
+          "variant": "10–12次×4–5组",
+          "primaryMuscleIds": [
+            "LATS",
+            "RHOMBOIDS"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 4,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "ritmo:video:row-half-deadlift",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：复合动作按直立→髋屈→划船→髋屈→直立排列；并非普通划船的别名。",
+          "dataVersion": 1,
+          "sourceActionId": "ritmo:video:row-half-deadlift",
+          "sourceVideo": "532155",
+          "sourceDose": "10–12次×4–5组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        }
+      ],
+      "phaseItems": {
+        "warmup": [
+          {
+            "id": "ritmo:warmup:bent-scapular-activation",
+            "phase": "warmup",
+            "name": "俯身屈肘肩胛／肩袖激活",
+            "groups": [
+              "背"
+            ],
+            "equipment": "dumbbell",
+            "measurementType": "reps",
+            "target": 10,
+            "segments": [
+              "whole",
+              "whole"
+            ],
+            "sets": 2,
+            "segmentsPerSet": 1,
+            "matchStatus": "new_definition",
+            "sourceVideo": "532155 0:25–0:42",
+            "sourceDose": "10–12次×2组",
+            "defaultDose": "10次 · 2组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          },
+          {
+            "id": "ritmo:warmup:elbows-tucked-external-rotation",
+            "phase": "warmup",
+            "name": "肘贴身轻哑铃外旋",
+            "groups": [
+              "背"
+            ],
+            "equipment": "dumbbell",
+            "measurementType": "reps",
+            "target": 10,
+            "segments": [
+              "whole"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 1,
+            "matchStatus": "new_definition",
+            "sourceVideo": "532155 0:43–0:54",
+            "sourceDose": "10次；组数未给",
+            "defaultDose": "10次 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          }
+        ],
+        "cooldown": [
+          {
+            "id": "ritmo:stretch:standing-supported-lat",
+            "phase": "cooldown",
+            "name": "双手扶架背阔肌下压拉伸",
+            "groups": [
+              "背"
+            ],
+            "equipment": "fixed-support",
+            "measurementType": "duration",
+            "target": 30,
+            "segments": [
+              "whole"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 1,
+            "matchStatus": "new_definition",
+            "sourceVideo": "532155 3:25–3:30",
+            "sourceDose": "30秒",
+            "defaultDose": "30秒 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          },
+          {
+            "id": "ritmo:stretch:single-side-supported-lat",
+            "phase": "cooldown",
+            "name": "单侧扶架背阔肌拉伸",
+            "groups": [
+              "背"
+            ],
+            "equipment": "fixed-support",
+            "measurementType": "duration",
+            "target": 30,
+            "segments": [
+              "left",
+              "right"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 2,
+            "matchStatus": "new_definition",
+            "sourceVideo": "532155 3:31–3:33",
+            "sourceDose": "每侧30秒",
+            "defaultDose": "30秒 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          }
+        ]
+      },
+      "requirements": "需要哑铃、训练凳及牢固固定支撑",
+      "templateSource": "six-personal-videos-20261030"
+    },
+    {
+      "id": "ritmo:template:personal-video:shoulders",
+      "name": "肩部训练",
+      "environment": "家里",
+      "exercises": [
+        {
+          "id": "press",
+          "name": "坐姿哑铃推举",
+          "standardName": "坐姿哑铃推举",
+          "muscle": "肩",
+          "equipment": "哑铃＋靠背凳",
+          "variant": "10–12次×4–5组",
+          "primaryMuscleIds": [
+            "SHOULDERS_FRONT",
+            "SHOULDERS_SIDE"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 4,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "press",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。",
+          "dataVersion": 1,
+          "sourceActionId": "press",
+          "sourceVideo": "245563",
+          "sourceDose": "10–12次×4–5组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "raise",
+          "name": "站姿哑铃侧平举",
+          "standardName": "站姿哑铃侧平举",
+          "muscle": "肩",
+          "equipment": "哑铃",
+          "variant": "10–12次；组数未给",
+          "primaryMuscleIds": [
+            "SHOULDERS_SIDE"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 3,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "raise",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。",
+          "dataVersion": 1,
+          "sourceActionId": "raise",
+          "sourceVideo": "245563",
+          "sourceDose": "10–12次；组数未给",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "ritmo:video:seated-bent-rear-fly",
+          "name": "坐姿俯身哑铃反向飞鸟",
+          "standardName": "坐姿俯身哑铃反向飞鸟",
+          "muscle": "肩",
+          "equipment": "哑铃＋平凳",
+          "variant": "10–12次×4–5组",
+          "primaryMuscleIds": [
+            "SHOULDERS_REAR"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 4,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "ritmo:video:seated-bent-rear-fly",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：关键帧切换仅表达姿势，不是连续运动捕捉。",
+          "dataVersion": 1,
+          "sourceActionId": "ritmo:video:seated-bent-rear-fly",
+          "sourceVideo": "245563",
+          "sourceDose": "10–12次×4–5组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "ritmo:video:seated-arnold-press",
+          "name": "坐姿阿诺德推举",
+          "standardName": "坐姿阿诺德推举",
+          "muscle": "肩",
+          "equipment": "哑铃＋靠背凳",
+          "variant": "10–12次×4–5组",
+          "primaryMuscleIds": [
+            "SHOULDERS_FRONT",
+            "SHOULDERS_SIDE"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 4,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "ritmo:video:seated-arnold-press",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：初版头部裁切及凳子漂移已弃用；r1统一较远镜头，手机中人物偏小需视觉确认。",
+          "dataVersion": 1,
+          "sourceActionId": "ritmo:video:seated-arnold-press",
+          "sourceVideo": "245563",
+          "sourceDose": "10–12次×4–5组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        }
+      ],
+      "phaseItems": {
+        "warmup": [
+          {
+            "id": "ritmo:warmup:light-lateral-raise",
+            "phase": "warmup",
+            "name": "轻哑铃侧平举",
+            "groups": [
+              "肩"
+            ],
+            "equipment": "dumbbell",
+            "measurementType": "reps",
+            "target": 8,
+            "segments": [
+              "whole"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 1,
+            "matchStatus": "new_definition",
+            "sourceVideo": "245563 0:23–0:32",
+            "sourceDose": "8次；组数未给",
+            "defaultDose": "8次 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          },
+          {
+            "id": "ritmo:warmup:lean-lateral-raise",
+            "phase": "warmup",
+            "name": "前倾约20°轻哑铃侧平举",
+            "groups": [
+              "肩"
+            ],
+            "equipment": "dumbbell",
+            "measurementType": "reps",
+            "target": 8,
+            "segments": [
+              "whole"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 1,
+            "matchStatus": "new_definition",
+            "sourceVideo": "245563 0:33–0:36",
+            "sourceDose": "8次；组数未给",
+            "defaultDose": "8次 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          },
+          {
+            "id": "ritmo:warmup:bent-rear-raise",
+            "phase": "warmup",
+            "name": "髋屈约90°俯身后束平举",
+            "groups": [
+              "肩"
+            ],
+            "equipment": "dumbbell",
+            "measurementType": "reps",
+            "target": 8,
+            "segments": [
+              "whole"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 1,
+            "matchStatus": "new_definition",
+            "sourceVideo": "245563 0:37–0:45",
+            "sourceDose": "8次；组数未给",
+            "defaultDose": "8次 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          }
+        ],
+        "cooldown": [
+          {
+            "id": "ritmo:stretch:cross-body-rear-delt",
+            "phase": "cooldown",
+            "name": "横臂后束拉伸",
+            "groups": [
+              "肩"
+            ],
+            "equipment": "bodyweight",
+            "measurementType": "duration",
+            "target": 30,
+            "segments": [
+              "left",
+              "right"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 2,
+            "matchStatus": "new_definition",
+            "sourceVideo": "245563 3:11–3:16",
+            "sourceDose": "每侧30秒",
+            "defaultDose": "30秒 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          },
+          {
+            "id": "ritmo:video:arm-back-supported-front-delt",
+            "phase": "cooldown",
+            "name": "屈膝扶架前三角拉伸",
+            "groups": [
+              "肩"
+            ],
+            "equipment": "fixed-support",
+            "measurementType": "duration",
+            "target": 30,
+            "segments": [
+              "left",
+              "right"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 2,
+            "matchStatus": "new_definition",
+            "sourceVideo": "245563 3:17–3:23",
+            "sourceDose": "每侧30秒",
+            "defaultDose": "30秒 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          }
+        ]
+      },
+      "requirements": "需要哑铃、训练凳及牢固固定支撑",
+      "templateSource": "six-personal-videos-20261030"
+    },
+    {
+      "id": "ritmo:template:personal-video:arms",
+      "name": "手臂训练",
+      "environment": "家里",
+      "exercises": [
+        {
+          "id": "ritmo:video:alternating-db-curl",
+          "name": "站姿交替哑铃弯举",
+          "standardName": "站姿交替哑铃弯举",
+          "muscle": "手臂",
+          "equipment": "哑铃",
+          "variant": "约12次至力竭；组数未给",
+          "primaryMuscleIds": [
+            "BICEPS"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 3,
+          "reps": 12,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "ritmo:video:alternating-db-curl",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。",
+          "dataVersion": 1,
+          "sourceActionId": "ritmo:video:alternating-db-curl",
+          "sourceVideo": "314043",
+          "sourceDose": "约12次至力竭；组数未给",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "hasan:2188",
+          "name": "坐姿双手单哑铃过顶臂屈伸",
+          "standardName": "坐姿双手单哑铃过顶臂屈伸",
+          "muscle": "手臂",
+          "equipment": "一只哑铃＋凳",
+          "variant": "10–12次；组数未给",
+          "primaryMuscleIds": [
+            "TRICEPS"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 3,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "hasan:2188",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：关键帧切换仅表达姿势，不是连续运动捕捉。",
+          "dataVersion": 1,
+          "sourceActionId": "hasan:2188",
+          "sourceVideo": "314043",
+          "sourceDose": "10–12次；组数未给",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "ritmo:video:standing-supinating-curl",
+          "name": "站姿旋后哑铃弯举",
+          "standardName": "站姿旋后哑铃弯举",
+          "muscle": "手臂",
+          "equipment": "哑铃",
+          "variant": "10–12次×3–4组",
+          "primaryMuscleIds": [
+            "BICEPS"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 3,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "ritmo:video:standing-supinating-curl",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：关键帧切换仅表达姿势，不是连续运动捕捉。",
+          "dataVersion": 1,
+          "sourceActionId": "ritmo:video:standing-supinating-curl",
+          "sourceVideo": "314043",
+          "sourceDose": "10–12次×3–4组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "ritmo:video:rack-supported-kickback:left",
+          "name": "扶架单臂哑铃后踢 · 左侧",
+          "standardName": "扶架单臂哑铃后踢 · 左侧",
+          "muscle": "手臂",
+          "equipment": "哑铃＋固定支撑",
+          "variant": "每侧10–12次×3–4组；左侧独立执行",
+          "primaryMuscleIds": [
+            "TRICEPS"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 3,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "ritmo:video:rack-supported-kickback:left",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。修正后的左侧已获设计师视觉通过。关键帧肘位有轻微变化，专业动作审校仍待进行；旧拒收左侧保留历史，不用于当前映射。",
+          "dataVersion": 1,
+          "sourceActionId": "ritmo:video:rack-supported-kickback",
+          "sourceVideo": "314043",
+          "sourceDose": "每侧10–12次×3–4组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "ritmo:video:rack-supported-kickback:right",
+          "name": "扶架单臂哑铃后踢 · 右侧",
+          "standardName": "扶架单臂哑铃后踢 · 右侧",
+          "muscle": "手臂",
+          "equipment": "哑铃＋固定支撑",
+          "variant": "每侧10–12次×3–4组；右侧独立执行",
+          "primaryMuscleIds": [
+            "TRICEPS"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 3,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "ritmo:video:rack-supported-kickback:right",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。修正后的左侧已获设计师视觉通过。关键帧肘位有轻微变化，专业动作审校仍待进行；旧拒收左侧保留历史，不用于当前映射。",
+          "dataVersion": 1,
+          "sourceActionId": "ritmo:video:rack-supported-kickback",
+          "sourceVideo": "314043",
+          "sourceDose": "每侧10–12次×3–4组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "hasan:0313",
+          "name": "站姿双臂中立握锤式弯举",
+          "standardName": "站姿双臂中立握锤式弯举",
+          "muscle": "手臂",
+          "equipment": "哑铃",
+          "variant": "10–12次×3–4组",
+          "primaryMuscleIds": [
+            "BICEPS"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 3,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "hasan:0313",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：初版B手掌旋后，不用于锤式；B-r1改中立握。初版B只另列旋后弯举独立变式。",
+          "dataVersion": 1,
+          "sourceActionId": "hasan:0313",
+          "sourceVideo": "314043",
+          "sourceDose": "10–12次×3–4组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        }
+      ],
+      "phaseItems": {
+        "warmup": [
+          {
+            "id": "ritmo:warmup:light-alternating-curl",
+            "phase": "warmup",
+            "name": "轻哑铃快速交替弯举",
+            "groups": [
+              "手臂"
+            ],
+            "equipment": "dumbbell",
+            "measurementType": "reps",
+            "target": 10,
+            "segments": [
+              "whole",
+              "whole"
+            ],
+            "sets": 2,
+            "segmentsPerSet": 1,
+            "matchStatus": "new_definition",
+            "sourceVideo": "314043 0:19–0:30",
+            "sourceDose": "2组；次数未给",
+            "defaultDose": "10次 · 2组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          },
+          {
+            "id": "ritmo:warmup:light-two-hand-overhead-extension",
+            "phase": "warmup",
+            "name": "轻哑铃双手过顶臂屈伸",
+            "groups": [
+              "手臂"
+            ],
+            "equipment": "dumbbell",
+            "measurementType": "reps",
+            "target": 10,
+            "segments": [
+              "whole",
+              "whole"
+            ],
+            "sets": 2,
+            "segmentsPerSet": 1,
+            "matchStatus": "new_definition",
+            "sourceVideo": "314043 0:31–0:40",
+            "sourceDose": "10次×2组",
+            "defaultDose": "10次 · 2组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          }
+        ],
+        "cooldown": [
+          {
+            "id": "ritmo:stretch:overhead-triceps",
+            "phase": "cooldown",
+            "name": "过顶肱三头肌拉伸",
+            "groups": [
+              "手臂"
+            ],
+            "equipment": "bodyweight",
+            "measurementType": "duration",
+            "target": 30,
+            "segments": [
+              "left",
+              "right"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 2,
+            "matchStatus": "new_definition",
+            "sourceVideo": "314043 3:01–3:07",
+            "sourceDose": "每侧30–40秒",
+            "defaultDose": "30秒 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          },
+          {
+            "id": "ritmo:video:straight-arm-wrist-traction",
+            "phase": "cooldown",
+            "name": "低位斜向直臂腕部牵拉",
+            "groups": [
+              "手臂"
+            ],
+            "equipment": "bodyweight",
+            "measurementType": "duration",
+            "target": 30,
+            "segments": [
+              "left",
+              "right"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 2,
+            "matchStatus": "new_definition",
+            "sourceVideo": "314043 3:08–3:13",
+            "sourceDose": "每侧30–40秒",
+            "defaultDose": "30秒 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          }
+        ]
+      },
+      "requirements": "需要哑铃、训练凳及牢固固定支撑",
+      "templateSource": "six-personal-videos-20261030"
+    },
+    {
+      "id": "ritmo:template:personal-video:legs",
+      "name": "臀腿训练",
+      "environment": "家里",
+      "exercises": [
+        {
+          "id": "hasan:1760",
+          "name": "高脚杯深蹲",
+          "standardName": "高脚杯深蹲",
+          "muscle": "腿",
+          "equipment": "一只哑铃",
+          "variant": "10–12次×4–5组",
+          "primaryMuscleIds": [
+            "QUADS",
+            "GLUTES"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 4,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "hasan:1760",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。",
+          "dataVersion": 1,
+          "sourceActionId": "hasan:1760",
+          "sourceVideo": "287739",
+          "sourceDose": "10–12次×4–5组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "hasan:0434",
+          "name": "哑铃直腿硬拉（膝微屈）",
+          "standardName": "哑铃直腿硬拉（膝微屈）",
+          "muscle": "腿",
+          "equipment": "哑铃",
+          "variant": "10–12次×4–5组",
+          "primaryMuscleIds": [
+            "HAMSTRINGS",
+            "GLUTES"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 4,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "hasan:0434",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：初版足位漂移已弃用；r1足位较稳定。膝盖微屈不锁死；腰背与活动范围待用户确认。",
+          "dataVersion": 1,
+          "sourceActionId": "hasan:0434",
+          "sourceVideo": "287739",
+          "sourceDose": "10–12次×4–5组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "ritmo:video:rear-foot-elevated-db-split-squat:left",
+          "name": "后脚抬高哑铃分腿蹲 · 左侧",
+          "standardName": "后脚抬高哑铃分腿蹲 · 左侧",
+          "muscle": "腿",
+          "equipment": "哑铃＋稳定凳",
+          "variant": "每侧10–12次×4–5组；左侧独立执行",
+          "primaryMuscleIds": [
+            "QUADS",
+            "GLUTES"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 4,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "ritmo:video:rear-foot-elevated-db-split-squat:left",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。平台高度、训练负重与膝髋活动范围待确认；两侧并非简单镜像。",
+          "dataVersion": 1,
+          "sourceActionId": "ritmo:video:rear-foot-elevated-db-split-squat",
+          "sourceVideo": "287739",
+          "sourceDose": "每侧10–12次×4–5组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "ritmo:video:rear-foot-elevated-db-split-squat:right",
+          "name": "后脚抬高哑铃分腿蹲 · 右侧",
+          "standardName": "后脚抬高哑铃分腿蹲 · 右侧",
+          "muscle": "腿",
+          "equipment": "哑铃＋稳定凳",
+          "variant": "每侧10–12次×4–5组；右侧独立执行",
+          "primaryMuscleIds": [
+            "QUADS",
+            "GLUTES"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 4,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "ritmo:video:rear-foot-elevated-db-split-squat:right",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。平台高度、训练负重与膝髋活动范围待确认；两侧并非简单镜像。",
+          "dataVersion": 1,
+          "sourceActionId": "ritmo:video:rear-foot-elevated-db-split-squat",
+          "sourceVideo": "287739",
+          "sourceDose": "每侧10–12次×4–5组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "hasan:0417",
+          "name": "双哑铃站姿提踵",
+          "standardName": "双哑铃站姿提踵",
+          "muscle": "腿",
+          "equipment": "哑铃",
+          "variant": "15–20次×4–5组",
+          "primaryMuscleIds": [
+            "CALVES"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 4,
+          "reps": 15,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "hasan:0417",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：脚跟上提幅度较克制，前掌接地及完整循环需用户视觉确认。",
+          "dataVersion": 1,
+          "sourceActionId": "hasan:0417",
+          "sourceVideo": "287739",
+          "sourceDose": "15–20次×4–5组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        }
+      ],
+      "phaseItems": {
+        "warmup": [
+          {
+            "id": "ritmo:warmup:bodyweight-squat",
+            "phase": "warmup",
+            "name": "徒手深蹲",
+            "groups": [
+              "腿"
+            ],
+            "equipment": "bodyweight",
+            "measurementType": "reps",
+            "target": 15,
+            "segments": [
+              "whole",
+              "whole"
+            ],
+            "sets": 2,
+            "segmentsPerSet": 1,
+            "matchStatus": "new_definition",
+            "sourceVideo": "287739 0:24–0:40",
+            "sourceDose": "15–20次×2组",
+            "defaultDose": "15次 · 2组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          },
+          {
+            "id": "ritmo:warmup:squat-to-toe-grasp",
+            "phase": "warmup",
+            "name": "深蹲抓脚尖后抬髋",
+            "groups": [
+              "腿"
+            ],
+            "equipment": "bodyweight",
+            "measurementType": "reps",
+            "target": 15,
+            "segments": [
+              "whole"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 1,
+            "matchStatus": "new_definition",
+            "sourceVideo": "287739 0:41–0:56",
+            "sourceDose": "15–20次；组数未给",
+            "defaultDose": "15次 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          }
+        ],
+        "cooldown": [
+          {
+            "id": "ritmo:stretch:standing-quad",
+            "phase": "cooldown",
+            "name": "站姿股四头肌拉伸",
+            "groups": [
+              "腿"
+            ],
+            "equipment": "fixed-support",
+            "measurementType": "duration",
+            "target": 30,
+            "segments": [
+              "left",
+              "right"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 2,
+            "matchStatus": "new_definition",
+            "sourceVideo": "287739 3:43–3:50",
+            "sourceDose": "每侧30–40秒",
+            "defaultDose": "30秒 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          },
+          {
+            "id": "ritmo:stretch:double-knee-hug",
+            "phase": "cooldown",
+            "name": "仰卧双膝抱胸",
+            "groups": [
+              "腿"
+            ],
+            "equipment": "fixed-support",
+            "measurementType": "duration",
+            "target": 30,
+            "segments": [
+              "whole"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 1,
+            "matchStatus": "new_definition",
+            "sourceVideo": "287739 3:51–3:57",
+            "sourceDose": "每侧30–40秒",
+            "defaultDose": "30秒 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          },
+          {
+            "id": "ritmo:stretch:cross-leg-posterior-chain",
+            "phase": "cooldown",
+            "name": "交叉腿俯身后链拉伸",
+            "groups": [
+              "腿"
+            ],
+            "equipment": "fixed-support",
+            "measurementType": "duration",
+            "target": 30,
+            "segments": [
+              "left",
+              "right"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 2,
+            "matchStatus": "new_definition",
+            "sourceVideo": "287739 3:58–4:05",
+            "sourceDose": "每侧30–40秒",
+            "defaultDose": "30秒 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          }
+        ]
+      },
+      "requirements": "需要哑铃、训练凳及牢固固定支撑",
+      "templateSource": "six-personal-videos-20261030"
+    },
+    {
+      "id": "ritmo:template:personal-video:core",
+      "name": "核心训练",
+      "environment": "家里",
+      "exercises": [
+        {
+          "id": "crunch",
+          "name": "仰卧前伸臂卷腹",
+          "standardName": "仰卧前伸臂卷腹",
+          "muscle": "核心",
+          "equipment": "徒手",
+          "variant": "10–15次；组数未给",
+          "primaryMuscleIds": [
+            "CORE"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 3,
+          "reps": 10,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "crunch",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。颈部舒适范围及卷曲幅度仍待个人核对；专业审校待进行。",
+          "dataVersion": 1,
+          "sourceActionId": "crunch",
+          "sourceVideo": "203452",
+          "sourceDose": "10–15次；组数未给",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "ritmo:video:seated-knee-tuck",
+          "name": "坐姿收膝伸腿",
+          "standardName": "坐姿收膝伸腿",
+          "muscle": "核心",
+          "equipment": "徒手",
+          "variant": "15–20次×3–4组",
+          "primaryMuscleIds": [
+            "CORE"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 3,
+          "reps": 15,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "ritmo:video:seated-knee-tuck",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。本次设计师已确认展示版本视觉通过；专业动作审校独立待审。历史问题记录：关键帧切换仅表达姿势，不是连续运动捕捉。",
+          "dataVersion": 1,
+          "sourceActionId": "ritmo:video:seated-knee-tuck",
+          "sourceVideo": "203452",
+          "sourceDose": "15–20次×3–4组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "ritmo:alternative:forearm-side-plank-hold:left",
+          "name": "前臂侧支撑静态保持 · 左侧",
+          "standardName": "前臂侧支撑静态保持 · 左侧",
+          "muscle": "核心",
+          "equipment": "徒手",
+          "variant": "双前臂动态转髋→单侧前臂静态保持；左侧独立执行",
+          "primaryMuscleIds": [
+            "OBLIQUES"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "duration",
+          "sets": 3,
+          "reps": 0,
+          "targetDurationSeconds": 20,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "ritmo:alternative:forearm-side-plank-hold:left",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。静态侧向稳定不等同动态左右转髋；原失败媒体不放行。",
+          "dataVersion": 1,
+          "sourceActionId": "ritmo:alternative:forearm-side-plank-hold",
+          "sourceVideo": "203452",
+          "sourceDose": "15–30秒（1:32字幕核实）；组数未给",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "ritmo:alternative:forearm-side-plank-hold:right",
+          "name": "前臂侧支撑静态保持 · 右侧",
+          "standardName": "前臂侧支撑静态保持 · 右侧",
+          "muscle": "核心",
+          "equipment": "徒手",
+          "variant": "双前臂动态转髋→单侧前臂静态保持；右侧独立执行",
+          "primaryMuscleIds": [
+            "OBLIQUES"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "duration",
+          "sets": 3,
+          "reps": 0,
+          "targetDurationSeconds": 20,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "ritmo:alternative:forearm-side-plank-hold:right",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。静态侧向稳定不等同动态左右转髋；原失败媒体不放行。",
+          "dataVersion": 1,
+          "sourceActionId": "ritmo:alternative:forearm-side-plank-hold",
+          "sourceVideo": "203452",
+          "sourceDose": "15–30秒（1:32字幕核实）；组数未给",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        },
+        {
+          "id": "ritmo:video:alternating-twist-crunch",
+          "name": "仰卧交替转体卷腹",
+          "standardName": "仰卧交替转体卷腹",
+          "muscle": "核心",
+          "equipment": "徒手",
+          "variant": "15–20次×3–4组",
+          "primaryMuscleIds": [
+            "OBLIQUES"
+          ],
+          "secondaryMuscleIds": [],
+          "measurementType": "reps",
+          "sets": 3,
+          "reps": 15,
+          "targetDurationSeconds": 0,
+          "weight": 0,
+          "restSeconds": 90,
+          "mediaId": "ritmo:video:alternating-twist-crunch",
+          "dataSource": "RITMO V1.3 local defaults",
+          "reviewStatus": "pending_professional_review",
+          "reviewNotes": "负重未设；范围取下限和节奏/休息为RITMO默认待个人确认。改用脚端正面偏高视角；B/C能看出相反方向，脚、膝、骨盆和垫角保持；轻度胸廓转动，仍待动作审校。",
+          "dataVersion": 1,
+          "sourceActionId": "ritmo:video:alternating-twist-crunch",
+          "sourceVideo": "203452",
+          "sourceDose": "15–20次×3–4组",
+          "homeTemplateEquipment": true,
+          "mediaSegment": "whole",
+          "parameterConfirmation": "defaults_pending"
+        }
+      ],
+      "phaseItems": {
+        "warmup": [
+          {
+            "id": "ritmo:warmup:forearm-plank-activation",
+            "phase": "warmup",
+            "name": "前臂平板支撑",
+            "groups": [
+              "核心"
+            ],
+            "equipment": "bodyweight",
+            "measurementType": "duration",
+            "target": 30,
+            "segments": [
+              "whole"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 1,
+            "matchStatus": "new_definition",
+            "sourceVideo": "203452 0:21–0:34",
+            "sourceDose": "30–40秒；组数未给",
+            "defaultDose": "30秒 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          }
+        ],
+        "cooldown": [
+          {
+            "id": "ritmo:stretch:prone-abdominal-extension",
+            "phase": "cooldown",
+            "name": "俯卧腹部伸展",
+            "groups": [
+              "核心"
+            ],
+            "equipment": "bodyweight",
+            "measurementType": "duration",
+            "target": 20,
+            "segments": [
+              "whole"
+            ],
+            "sets": 1,
+            "segmentsPerSet": 1,
+            "matchStatus": "new_definition",
+            "sourceVideo": "203452 2:05–2:25",
+            "sourceDose": "中心/左右约20秒",
+            "defaultDose": "20秒 · 1组",
+            "reviewStatus": "pending_professional_review",
+            "dataVersion": 5,
+            "homeTemplateEquipment": true
+          }
+        ]
+      },
+      "requirements": "需要垫子及稳定坐姿支撑",
+      "templateSource": "six-personal-videos-20261030"
+    }
+  ]
+}

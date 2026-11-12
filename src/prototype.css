@@ -1,0 +1,1886 @@
+@import "./numberTypography.css";
+:root{--lime:#b7ff19;--ink:#080908;--paper:#f5f4f0;--muted:#787b76;--line:#dedfd9;--surface:#fff}*{box-sizing:border-box}button,input{font:inherit}.keyboard-dock[data-visible="false"]{visibility:hidden}.device-screen:has(.keyboard-dock[data-visible="false"]) .bottom-sheet{bottom:-39.67%!important}.prototype-shell,.app-screen{min-height:100%;background:var(--paper);color:var(--ink)}.prototype-shell{position:relative;height:100%;overflow:hidden}.icon-button{width:42px;height:42px;border:0;border-radius:50%;display:grid;place-items:center;background:#ecece7;color:#111}.icon-button svg{width:20px;height:20px}.icon-button.dark{color:#fff;background:transparent}.primary-button{min-height:56px;border:0;border-radius:22px;padding:0 22px;background:var(--lime);color:#080908;font-weight:850;font-size:17px}.primary-button:disabled{background:#dedfd9;color:#969994}
+.training-screen{background:#080a09;color:#fff}.active-content,.rest-content{min-height:852px;padding:52px 16px 34px;background:#080a09}.immersive-header{display:grid;grid-template-columns:88px 1fr 48px;align-items:center;gap:6px}.immersive-header>div{text-align:center}.immersive-header h1,.immersive-header p{margin:0}.immersive-header h1{font-size:25px;letter-spacing:-.5px}.immersive-header p{margin-top:5px;color:#aeb0ae;font-weight:650}.pause-button{height:48px;border:0;border-radius:22px;background:var(--lime);color:#080908;font-weight:850;display:flex;align-items:center;justify-content:center;gap:7px}.pause-button svg{width:18px;height:18px}.exercise-media{height:338px;margin-top:18px;overflow:hidden;border-radius:28px;border:1px solid #333734;background:#151715}.exercise-media img{width:100%;height:100%;object-fit:cover;display:block}.rep-panel{margin-top:-13px;position:relative;border-radius:34px 34px 26px 26px;padding:16px 18px 18px;text-align:center;background:#0b0d0b;box-shadow:0 -12px 28px rgba(0,0,0,.35)}.rep-count{display:flex;justify-content:center;align-items:baseline;gap:10px;margin:6px 0 2px;line-height:.9}.rep-count strong{font-size:124px;color:var(--lime);letter-spacing:-8px}.rep-count span{font-size:46px;font-weight:850;color:#d6d7d4}.weight-info{display:flex;justify-content:center;align-items:baseline;gap:4px}.weight-info b{font-size:32px}.weight-info span{font-size:16px;color:#9b9e99}.motion-cue{margin:13px 0 0;color:#e2e4e0;font-weight:750}.rest-content{display:flex;flex-direction:column}.rest-header{grid-template-columns:88px 1fr 48px}.rest-header>h1{text-align:center;font-size:27px}.rest-timer{text-align:center;font-size:108px;line-height:1;font-weight:900;letter-spacing:-7px;margin:150px 0 86px}.next-set-row{width:100%;min-height:118px;padding:20px;border-radius:26px;border:1px solid #343835;color:#fff;background:#121513;display:flex;justify-content:space-between;align-items:center;text-align:left}.next-set-row span{display:grid;gap:8px}.next-set-row small{color:#9da09b;font-size:15px}.next-set-row b{font-size:25px}.rest-actions{display:grid;grid-template-columns:.85fr 1.4fr;gap:10px;margin-top:12px}.rest-actions button{min-height:70px;border-radius:24px;border:1px solid #343835;background:#121513;color:#fff;font-weight:850}.rest-actions .lime{background:var(--lime);color:#080908;border-color:var(--lime)}.countdown-screen{height:100%;display:grid;place-items:center;align-content:center;gap:20px;background:#080a09;color:#fff}.countdown-screen span{color:#a8aaa7;font-size:18px}.countdown-screen strong{font-size:160px;color:var(--lime);line-height:1}.transition-screen{min-height:852px;padding:76px 22px 40px}.transition-kicker{color:#7d807b;font-weight:750;margin-bottom:10px}.transition-screen h1{margin:0;font-size:39px;letter-spacing:-1.5px}.transition-screen>p{color:#777b75;font-size:17px;font-weight:650}.transition-art{height:336px;margin:28px 0 22px;border-radius:32px;overflow:hidden;background:#111}.transition-art img{width:100%;height:100%;object-fit:cover;filter:contrast(1.05)}.transition-note{font-size:20px;font-weight:760;margin:10px 0 20px}.transition-start{width:100%;min-height:76px;border-radius:28px;font-size:20px}
+.training-home-content{min-height:920px;padding:58px 18px 112px}.training-home .root-header>div{display:grid;gap:1px}.training-home .root-header h1{font-size:42px}.brand-wordmark{font-size:11px;font-weight:900;letter-spacing:2.2px;color:#6f726d}.next-workout-card,.quick-start-empty{margin-top:22px;padding:22px;border-radius:34px;background:#090a09;color:#fff}.next-workout-head{display:flex;align-items:center;justify-content:space-between;color:#a1a49e;font-size:13px;font-weight:750}.next-workout-head i{font-style:normal;padding:6px 9px;border-radius:999px;background:#242724;color:#d5d8d1;font-size:10px}.next-workout-title{display:flex;align-items:end;justify-content:space-between;margin:19px 0 21px}.next-workout-title h2{margin:0;font-size:76px;line-height:.9;letter-spacing:-5px}.next-workout-title>div{display:grid;gap:5px;text-align:right}.next-workout-title b{font-size:15px}.next-workout-title span{font-size:12px;color:#92958f}.time-budget{padding:14px 15px;border-radius:21px;background:#171a17}.time-budget>span{display:block;color:#a1a49e;font-size:11px;font-weight:750}.time-budget>div{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:9px 0 8px}.time-budget button{min-height:38px;border:1px solid #383c38;border-radius:13px;background:transparent;color:#fff;font-weight:800}.time-budget button.on{background:#fff;color:#0a0a0a;border-color:#fff}.time-budget small{color:#858981;font-size:10px}.home-start-button{width:100%;min-height:74px;margin-top:12px;padding:0 18px;border:0;border-radius:24px;background:var(--lime);color:#080908;display:flex;align-items:center;justify-content:space-between;text-align:left}.home-start-button>span{display:grid;gap:4px}.home-start-button b{font-size:19px}.home-start-button small{font-size:11px;font-weight:750;color:#4d620f}.home-start-button>svg{width:24px;height:24px}.quick-start-card,.home-environment{width:100%;border:0;display:flex;align-items:center;justify-content:space-between;text-align:left}.quick-start-card{min-height:92px;margin-top:14px;padding:0 20px;border-radius:27px;background:#fff}.quick-start-card>span:first-child{display:grid;gap:5px}.quick-start-card small,.home-environment small{color:#858881;font-size:11px}.quick-start-card b{font-size:21px}.quick-start-icon{width:48px;height:48px;border-radius:50%;background:#111;color:#fff;display:grid;place-items:center}.quick-start-empty>span{color:#a4a8a1;font-size:12px;font-weight:750}.quick-start-empty h2{margin:8px 0 4px;font-size:40px;letter-spacing:-1.8px}.quick-start-empty p{margin:0;color:#8f938d;font-size:12px}.empty-budget{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:22px}.empty-budget button{min-height:44px;border:1px solid #373b37;border-radius:14px;background:transparent;color:#fff;font-weight:800}.empty-budget button.on{border-color:#fff;background:#fff;color:#111}.home-environment{min-height:68px;margin-top:10px;padding:0 18px;border-radius:22px;background:#e9eae5}.home-environment>span{display:grid;gap:4px}.home-environment b{font-size:15px}
+.sheet-overlay{position:absolute;inset:0;background:rgba(0,0,0,.42);z-index:100}.bottom-sheet{position:absolute;left:0;right:0;z-index:101;background:#f7f6f2;color:#0a0a0a;border-radius:30px 30px 0 0;overflow:hidden;box-shadow:0 -16px 50px rgba(0,0,0,.24)}.sheet-handle-zone{height:24px;display:grid;place-items:center}.sheet-handle{width:42px;height:5px;border-radius:99px;background:#cbccc7}.sheet-header{padding:2px 22px 12px}.sheet-title{font-size:23px;font-weight:850}.sheet-description{margin:6px 0 0;color:#727570}.sheet-content{padding:0 20px 28px;overflow:auto;max-height:calc(100% - 76px)}.sheet-save{width:100%;margin-top:18px}.rest-parameter-editor{display:grid;gap:12px}.rest-parameter-editor label{font-weight:850;font-size:16px;margin-top:6px}.rest-parameter-editor>p{margin:-2px 0 8px;color:#858881;font-size:12px}.quick-values{display:grid;grid-template-columns:repeat(5,1fr);gap:7px}.quick-values button,.parameter-editor button{min-height:46px;border:1px solid #d1d3cd;background:#fff;border-radius:14px}.quick-values button.selected,.parameter-editor button.selected{background:#101110;color:#fff;border-color:#101110}.weight-values{grid-template-columns:repeat(4,1fr)}.precise-stepper{display:flex;justify-content:space-between;align-items:center;padding:15px 16px;border-radius:20px;background:#fff}.precise-stepper>span{display:grid;gap:4px}.precise-stepper small{color:#858881}.precise-stepper b{font-size:22px}.precise-stepper>div{display:flex;gap:8px}.precise-stepper button{width:42px;height:42px;border:1px solid #dadcd5;border-radius:50%;background:#f4f4f0;display:grid;place-items:center}
+.root-header,.subpage-header{display:flex;justify-content:space-between;align-items:center}.root-header h1{margin:0;font-size:42px;letter-spacing:-2px}.subpage-header{display:grid;grid-template-columns:48px 1fr 48px}.subpage-header h1{text-align:center;margin:0;font-size:27px}.scheme-content{min-height:940px;padding:60px 18px 112px}.cycle-card{margin-top:22px;border-radius:34px;padding:22px 18px 8px;background:#0b0c0b;color:#fff}.cycle-head{display:flex;justify-content:space-between;align-items:start;padding:0 2px 14px}.cycle-head>div{display:grid;gap:4px}.cycle-head span{font-size:22px;font-weight:850}.cycle-head b{color:#929690;font-size:12px}.cycle-head>button{border:1px solid #343834;color:#fff;background:transparent;border-radius:999px;padding:8px 14px;font-weight:750}.cycle-list>button{width:100%;min-height:76px;border:0;border-top:1px solid #292c29;color:#fff;background:transparent;display:grid;grid-template-columns:32px 1fr auto;align-items:center;gap:10px;text-align:left}.cycle-order{font-size:11px;color:#6f736e}.cycle-list>button>span:nth-child(2){display:grid;gap:5px}.cycle-list b{font-size:16px}.cycle-list small{color:#8f938e}.cycle-list i{font-style:normal;color:#111;background:var(--lime);padding:7px 10px;border-radius:999px;font-size:11px;font-weight:850}.scheme-heading{display:flex;justify-content:space-between;align-items:end;margin:28px 3px 12px}.scheme-heading h2{margin:0;font-size:27px}.scheme-heading span{font-size:12px;color:#858881}.independent-list{background:#fff;border-radius:26px;padding:0 16px}.independent-list>button{width:100%;min-height:78px;border:0;border-bottom:1px solid #e3e4df;background:transparent;display:flex;align-items:center;justify-content:space-between;text-align:left}.independent-list>button:last-child{border-bottom:0}.independent-list span{display:grid;gap:5px}.independent-list b{font-size:16px}.independent-list small{color:#7c7f79}.create-plan-button,.enable-cycle{width:100%;min-height:62px;margin-top:14px;border:1px solid #d3d5cf;border-radius:22px;background:#fff;font-weight:850;display:flex;align-items:center;justify-content:center;gap:8px}.enable-cycle{padding:0 18px;justify-content:space-between;text-align:left}.enable-cycle span{display:grid;gap:4px}.enable-cycle small{color:#858881}.toast{position:absolute;left:50%;bottom:105px;z-index:150;transform:translateX(-50%);display:flex;align-items:center;gap:7px;padding:11px 15px;border-radius:999px;background:#111;color:#fff;font-size:13px;box-shadow:0 8px 24px rgba(0,0,0,.18)}
+.create-choice-content{min-height:852px;padding:54px 18px 48px}.create-section{margin-top:28px}.create-section h2{margin:0;font-size:27px}.create-section>p{margin:6px 0 16px;color:#7a7d77;font-size:13px}.preset-carousel{margin:0 -18px}.preset-track{padding:0 18px 8px;gap:12px}.preset-card{flex:0 0 318px;min-height:386px;padding:24px;border-radius:32px;background:#0a0b0a;color:#fff}.preset-card.alternate{background:#1a1d1a}.preset-card>span{display:inline-block;color:#111;background:var(--lime);padding:6px 10px;border-radius:999px;font-size:11px;font-weight:850}.preset-card h3{margin:16px 0 3px;font-size:30px}.preset-card p{margin:0;color:#a9aca6;font-size:13px}.preset-card ul{list-style:none;padding:13px 0;margin:14px 0 10px;border-top:1px solid #303330}.preset-card li{padding:5px 0;font-weight:650}.preset-card .primary-button{width:100%}.blank-plan-card{margin-top:18px;padding:22px;border-radius:28px;background:#fff;display:flex;align-items:center;justify-content:space-between}.blank-plan-card span{color:#838680;font-size:12px;font-weight:750}.blank-plan-card h2{margin:5px 0 4px;font-size:23px}.blank-plan-card p{margin:0;color:#858881;font-size:13px}.blank-plan-card>button{width:54px;height:54px;border:0;border-radius:50%;background:var(--lime);display:grid;place-items:center}.plan-detail{display:grid}.expand-detail{justify-self:end;border:0;background:transparent;color:#656861;display:flex;align-items:center;gap:5px;font-size:12px}.plan-detail>label{font-size:12px;color:#747772;font-weight:800;margin:5px 0 7px}.plan-name-input{width:100%;height:52px;padding:0 14px;border:1px solid #d6d8d1;border-radius:16px;background:#fff;font-weight:750;font-size:18px;outline:0}.plan-name-button{text-align:left;color:#111}.environment-row{width:100%;margin-top:12px;min-height:50px;padding:0 15px;border:0;border-radius:17px;background:#e9eae5;display:flex;align-items:center;justify-content:space-between;font-weight:750}.detail-section-head{display:flex;justify-content:space-between;align-items:end;margin:20px 2px 9px}.detail-section-head h3{margin:0;font-size:21px}.detail-section-head span{font-size:12px;color:#80837d}.detail-empty{padding:24px 18px;border-radius:20px;background:#fff;color:#858881;text-align:center}.detail-exercise-list{background:#fff;border-radius:22px;padding:0 12px}.detail-exercise-row{min-height:68px;border-bottom:1px solid #e2e3de;display:grid;grid-template-columns:1fr auto;align-items:center;gap:8px}.detail-exercise-row:last-child{border-bottom:0}.exercise-main{border:0;background:transparent;text-align:left;display:grid;gap:4px}.exercise-main small{color:#7c7f79}.row-actions{display:flex;gap:4px}.row-actions button{width:32px;height:32px;border:0;border-radius:50%;background:#f0f1ed;display:grid;place-items:center}.row-actions button:disabled{opacity:.25}.manual-add{width:100%;min-height:54px;border:1px solid #d6d7d1;border-radius:18px;background:#fff;display:flex;align-items:center;justify-content:center;gap:8px;font-weight:850}.manual-add.compact{margin-top:12px;background:transparent}.save-plan{width:100%;margin-top:12px}.parameter-editor{display:grid;gap:14px}.parameter-editor>div{display:flex;flex-wrap:wrap;gap:7px}.parameter-editor label{width:100%;color:#696c67;font-size:13px;font-weight:750}.parameter-editor button{padding:0 13px}
+.exercise-picker-layout{height:100%;min-height:520px;display:flex;flex-direction:column}.exercise-picker-tools{flex:0 0 auto}.search-field{width:100%;min-height:46px;border:0;border-radius:14px;background:#e7e8e3;color:#737670;display:flex;align-items:center;gap:9px;padding:0 13px;text-align:left}.search-field input{flex:1;border:0;outline:0;background:transparent;font-size:15px}.search-trigger span{font-size:15px}.muscle-tabs{display:flex;gap:7px;margin:12px -20px 0;padding:0 20px;overflow-x:auto;scrollbar-width:none}.muscle-tabs button{border:1px solid #d3d5cf;background:#fff;border-radius:999px;padding:8px 12px;white-space:nowrap}.muscle-tabs button.on{background:#111;color:#fff;border-color:#111}.exercise-picker-scroll{flex:1;min-height:0;overflow:auto;padding-bottom:8px}.available-title{display:flex;justify-content:space-between;padding:14px 0 7px;font-size:12px}.available-title span{color:#82857f}.library-list>button,.other-equipment button{width:100%;min-height:64px;border:0;border-bottom:1px solid #dddeda;background:transparent;display:flex;justify-content:space-between;align-items:center;text-align:left}.library-list span,.other-equipment span{display:grid;gap:4px}.library-list small,.other-equipment small{color:#858881}.library-list i{width:30px;height:30px;border:1px solid #ced0ca;border-radius:50%;display:grid;place-items:center;font-style:normal}.library-list i.checked{background:var(--lime);color:#111;border-color:var(--lime)}.expand-equipment{width:100%;min-height:46px;border:0;background:transparent;display:flex;justify-content:space-between;align-items:center;color:#6f726d}.other-equipment{padding-top:10px}.other-equipment>b{font-size:12px;color:#747772}.picker-action{flex:0 0 auto;width:100%;margin-top:10px}.cycle-manager{padding-bottom:12px}.manager-switch{display:flex;justify-content:space-between;align-items:center;padding:16px;border-radius:20px;background:#fff}.manager-switch>span{display:grid;gap:4px}.manager-switch small{color:#7f827c}.manager-notice{margin-top:10px;padding:11px 13px;border-radius:15px;background:#eaf6d0;color:#355000;font-size:12px;font-weight:750}.cycle-manager h3{margin:20px 2px 8px;font-size:15px}.manager-row,.add-cycle-row{min-height:66px;padding:0 10px;border:0;border-bottom:1px solid #e0e2dc;background:#fff;display:flex;justify-content:space-between;align-items:center}.manager-row>span,.add-cycle-row>span{display:grid;gap:4px}.manager-row small,.add-cycle-row small{color:#80837d}.manager-row>div{display:flex;gap:5px}.manager-row button,.add-cycle-row>svg{width:30px;height:30px;padding:7px;border:0;border-radius:50%;background:#f0f1ed}.manager-empty{padding:20px;border-radius:16px;background:#fff;color:#858881;text-align:center}.add-cycle-row{width:100%;text-align:left}
+.records-content{min-height:1060px;padding:60px 18px 104px}.heatmap-card{margin-top:20px;border-radius:32px;padding:18px 14px 14px;background:#0d1015;color:#fff;overflow:hidden}.heatmap-head{display:flex;justify-content:space-between;align-items:center}.heatmap-head>div:first-child>span{color:#a5a9b0;font-size:12px}.heatmap-head h2{margin:2px 0 0;font-size:23px}.view-toggle{display:flex;padding:3px;border:1px solid #3a3e45;border-radius:999px}.view-toggle button{border:0;border-radius:999px;color:#b9bdc3;background:transparent;padding:8px 14px}.view-toggle button.on{background:#fff;color:#111}.model-stage{position:relative;height:372px;display:grid;place-items:center;overflow:hidden}.muscle-object{width:min(268px,76vw);height:370px;border:0;pointer-events:auto}.inline-muscle-detail{position:absolute;right:4px;top:92px;display:grid;gap:4px;width:92px;padding:11px 10px;border-left:2px solid var(--lime);background:rgba(18,21,26,.9)}.inline-muscle-detail b{font-size:13px}.inline-muscle-detail strong{font-size:12px;color:var(--lime)}.heat-legend{position:absolute;left:5px;bottom:16px;display:flex;gap:6px;align-items:center;font-size:10px;color:#a5a9b0}.heat-legend i{width:12px;height:12px;border-radius:50%}.heat-note{margin:6px 3px 0;color:#a2a6ad;font-size:11px;line-height:1.5}.date-section{margin-top:14px;padding:16px 12px 12px;border-radius:28px;background:#fff}.section-row{display:flex;justify-content:space-between;align-items:center}.section-row h2{margin:0;font-size:23px}.section-row button{width:38px;height:38px;border:0;border-radius:50%;background:#f0f1ed;display:grid;place-items:center}.week-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:3px;margin-top:9px}.week-grid button{position:relative;width:100%;min-width:0;aspect-ratio:1;border:1px solid transparent;border-radius:50%;background:transparent;color:#777b75;display:grid;place-items:center;align-content:center;gap:4px}.week-grid button span{font-size:10px}.week-grid button b{font-size:16px}.week-grid button.selected{border-color:#111;color:#111}.week-grid button.today b{color:#111;font-weight:900}.week-grid button:disabled{opacity:.26}.week-grid button.trained:after{content:"";width:5px;height:5px;border-radius:50%;background:var(--lime);box-shadow:0 0 0 1px #6b8f16;position:absolute;bottom:3px}.recent-card{margin-top:14px;padding:20px;border-radius:28px;background:#fff}.recent-heading{display:flex;justify-content:space-between;align-items:end}.recent-heading h2{margin:0;font-size:24px}.recent-heading span{color:#858881;font-size:12px}.recent-row{min-height:68px;margin-top:8px;display:grid;grid-template-columns:1fr 1fr 20px;align-items:center;border-top:1px solid #e5e6e1}.recent-row span{text-align:right;color:#747772}.empty-day{color:#92958f;padding:24px 0 10px}.bottom-nav{position:absolute;left:0;right:0;bottom:0;min-height:74px;padding:10px 34px calc(var(--mobile-safe-area-height) + 8px);background:rgba(255,255,255,.96);border-top:1px solid #e4e5e0;display:flex;justify-content:space-between}.bottom-nav button{min-width:54px;min-height:42px;border:0;background:transparent;color:#777a75;font-weight:750}.bottom-nav button.on{color:#0a0a0a}
+@media(max-width:374px){.training-home-content,.scheme-content,.records-content{padding-left:14px;padding-right:14px}.next-workout-title h2{font-size:68px}.model-stage{height:350px}.muscle-object{height:350px}.inline-muscle-detail{right:0;width:84px}.heat-legend{gap:4px}.heat-note{font-size:10px}.week-grid{gap:1px}}
+
+/* V1.2.1 interaction and readability refinements */
+.device-screen:has(.keyboard-dock[data-visible="false"]) .bottom-sheet{bottom:0!important}
+.device-screen:has(.training-screen) .status-bar,
+.device-screen:has(.countdown-screen) .status-bar{color:#fff}
+.device-screen:has(.training-screen) .status-indicator-svg,
+.device-screen:has(.countdown-screen) .status-indicator-svg{filter:invert(1) brightness(1.35)}
+.device-screen:has(.training-screen) .home-indicator-svg rect,
+.device-screen:has(.countdown-screen) .home-indicator-svg rect{fill:#fff}
+.workout-summary{min-width:126px;padding:11px 13px;border-radius:16px;background:#171a17;text-align:left!important}
+.next-workout-head i{font-size:11px}
+.next-workout-title span{font-size:13px;color:#b1b4ae}
+.time-budget>span{font-size:12px}
+.time-budget small{display:block;color:#b6bab3;font-size:12px;line-height:1.45}
+.home-start-button small,.quick-start-card small,.home-environment small{font-size:12px}
+.transition-placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;border:1px solid #d9dbd5;background:#e9eae5;color:#111;text-align:center}
+.transition-placeholder span{font-size:12px;font-weight:850;letter-spacing:.08em;color:#777b75}
+.transition-placeholder b{font-size:24px}
+.transition-placeholder small{max-width:230px;font-size:13px;line-height:1.45;color:#777b75}
+.exercise-media-placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:#151715;color:#fff;text-align:center}
+.exercise-media-placeholder span{font-size:12px;font-weight:850;letter-spacing:.08em;color:#8f938d}
+.exercise-media-placeholder b{font-size:24px}
+.exercise-media-placeholder small{font-size:13px;color:#aeb1aa}
+.exercise-media-playing{position:relative;background:#111;display:block}
+.exercise-media-playing video,.exercise-media-playing img{display:block;width:100%;height:100%;object-fit:contain;background:#111}
+.exercise-media-review{position:absolute;left:12px;bottom:12px;padding:5px 9px;border-radius:999px;background:rgba(0,0,0,.7);color:#fff;font-size:11px;font-weight:700}
+.bottom-sheet:has(.cycle-manager){height:96%!important;max-height:96%!important}
+.bottom-sheet:has(.cycle-manager) .sheet-content{height:calc(100% - 76px);max-height:none;padding-bottom:16px;overflow:auto}
+.cycle-manager{min-height:100%;display:flex;flex-direction:column;padding-bottom:0}
+.cycle-manager .sheet-save{position:sticky;bottom:0;z-index:2;flex:0 0 auto;margin-top:18px;box-shadow:0 -12px 22px #f7f6f2}
+.manager-row:last-of-type,.add-cycle-row:last-of-type{margin-bottom:12px}
+.heatmap-head>div:first-child>span{font-size:13px;color:#c0c4ca;font-weight:750}
+.heat-legend{font-size:11px;color:#c1c5cc}
+.heat-note{font-size:12px;line-height:1.55;color:#c4c8ce}
+.recent-heading span{font-size:13px;color:#747772}
+@media(max-width:374px){.heat-note{font-size:11px}}
+
+/* Training Home V3 — environment-first planning and photographic hero */
+.training-home-v3 .training-home-content{min-height:1130px;padding-bottom:126px}
+.environment-selector{width:100%;min-height:58px;margin-top:14px;padding:0 17px;border:1px solid #dedfd9;border-radius:20px;background:#fff;display:flex;align-items:center;justify-content:space-between;text-align:left}
+.environment-selector>span{display:grid;gap:3px}.environment-selector small{font-size:11px;font-weight:700;color:#858881}.environment-selector b{font-size:15px}.environment-selector svg{width:18px;height:18px}
+.workout-hero-v3{position:relative;height:586px;margin-top:12px;padding:0;overflow:hidden;isolation:isolate}
+.workout-hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:54% center;filter:grayscale(1) contrast(1.1) brightness(.66);transform:scale(1.015)}
+.workout-hero-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,6,5,.25) 0%,rgba(5,6,5,.56) 34%,rgba(5,6,5,.96) 70%,#090a09 100%)}
+.workout-hero-content{position:relative;z-index:1;height:100%;padding:20px;display:flex;flex-direction:column}
+.workout-hero-v3 .next-workout-head{letter-spacing:.14em}.workout-hero-v3 .next-workout-head i{letter-spacing:0}
+.workout-hero-v3 .next-workout-title{margin:17px 0 0}.workout-hero-v3 .next-workout-title h2{font-size:84px;line-height:.86;text-shadow:0 2px 20px rgba(0,0,0,.2)}
+.workout-hero-meta{display:flex;align-items:center;gap:9px;margin-top:12px;color:#d3d6d0;font-size:13px}.workout-hero-meta b{color:#fff;font-size:14px}.workout-hero-meta span:before{content:"·";margin-right:9px;color:#777c76}
+.workout-exercise-list{margin-top:auto;padding:14px 15px 12px;border:1px solid rgba(255,255,255,.09);border-radius:20px;background:rgba(8,10,8,.64);backdrop-filter:blur(14px)}
+.workout-exercise-list>span{display:block;margin-bottom:7px;color:#9da19a;font-size:10px;font-weight:850;letter-spacing:.12em}.workout-exercise-list>div{min-height:28px;display:grid;grid-template-columns:28px 1fr;align-items:center;border-top:1px solid rgba(255,255,255,.075)}.workout-exercise-list>div:first-of-type{border-top:0}.workout-exercise-list i{font-style:normal;color:#7f837d;font-size:10px}.workout-exercise-list b{font-size:13px;font-weight:680;color:#f3f4f1}
+.workout-hero-v3 .home-start-button{flex:0 0 72px;margin-top:13px}
+.training-home-v3 .quick-start-card{min-height:82px;margin-top:12px}.training-home-v3 .quick-start-card b{font-size:20px}
+.quick-start-primary{margin-top:12px;padding:22px}.quick-start-primary h2{font-size:44px}.quick-start-primary p{max-width:290px;font-size:13px;line-height:1.55}
+.quick-muscle-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:22px}.quick-muscle-grid button{min-height:46px;border:1px solid #353835;border-radius:15px;background:transparent;color:#fff;font-weight:800}.quick-muscle-grid button.on{border-color:var(--lime);background:var(--lime);color:#0a0a0a}
+.quick-start-primary .empty-budget{margin-top:12px}.create-environment-plan{width:100%;min-height:48px;margin-top:12px;border:0;background:transparent;color:#bec2ba;display:flex;align-items:center;justify-content:center;gap:5px;font-size:13px;font-weight:750}.create-environment-plan svg{width:16px;height:16px}
+.environment-options{display:grid;gap:8px}.environment-options>button:not(.manage-environment-link){width:100%;min-height:68px;padding:0 15px;border:1px solid #dfe1da;border-radius:19px;background:#fff;display:flex;align-items:center;justify-content:space-between;text-align:left}.environment-options>button>span{display:grid;gap:4px}.environment-options b{font-size:16px}.environment-options small{color:#858881}.environment-options>button.selected{border-color:#111;box-shadow:inset 0 0 0 1px #111}.environment-options>button.selected>svg{padding:5px;border-radius:50%;background:var(--lime);width:26px;height:26px}.manage-environment-link{min-height:44px;border:0;background:transparent;color:#6f726d;font-weight:750}
+.manage-environments{display:grid;gap:10px}.new-environment-row,.custom-environment-row{display:grid;grid-template-columns:1fr auto;gap:8px}.new-environment-row input,.custom-environment-row input{min-width:0;height:52px;padding:0 14px;border:1px solid #d6d8d1;border-radius:16px;background:#fff;font-size:15px;outline:0}.new-environment-row>button{min-width:88px;border:0;border-radius:16px;background:var(--lime);font-weight:850;display:flex;align-items:center;justify-content:center;gap:4px}.new-environment-row>button:disabled{opacity:.35}.custom-environment-row>button{width:52px;border:0;border-radius:16px;background:#fff;color:#8c2d20}.environment-empty{padding:24px 0;text-align:center;color:#858881}
+@media(max-width:374px){.workout-hero-v3{height:568px}.workout-hero-v3 .next-workout-title h2{font-size:76px}.workout-hero-content{padding:18px}.workout-exercise-list{padding-left:13px;padding-right:13px}}
+
+/* V1.3 final Figma direction — lavender atmosphere, glass surfaces, dark focus modules */
+:root{--paper:#efecfb;--glass:rgba(255,255,255,.72);--glass-line:rgba(255,255,255,.82);--shadow:0 18px 48px rgba(54,43,94,.12)}
+.prototype-shell,.light-screen{background:linear-gradient(155deg,#ebe7fb 0%,#f7f5ff 48%,#eeeafa 100%)}
+.glass-card,.date-section,.recent-card,.blank-plan-card,.independent-list,.plans-empty{background:var(--glass)!important;border:1px solid var(--glass-line)!important;box-shadow:var(--shadow);backdrop-filter:blur(18px)}
+.icon-button{background:rgba(255,255,255,.64);box-shadow:inset 0 0 0 1px rgba(255,255,255,.7)}
+.training-home-v3 .training-home-content,.scheme-content,.records-content{padding-bottom:128px}
+.workout-hero-v3{border-radius:38px;box-shadow:0 24px 52px rgba(8,9,8,.22)}
+.workout-hero-v3 .home-start-button{border-radius:999px;min-height:72px;padding:0 24px}
+.home-start-button b{font-size:22px;letter-spacing:-.02em}
+.home-start-button small{color:#243000}
+.recommendation-home{margin-top:22px}.recommendation-home>span{font-size:12px;font-weight:800;color:#777286}.recommendation-home>h2{margin:6px 0 5px;font-size:36px;letter-spacing:-1.8px}.recommendation-home>p{margin:0;color:#716d7b;font-size:13px;line-height:1.5}.home-recommendations{margin:18px -18px 0}.home-recommendation-track{gap:12px;padding:0 18px 12px}.home-recommendation-card{flex:0 0 318px;min-height:410px;padding:22px;border-radius:34px;background:#090b0a;color:#fff;box-shadow:0 20px 42px rgba(12,10,24,.22)}.recommendation-title{width:100%;padding:0;border:0;background:transparent;color:#fff;display:flex;justify-content:space-between;align-items:center;text-align:left}.recommendation-title>span{display:grid;gap:5px}.recommendation-title small{color:#9fa39d;font-size:11px}.recommendation-title b{font-size:28px}.recommendation-meta{margin-top:10px;color:#a9ada6;font-size:12px}.home-recommendation-card ul{list-style:none;margin:16px 0 12px;padding:8px 0;border-top:1px solid #292d29}.home-recommendation-card li{min-height:42px;border-bottom:1px solid #242724;display:flex;justify-content:space-between;align-items:center}.home-recommendation-card li small{color:#8f948d}.custom-training-entry{width:100%;min-height:82px;margin-top:12px;padding:0 20px;border-radius:28px;display:flex;justify-content:space-between;align-items:center;text-align:left}.custom-training-entry>span{display:grid;gap:4px}.custom-training-entry b{font-size:19px}.custom-training-entry small{color:#777382}.custom-training-entry>svg{width:22px;height:22px}.recommendation-detail-list{display:grid}.recommendation-detail-list>div{min-height:68px;border-bottom:1px solid #ddd9e9;display:grid;grid-template-columns:30px 1fr;align-items:center}.recommendation-detail-list i{font-style:normal;color:#8d8897;font-size:11px}.recommendation-detail-list span{display:grid;gap:4px}.recommendation-detail-list small{color:#777382}
+.floating-nav{left:16px;right:16px;bottom:12px;min-height:74px;padding:8px 18px calc(var(--mobile-safe-area-height) + 7px);border:1px solid rgba(255,255,255,.9);border-radius:999px;background:rgba(255,255,255,.83);box-shadow:0 16px 42px rgba(43,33,77,.18);backdrop-filter:blur(22px)}.floating-nav button{display:grid;place-items:center;align-content:center;gap:4px;min-width:70px;border-radius:999px}.floating-nav button svg{width:17px;height:17px}.floating-nav button span{font-size:11px}.floating-nav button.on{background:var(--lime);color:#080908}
+.target-summary{display:flex;justify-content:center;gap:22px;margin-top:4px;font-size:17px;font-weight:800;color:#e2e5df}.rep-count strong{font-size:138px}.motion-cue{font-size:13px;color:#aeb2ab}.text-button{width:100%;min-height:48px;margin-top:12px;border:0;background:transparent;color:#6f6b79;font-weight:750}.danger-button,.secondary-button{width:100%;min-height:54px;border-radius:18px;font-weight:850}.danger-button{border:0;background:#171817;color:#fff}.secondary-button{margin-top:8px;border:1px solid #d6d1e5;background:transparent;color:#171817}.actual-reps-stepper{display:grid;grid-template-columns:48px 1fr 48px;align-items:center;text-align:center;padding:8px;border-radius:20px;background:#fff}.actual-reps-stepper button{width:42px;height:42px;border:0;border-radius:50%;background:#efedf6;display:grid;place-items:center}.actual-reps-stepper b{font-size:26px}
+.scheme-content{min-height:1050px}.cycle-card{border-radius:38px;padding:24px 20px 10px;box-shadow:0 24px 54px rgba(15,12,28,.2)}.cycle-list i{background:var(--lime);color:#080908}.plans-empty{padding:28px;border-radius:28px;display:grid;gap:7px;text-align:center}.plans-empty span{color:#787382;font-size:13px}.create-plan-button{border:0;background:var(--lime);box-shadow:0 14px 26px rgba(137,194,0,.22)}.create-choice-content{min-height:1050px}.blank-plan-card.primary-create{margin-top:28px}.preset-title{width:100%;border:0;background:transparent;color:#fff;display:flex;align-items:center;justify-content:space-between;text-align:left}.preset-title h3{margin:16px 0 3px}.plan-name-button{display:flex;justify-content:space-between;align-items:center}.plan-name-button span{font-size:11px;color:#76717f}.availability-switch{display:flex;justify-content:space-between;align-items:center;margin-top:12px;padding:12px 14px;border-radius:18px;background:rgba(255,255,255,.72)}.availability-switch>span{display:grid;gap:3px}.availability-switch small{color:#777382}.picker-empty{padding:28px 0;text-align:center;color:#817c8b}
+.bottom-sheet{background:linear-gradient(160deg,#f8f6ff,#efecf8);box-shadow:0 -22px 58px rgba(38,29,67,.25)}.sheet-content{scrollbar-width:none}
+.records-content{min-height:1180px}.heatmap-card{background:rgba(255,255,255,.7);color:#111;border:1px solid rgba(255,255,255,.86);box-shadow:var(--shadow);backdrop-filter:blur(20px)}.heatmap-head>div:first-child>span{color:#777382}.view-toggle{border-color:#d5d0e2;background:rgba(238,234,248,.7)}.view-toggle button{color:#6f6a79}.view-toggle button.on{background:#111;color:#fff}.model-stage{margin-top:12px;border-radius:26px;background:linear-gradient(160deg,#17181b,#090a0d)}.inline-muscle-detail strong{color:#fff}.heat-note{color:#6f6a79}.heat-legend{color:#c5c7c4}.date-section,.recent-card{border-radius:30px}.week-grid button.selected{border:0;background:var(--lime);color:#111}.week-grid button.trained:after{background:#ff6652;box-shadow:0 0 0 1px rgba(117,24,14,.4)}.week-grid button.selected.trained:after{bottom:2px}.session-list{display:grid;gap:10px;margin-top:14px}.session-card{padding:16px;border-radius:22px;background:rgba(248,247,252,.88);border:1px solid #e5e1ee}.session-card>div:first-child>span{color:#817c8b;font-size:11px;font-weight:800}.session-card h3{margin:5px 0 2px;font-size:19px}.session-card p{margin:0;color:#777382;font-size:12px}.session-exercises{margin-top:12px;padding-top:8px;border-top:1px solid #e1ddea}.session-exercises>div{min-height:46px;display:flex;justify-content:space-between;align-items:center}.session-exercises small{color:#777382;text-align:right}
+@media(max-width:374px){.recommendation-home>h2{font-size:32px}.home-recommendation-card{flex-basis:300px}.floating-nav{left:10px;right:10px}}
+.storage-error{position:absolute;left:18px;right:18px;top:58px;z-index:220;padding:13px 15px;border-radius:18px;background:#21110f;color:#fff;font-size:13px;font-weight:750;box-shadow:0 12px 28px rgba(52,17,12,.26);pointer-events:none}
+
+/* V1.3 final Figma restoration — layout and proportion pass */
+:root{--ritmo-gutter:18px;--ritmo-nav-width:312px;--ritmo-safe-top:58px}
+.root-header{min-height:64px;align-items:center}.root-header-actions{display:flex;align-items:center;gap:8px}.header-environment{min-height:42px;padding:0 13px;border:1px solid rgba(255,255,255,.9);border-radius:999px;background:rgba(255,255,255,.72);display:flex;align-items:center;gap:5px;color:#171817;font-size:13px}.header-environment svg{width:14px;height:14px}.root-header .icon-button{width:42px;height:42px}
+.floating-nav{left:50%;right:auto;bottom:20px;width:min(var(--ritmo-nav-width),calc(100% - 32px));min-height:70px;padding:6px 8px calc(var(--mobile-safe-area-height) + 5px);transform:translateX(-50%)}.floating-nav button{min-width:86px;min-height:52px}.floating-nav button svg{width:18px;height:18px}.floating-nav button span{font-size:11px;font-weight:780}
+
+/* Training roots */
+.training-home-v3 .training-home-content{min-height:980px;padding:58px var(--ritmo-gutter) 132px}.training-home .root-header>div:first-child{display:grid;gap:1px}.training-home .root-header h1{font-size:42px;line-height:1}.environment-selector{display:none}.workout-hero-v3{height:504px;margin-top:18px;border-radius:24px;box-shadow:0 18px 40px rgba(8,9,8,.18)}.workout-hero-content{padding:21px 24px}.workout-hero-v3 .next-workout-title{margin:26px 0 0}.workout-hero-v3 .next-workout-title h2{font-size:72px;line-height:.86;letter-spacing:-5px}.workout-hero-meta{margin-top:16px}.workout-exercise-list{margin-top:15px;padding:0;border:0;border-radius:0;background:transparent;backdrop-filter:none}.workout-exercise-list>span{margin-bottom:6px}.workout-exercise-list>div{min-height:28px;border:0}.workout-hero-v3 .home-start-button{position:absolute;left:50%;bottom:22px;width:140px;height:140px;min-height:140px;margin:0;padding:0;border-radius:50%;transform:translateX(-50%);justify-content:center;text-align:center;box-shadow:0 10px 28px rgba(0,0,0,.2)}.workout-hero-v3 .home-start-button b{font-size:24px}.workout-hero-v3 .home-start-button small,.workout-hero-v3 .home-start-button>svg{display:none}.training-home-v3 .quick-start-card{min-height:92px;margin-top:12px;padding:0 20px;border-radius:24px}.training-home-v3 .quick-start-card b{font-size:21px}.training-home-v3 .quick-start-icon{width:48px;height:48px}
+.recommendation-home{margin-top:36px}.recommendation-home>span{display:none}.recommendation-home>h2{margin:0 0 12px;font-size:28px;letter-spacing:-1px}.recommendation-home>p{font-size:14px;color:#35323e}.home-recommendations{margin:20px -18px 0}.home-recommendation-track{gap:8px;padding:0 18px 12px}.home-recommendation-card{flex:0 0 294px;min-height:375px;padding:24px;border-radius:24px}.recommendation-title b{font-size:22px}.recommendation-meta{margin-top:7px}.home-recommendation-card ul{margin:16px 0 12px;padding:5px 0}.home-recommendation-card li{min-height:40px}.home-recommendation-card .home-start-button{min-height:56px;border-radius:20px;justify-content:center;text-align:center}.home-recommendation-card .home-start-button small,.home-recommendation-card .home-start-button svg{display:none}.home-recommendation-card .home-start-button b{font-size:16px}.custom-training-entry{min-height:92px;margin-top:4px;border-radius:24px}
+
+/* Immersive workout states */
+.active-content,.rest-content{min-height:852px;padding:58px 18px 28px}.immersive-header{display:flex;align-items:center;justify-content:space-between;gap:12px}.immersive-title{text-align:left!important}.immersive-header h1{font-size:21px;letter-spacing:-.3px}.immersive-header p{margin-top:5px;font-size:12px;color:#8f938d}.training-controls{height:46px;padding:0 4px 0 14px;border-radius:999px;background:var(--lime);display:flex;align-items:center}.training-controls .pause-button{height:42px;padding:0;border-radius:999px;background:transparent;font-size:13px}.training-more{width:34px;height:34px;border:0;border-radius:50%;background:rgba(8,9,8,.1);display:grid;place-items:center;color:#080908}.training-more svg{width:18px;height:18px}.exercise-media{height:357px;margin-top:20px;border:0;border-radius:24px}.rep-panel{margin:0;padding:54px 18px 0;border-radius:0;background:transparent;box-shadow:none}.rep-count{margin:0;line-height:.84}.rep-count strong{font-size:108px;letter-spacing:-5px}.target-summary{gap:8px;margin-top:44px;font-size:16px}.motion-cue{margin-top:18px;color:#777b76;font-size:13px}.rest-content{display:flex;flex-direction:column}.rest-label{margin-top:88px;text-align:center;color:#777b76;font-size:15px;font-weight:750}.rest-timer{margin:32px 0 36px;font-size:88px;letter-spacing:-4px}.next-set-row{min-height:70px;padding:0 20px;border-radius:22px}.next-set-row b{font-size:18px}.next-set-row>span:last-child{display:flex;align-items:center;gap:4px;font-size:14px}.next-set-row svg{width:15px;height:15px}.rest-actions{margin-top:auto;grid-template-columns:112px 1fr;gap:12px}.rest-actions button{min-height:68px;border-radius:22px}.actual-reps-disclosure{padding:12px 14px;border-radius:18px;background:rgba(255,255,255,.7)}.actual-reps-disclosure summary{cursor:pointer;font-size:13px;font-weight:800;color:#66616f}.actual-reps-disclosure .actual-reps-stepper{margin-top:10px}.precise-stepper{min-height:74px;border-radius:20px}.transition-screen{min-height:852px;padding:68px 18px 30px;text-align:left}.transition-kicker{margin-bottom:5px;font-size:12px}.transition-screen h1{font-size:24px;letter-spacing:-.6px}.transition-screen>p{margin:7px 0 0;font-size:13px}.transition-art{height:357px;margin:20px 0 20px;border-radius:24px}.transition-note{text-align:center;margin:0;font-size:17px}.transition-start{display:block;width:140px;height:140px;min-height:140px;margin:26px auto 0;border-radius:50%;font-size:20px}.transition-screen>.text-button{min-height:34px;margin-top:6px;font-size:12px}
+
+/* Plans and creation */
+.scheme-content{min-height:980px;padding:58px 18px 132px}.scheme-content .root-header{min-height:64px}.cycle-card{margin-top:22px;padding:20px 20px 12px;border-radius:24px}.cycle-head{padding:0 2px 10px}.cycle-head span{font-size:20px}.cycle-list>button{min-height:57px;grid-template-columns:1fr auto;gap:10px}.cycle-order{display:none}.cycle-list>button>span:nth-child(2){gap:3px}.cycle-list b{font-size:15px}.cycle-list small{font-size:11px}.cycle-list i{padding:4px 7px;font-size:9px}.scheme-heading{margin:24px 2px 10px}.scheme-heading h2{font-size:26px}.independent-list{padding:0 14px;border-radius:24px}.independent-list>button{min-height:72px}.create-plan-button{min-height:58px;border-radius:21px}.create-choice-content{min-height:980px;padding:58px 18px 80px}.subpage-header{min-height:52px}.subpage-header h1{font-size:24px}.blank-plan-card.primary-create{margin-top:22px}.blank-plan-card{border-radius:24px}.preset-card{border-radius:24px}.bottom-sheet:has(.plan-detail){max-height:79%!important}.bottom-sheet:has(.plan-detail:has(.expand-detail[aria-expanded="true"])){max-height:96%!important}.plan-detail{gap:0}.detail-exercise-row{min-height:62px}.sheet-save,.save-plan{min-height:68px;border-radius:22px}
+
+/* Exercise picker and sheet rhythm */
+.bottom-sheet{border-radius:30px 30px 0 0}.sheet-header{padding:3px 22px 14px}.sheet-title{font-size:24px}.sheet-description{font-size:12px}.sheet-content{padding:0 20px calc(var(--mobile-safe-area-height) + 22px)}.exercise-picker-layout{min-height:0;height:100%}.search-field{min-height:48px;border-radius:16px}.muscle-tabs{margin-top:12px}.availability-switch{padding:10px 14px}.library-list>button{min-height:62px}.picker-action{min-height:62px;border-radius:21px}
+
+/* Records */
+.records-content{min-height:1120px;padding:58px 18px 132px}.records-content .root-header{min-height:64px}.heatmap-card,.glass-card.heatmap-card{height:504px;margin-top:22px;padding:19px 24px 14px;border:0!important;border-radius:24px;background:#0d1015!important;color:#fff;box-shadow:0 18px 42px rgba(15,13,31,.18);backdrop-filter:none}.heatmap-head>div:first-child{display:flex;flex-direction:column}.heatmap-head h2{order:0;margin:0;font-size:20px}.heatmap-head>div:first-child>span{order:1;margin-top:5px;font-size:11px;color:#878c93}.view-toggle{border-color:#31353b;background:#242720}.view-toggle button{padding:7px 13px;color:#8f949b}.view-toggle button.on{background:#fff;color:#111}.model-stage{height:392px;margin:0;border-radius:0;background:transparent;overflow:hidden}.muscle-object{width:min(236px,64vw);height:338px;transform:translateX(-26px)}.inline-muscle-detail{right:0;top:100px;width:92px;padding:9px 0 9px 10px;border-left:1px solid var(--lime);background:transparent}.inline-muscle-detail b{font-size:13px}.inline-muscle-detail strong{color:var(--lime);font-size:12px}.heat-legend{left:0;right:0;bottom:5px;justify-content:space-between;gap:4px;font-size:9px}.heat-legend i{width:12px;height:12px}.heat-note{position:absolute;left:24px;right:24px;bottom:14px;margin:0;text-align:center;color:#777c84;font-size:10px}.records-history-heading{margin:28px 0 14px}.records-history-heading h2{font-size:27px}.records-history-heading button{background:transparent}.date-section{margin:0;padding:16px 12px 14px;border-radius:24px}.recent-card{border-radius:24px}.week-grid{margin-top:0}.week-grid button{aspect-ratio:1}.session-card{border-radius:20px}
+
+@media(max-width:374px){:root{--ritmo-gutter:14px}.workout-hero-v3{height:490px}.workout-hero-v3 .next-workout-title h2{font-size:66px}.home-recommendation-card{flex-basis:280px}.exercise-media,.transition-art{height:340px}.rep-count strong{font-size:100px}.heatmap-card,.glass-card.heatmap-card{height:492px}.model-stage{height:380px}.floating-nav{width:calc(100% - 28px)}}
+@media(min-height:900px){.training-home-v3 .training-home-content,.scheme-content,.records-content{min-height:1080px}.rest-label{margin-top:118px}.workout-hero-v3{margin-top:22px}}
+.plan-list-row{min-height:72px;border-bottom:1px solid #e3e0ec;display:flex;align-items:center;gap:8px}.plan-list-row:last-child{border-bottom:0}.plan-list-main{min-width:0;flex:1;min-height:72px;padding:0;border:0;background:transparent;display:flex;align-items:center;justify-content:space-between;text-align:left}.plan-list-main>span{display:grid;gap:4px}.plan-list-main small{color:#777382}
+.heat-legend>span{display:grid;justify-items:center;gap:5px}.heat-legend small{font-size:8px;white-space:nowrap;color:#b3b6bc}.heat-legend i{display:block}
+.heatmap-card{position:relative}
+.training-home .brand-wordmark{display:none}.training-home .root-header .root-header-actions{display:flex;align-items:center;gap:8px}.active-content,.rest-content{padding-top:72px}
+.bottom-sheet:has(.exercise-picker-layout){height:calc(100% - 65px)!important;max-height:calc(100% - 65px)!important}.bottom-sheet:has(.exercise-picker-layout) .sheet-content{height:calc(100% - 96px);max-height:none;padding-left:0;padding-right:0}.bottom-sheet:has(.exercise-picker-layout) .exercise-picker-layout{width:calc(100% - 40px);height:100%;margin:0 20px}.bottom-sheet:has(.plan-detail){height:79%!important;max-height:79%!important}.bottom-sheet:has(.plan-detail .expand-detail[aria-expanded="true"]){height:96%!important;max-height:96%!important}
+.home-recommendation-card .recommendation-title small{display:none}.rest-content{padding-bottom:52px}.rest-label{margin-top:58px}.transition-screen{padding-top:82px}.transition-start{margin-top:66px}
+.cycle-list>button{min-height:61px}
+
+/* Visual QA final annotation pass */
+:root{--paper:#eef1ff;--glass:rgba(255,255,255,.72);--glass-line:rgba(255,255,255,.88);--shadow:0 16px 38px rgba(76,68,122,.13)}
+.prototype-shell,.light-screen{background:linear-gradient(180deg,#f4f1ff 0%,#eef2ff 48%,#e8f0ff 100%)}
+
+/* Shared navigation */
+.floating-nav{bottom:18px;width:min(330px,calc(100% - 36px));min-height:68px;padding:6px 9px calc(var(--mobile-safe-area-height) + 5px);border-color:rgba(255,255,255,.94);background:rgba(255,255,255,.88)}
+.floating-nav button{min-width:92px;min-height:50px;gap:4px}.floating-nav button svg{width:19px;height:19px;stroke-width:2.2}.floating-nav button.on{background:var(--lime);border-radius:999px}.floating-nav button.on svg{stroke-width:2.8}
+
+/* 01 / 02 Training home */
+.workout-hero-photo{filter:grayscale(1) contrast(1.08) brightness(.55);transform:none}.workout-hero-shade{display:none}
+.workout-hero-v3{height:504px}.workout-hero-content{padding:21px 24px 18px}.workout-hero-v3 .next-workout-title{margin-top:20px}.workout-hero-v3 .next-workout-title h2{font-size:72px}.workout-hero-meta{gap:7px;margin-top:14px;font-size:13px;font-weight:700}.workout-hero-meta b{font-size:13px;font-weight:700}.workout-hero-meta span:before{content:none}
+.workout-exercise-list{margin-top:17px}.workout-exercise-list>div{min-height:27px;grid-template-columns:26px 1fr}.workout-exercise-list i{color:#f0f1ee;font-size:10px;font-weight:500}.workout-exercise-list b{font-size:13px;font-weight:620}
+.workout-hero-v3 .home-start-button{bottom:20px;width:136px;height:136px;min-height:136px}.training-home-v3 .quick-start-card{min-height:88px}.training-home-v3 .quick-start-icon{width:24px;height:24px;background:transparent;color:#111}.training-home-v3 .quick-start-icon svg{width:24px;height:24px}
+.recommendation-home{margin-top:32px}.home-recommendation-card{min-height:414px;padding:24px}.recommendation-title b{font-size:23px}.home-recommendation-card ul{min-height:190px;margin:14px 0 0;padding:4px 0;border:0}.home-recommendation-card li{min-height:37px;border:0}.home-recommendation-card .home-start-button{margin-top:auto;min-height:56px;margin-bottom:0}.custom-training-entry{margin-top:8px}.custom-training-entry>span{display:flex;flex-direction:column}.custom-training-entry>span small{order:0}.custom-training-entry>span b{order:1}
+
+/* 03 Plans home */
+.cycle-card{padding:20px 20px 14px}.cycle-head{padding-bottom:8px}.cycle-head>button{display:none}.cycle-list{display:grid}.cycle-row{min-height:61px;display:grid;grid-template-columns:1fr 34px;align-items:center;border:0}.cycle-plan-main{min-width:0;height:100%;padding:0;border:0;background:transparent;color:#fff;text-align:left}.cycle-plan-main>span{display:grid;gap:4px}.cycle-title-line{display:flex!important;align-items:center;gap:8px}.cycle-title-line b{font-size:15px}.cycle-title-line i{font-style:normal;padding:4px 7px;border-radius:999px;background:var(--lime);color:#080908;font-size:9px;font-weight:850}.cycle-plan-main small{color:#8f938e;font-size:11px}.cycle-drag{width:32px;height:32px;padding:0;border:0;background:transparent;color:#aeb2ac;display:grid;place-items:center}.cycle-drag svg{width:20px;height:20px}
+.scheme-heading{align-items:flex-start}.scheme-heading>div{display:grid;gap:5px}.scheme-heading p{margin:0;color:#777382;font-size:12px}.scheme-heading>button{border:0;background:transparent;color:#1b1b1b;display:flex;align-items:center;gap:2px;font-weight:780}.scheme-heading>button svg{width:15px;height:15px}.independent-list{padding:0 14px}.plan-list-row{border-bottom:0}.plan-list-main{border-bottom:0}.plan-list-main svg{width:16px;height:16px;margin-left:8px}.create-plan-button{display:none}
+
+/* 04 Create plan */
+.create-choice-content{padding-top:58px}.subpage-header{display:flex;justify-content:flex-start;gap:10px}.subpage-header .icon-button{width:44px;height:44px;flex:0 0 44px}.subpage-header h1{text-align:left;font-size:28px}.blank-plan-card.primary-create{min-height:152px;padding:22px;display:flex;flex-direction:column;justify-content:center;text-align:center;gap:10px}.blank-plan-card.primary-create>button{order:0;width:48px;height:48px}.blank-plan-card.primary-create>div{order:1}.blank-plan-card.primary-create h2{margin:0;font-size:18px}.blank-plan-card.primary-create p{margin-top:5px;font-size:12px}.create-section{margin-top:28px}.create-section h2{font-size:25px}.create-section>p{display:none}.preset-card{min-height:408px;padding:24px}.preset-card>span{display:none}.preset-title h3{margin:0;font-size:23px}.preset-card p{margin-top:6px}.preset-card ul{min-height:202px;margin:14px 0 0;padding:5px 0;border:0}.preset-card li{min-height:36px;padding:0;display:flex;align-items:center;justify-content:space-between;gap:12px}.preset-card li small{color:#9b9f98;font-size:11px}.preset-card .primary-button{margin-top:auto;min-height:58px}
+
+/* 05 / 06 Sheets */
+.bottom-sheet:has(.plan-detail) .sheet-header{display:none}.bottom-sheet:has(.plan-detail) .sheet-content{padding-top:4px}.plan-detail{position:relative}.expand-detail{position:absolute;right:0;top:2px;width:32px;height:32px;padding:0;font-size:0;display:grid;place-items:center}.plan-detail-heading{min-height:50px;padding-right:38px;display:flex;align-items:center;justify-content:center;gap:8px}.plan-detail-heading h2{margin:0;font-size:27px;letter-spacing:-.8px}.plan-detail-heading>button{width:32px;height:32px;border:0;border-radius:50%;background:transparent;display:grid;place-items:center}.plan-title-input{width:100%;height:48px;border:0;border-bottom:1px solid #b9b4c7;background:transparent;text-align:center;font-size:24px;font-weight:850;outline:0}.detail-section-head{margin:14px 2px 8px}.detail-section-head h3{font-size:20px}.detail-exercise-list{padding:0 14px;border-radius:22px}.detail-exercise-row{min-height:72px;border-bottom:0}.exercise-main b{font-size:15px}.row-menu{position:relative}.row-menu summary{width:34px;height:34px;border:0;border-radius:50%;background:transparent;list-style:none;display:grid;place-items:center}.row-menu summary::-webkit-details-marker{display:none}.row-menu>div{position:absolute;right:0;top:36px;z-index:5;padding:5px;border-radius:16px;background:#fff;box-shadow:0 10px 30px rgba(46,38,79,.22);display:flex;gap:4px}.row-menu button{width:34px;height:34px;border:0;border-radius:50%;background:#f0eef6;display:grid;place-items:center}.manual-add.compact{margin-top:12px;min-height:56px}.save-plan{min-height:66px;margin-top:14px}
+.sheet-header{text-align:center}.sheet-title{font-size:25px}.sheet-description{display:none}.search-field{background:rgba(255,255,255,.75);border:1px solid rgba(255,255,255,.9)}.muscle-tabs{gap:8px}.muscle-tabs button{min-width:52px;text-align:center}.availability-switch{margin-top:13px;background:rgba(255,255,255,.72)}.available-title{justify-content:flex-end;padding:11px 0 4px}.library-list{display:grid;gap:8px}.library-list>button{min-height:68px;padding:0 14px;border:1px solid rgba(255,255,255,.92);border-radius:20px;background:rgba(255,255,255,.72)}.library-list i{border-radius:8px}.picker-action{margin-top:12px;margin-bottom:8px}
+
+/* 07 / 08 / 09 Immersive states */
+.training-controls{padding-right:10px}.training-more{width:8px;height:8px;margin-left:-8px;padding:0;border:0;background:transparent;opacity:.001}.training-more svg{display:none}.training-controls .pause-button{padding:0 5px}.rep-panel{padding-top:52px}.rep-count strong{font-size:112px}.rest-label{margin-top:62px}.rest-timer{font-size:90px}.bottom-sheet:has(.rest-parameter-editor) .sheet-header{text-align:center}.bottom-sheet:has(.rest-parameter-editor) .sheet-content{padding-left:18px;padding-right:18px}.rest-parameter-editor{gap:10px}.rest-parameter-editor label{margin:8px 2px 0;font-size:17px}.precise-stepper{min-height:76px;padding:14px 16px;background:rgba(255,255,255,.76)}.sheet-save{min-height:64px;margin-bottom:8px}
+.training-controls .training-more{width:34px;height:34px;margin-left:5px;opacity:1;background:rgba(8,9,8,.1);display:grid;place-items:center}.training-controls .training-more svg{display:block}.training-control-actions{display:grid;gap:10px}.training-control-actions>button{width:100%;min-height:54px}.training-control-actions>button:disabled{opacity:.45}.transition-exit,.countdown-cancel{min-height:44px;padding:0 14px;border:0;border-radius:999px;background:rgba(255,255,255,.75);color:#201f24;font-weight:700}.transition-exit{float:right}.countdown-cancel{position:absolute;top:calc(env(safe-area-inset-top) + 36px);right:18px;z-index:2}.actual-reps-stepper{display:flex;align-items:center;justify-content:space-between;gap:12px}.actual-reps-stepper button{width:44px;height:44px;border:0;border-radius:50%;background:#eae9ed;display:grid;place-items:center}
+.global-settings{display:grid;gap:12px}.global-settings p{margin:0;padding:12px 14px;border-radius:16px;background:rgba(255,255,255,.72);color:#34313a}.global-settings button{min-height:52px}.delete-plan-button{display:block;width:100%;min-height:44px;margin:14px 0 0;border:0;background:transparent;color:#9b382e;font-weight:750}.cycle-reopen{width:100%;min-height:52px;margin-top:12px;padding:0 18px;border:0;border-radius:18px;background:rgba(255,255,255,.75);display:flex;align-items:center;justify-content:space-between;text-align:left;color:#39343d;font-weight:700}.calendar-picker{display:grid;gap:14px}.calendar-month{display:flex;align-items:center;justify-content:space-between}.calendar-month button{width:40px;height:40px;border:0;border-radius:50%;background:rgba(255,255,255,.75);display:grid;place-items:center}.calendar-days{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}.calendar-days button{min-height:42px;border:0;border-radius:50%;background:rgba(255,255,255,.7);position:relative}.calendar-days button.selected{background:var(--lime);font-weight:850}.calendar-days button:disabled{opacity:.3}.calendar-days i{position:absolute;left:calc(50% - 3px);bottom:3px;width:6px;height:6px;border-radius:50%;background:#ff4750}.library-list>button:disabled{opacity:.5;cursor:default}
+.cycle-drag{touch-action:none}
+.cycle-drag{cursor:grab}
+.cycle-drag:active{cursor:grabbing;color:var(--lime)}
+.cycle-row.dragging{opacity:.55}
+.cycle-row.drop-target{box-shadow:inset 0 2px var(--lime)}
+.exit-explanation{margin:0 0 10px;color:#777382;font-size:12px;line-height:1.5}
+.bottom-sheet:has(.rest-parameter-editor) .sheet-description{display:block;margin-top:5px;font-size:11px;color:#777382}
+
+/* 10 Next exercise */
+.transition-screen{padding-top:72px}.transition-kicker{display:flex;align-items:center;gap:4px;margin:0 0 8px;color:#55515d;font-size:14px;font-weight:500}.transition-kicker strong{font-weight:500}.transition-kicker svg{width:16px;height:16px}.transition-screen h1{font-size:36px;letter-spacing:-1.2px}.transition-art{height:350px;margin-top:24px}.transition-note{font-size:17px;font-weight:500}.transition-start{font-size:25px;border:1px solid rgba(105,151,0,.35);box-shadow:0 16px 36px rgba(104,145,0,.28)}
+
+/* 11 Records */
+.records-content .root-header h1{font-size:40px}.heatmap-head h2{font-size:19px}.heatmap-card,.glass-card.heatmap-card{height:504px}.muscle-object{width:min(234px,64vw);height:336px}.inline-muscle-detail{right:0;top:100px;width:105px;padding:8px 0;background:transparent;border:0}.inline-muscle-detail:before{content:"";position:absolute;right:100%;top:21px;width:var(--ritmo-muscle-leader-length,58px);height:1px;background:#bcc876}.inline-muscle-detail:after{content:"";position:absolute;right:calc(100% + var(--ritmo-muscle-leader-length,58px) - 2px);top:18px;width:7px;height:7px;border-radius:50%;background:#bcc876}.inline-muscle-detail b{font-size:13px}.inline-muscle-detail strong{color:#d8bc6b;font-size:12px}.inline-muscle-detail small{color:#858b92;font-size:9px}.heat-legend{bottom:7px}.heat-note{bottom:13px}.history-card{margin-top:0;padding:14px 14px 16px;border-radius:24px}.date-section-inner{padding-bottom:12px;border-bottom:1px solid rgba(115,107,143,.12)}.recent-content{padding:16px 2px 0}.recent-heading h2{font-size:18px}.recent-heading span{font-size:12px}.session-card{background:rgba(248,247,252,.7)}
+.bottom-sheet:has(.plan-detail){height:88%!important;max-height:88%!important}
+
+/* Training Home — isolated final Figma structure (01 Training · Home 改) */
+.training-home:has(.training-next-hero){background:radial-gradient(circle at 0% 100%,rgba(255,255,255,.5) 0%,rgba(255,255,255,0) 34%),linear-gradient(155deg,#f0effe 0%,#eceafb 42%,#e1e8fa 72%,#e9edfc 100%)}
+.training-home:has(.training-next-hero) .training-home-content{min-height:852px;padding:64px 18px 104px}
+.training-home:has(.training-next-hero) .root-header{height:69px;min-height:69px;padding:8px 0;align-items:center}
+.training-home:has(.training-next-hero) .root-header h1{font-family:var(--ritmo-font-numbers);font-size:42px;font-weight:700;line-height:53px;letter-spacing:0}
+.training-home:has(.training-next-hero) .root-header-actions{gap:12px}
+.training-home:has(.training-next-hero) .header-environment{width:93px;height:48px;min-height:48px;padding:0 12px;justify-content:center;gap:4px;border-color:rgba(255,255,255,.75);background:rgba(255,255,255,.65);font-size:15px;font-weight:400;white-space:nowrap}
+.training-home:has(.training-next-hero) .header-environment svg{width:24px;height:24px}
+.training-home:has(.training-next-hero) .root-header .icon-button{width:48px;height:48px;background:rgba(255,255,255,.65);box-shadow:inset 0 0 0 1px rgba(255,255,255,.75)}
+.training-home:has(.training-next-hero) .root-header .icon-button svg{width:24px;height:24px}
+
+.training-next-hero{position:relative;width:100%;height:504px;margin-top:8px;overflow:hidden;border:0;border-radius:24px;background:rgba(0,0,0,.6);color:#fff;box-shadow:inset 0 0 0 1px rgba(255,255,255,.12),0 14px 32px rgba(8,9,8,.17)}
+.training-next-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% center;filter:grayscale(1) contrast(1.08) brightness(.45)}
+.training-next-photo-placeholder{background:linear-gradient(150deg,#23242d,#111218 65%)}
+.training-next-copy{position:relative;width:100%;height:100%}
+.training-next-label{position:absolute;left:24px;top:18px;height:22px;color:#a1a49e;font-size:13px;font-weight:700;line-height:16px;letter-spacing:0}
+.training-next-copy h2{position:absolute;left:24px;top:66px;width:150px;height:80px;margin:0;color:#fff;font-family:var(--ritmo-font-numbers);font-size:76px;font-weight:400;line-height:80px;letter-spacing:-5px}
+.training-next-meta{position:absolute;left:24px;top:158px;height:19px;margin:0;color:#f3f4f1;font-size:13px;font-weight:400;line-height:17px;white-space:nowrap}
+.training-next-list{position:absolute;left:0;right:0;top:177px;width:100%;height:132px;display:grid;align-content:start;gap:4px;margin:0;padding:16px 24px;list-style:none}
+.training-next-list li{height:22px;display:grid;grid-template-columns:24px 1fr;align-items:center;color:#f3f4f1;font-size:13px;font-weight:400;line-height:17px}
+.training-next-list i{font-style:normal;color:#f3f4f1;font-weight:400}
+.training-next-list b{font-weight:400}
+.training-next-start{position:absolute;left:108px;top:340px;width:140px;height:140px;padding:0;border:1px solid rgba(255,255,255,.75);border-radius:50%;background:var(--lime);color:#111311;font-family:Arial,sans-serif;font-size:28px;font-weight:700;line-height:24px;box-shadow:none}
+
+.training-next-quick{width:100%;height:92px;margin-top:12px;padding:20px;border:1px solid rgba(255,255,255,.75)!important;border-radius:24px!important;background:rgba(255,255,255,.65)!important;box-shadow:none!important;display:flex;align-items:center;justify-content:space-between;text-align:left}
+.training-next-quick>span:first-child{display:grid;gap:4px}
+.training-next-quick small{color:#858881;font-size:11px;font-weight:500;line-height:14px}
+.training-next-quick b{color:#111311;font-size:21px;font-weight:800;line-height:26px}
+.training-next-quick-icon{width:48px;height:48px;border-radius:50%;background:#111311;color:#fff;display:grid;place-items:center}
+.training-next-quick-icon svg{width:24px;height:24px}
+
+.training-home:has(.training-next-hero)+.floating-nav{left:35px;right:auto;bottom:24px;width:312px;height:70px;min-height:70px;padding:4px;transform:none;border:0;border-radius:100px;background:#fff;box-shadow:none;backdrop-filter:none}
+.training-home:has(.training-next-hero)+.floating-nav button{width:100px;min-width:100px;height:62px;min-height:62px;padding:8px 0;border-radius:100px;gap:4px}
+.training-home:has(.training-next-hero)+.floating-nav button svg{width:28px;height:28px}
+.training-home:has(.training-next-hero)+.floating-nav button span{font-size:12px;font-weight:500;line-height:14px}
+.training-home:has(.training-next-hero)+.floating-nav button.on{font-weight:700}
+.training-home:has(.training-next-hero)+.floating-nav button.on span{font-weight:700}
+
+@media(max-width:374px){
+  .training-home:has(.training-next-hero) .training-home-content{padding-left:14px;padding-right:14px}
+  .training-next-hero{height:500px}
+  .training-next-copy h2{font-size:72px}
+  .training-home:has(.training-next-hero)+.floating-nav{width:calc(100% - 28px)}
+}
+
+/* Interaction follow-up: one clear training control, with no redundant icon. */
+.training-controls{padding:0 15px;min-height:46px}
+.training-controls .pause-button{min-width:0;padding:0;font-size:13px;white-space:nowrap}
+.bottom-sheet:has(.training-control-actions .control-resume){height:46%!important;max-height:46%!important}
+.bottom-sheet:has(.training-control-actions .control-resume):not(:has(.training-control-actions .secondary-button)){height:38%!important;max-height:38%!important}
+.bottom-sheet:has(.training-control-actions .control-resume) .sheet-content{padding:2px 22px calc(var(--device-safe-area-bottom, 34px) + 18px)}
+.training-control-actions:has(.control-resume){justify-items:center;gap:13px}
+.training-control-actions .control-resume{width:106px;height:106px;min-height:106px;border:0;border-radius:50%;background:var(--lime);color:#111;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-size:15px;font-weight:850;box-shadow:0 10px 20px rgba(113,149,0,.18)}
+.training-control-actions .control-resume svg{width:27px;height:27px}
+.training-control-actions:has(.control-resume) .danger-button,.training-control-actions:has(.control-resume) .secondary-button{width:100%;min-height:54px;border-radius:20px}
+.training-control-actions:has(.control-resume) .danger-button{background:#171719;color:#fff}
+.training-control-actions:has(.control-resume) .secondary-button{background:rgba(255,255,255,.4);border:1px solid #d8d1e5}
+.bottom-sheet:has(.training-control-actions>button:nth-child(4)){height:60%!important;max-height:60%!important}
+.countdown-screen strong{animation:ritmo-countdown-pop .75s ease-out both}
+.countdown-screen small{font-size:13px;color:#a9aba8}
+@keyframes ritmo-countdown-pop{from{opacity:.25;transform:scale(1.28)}to{opacity:1;transform:scale(1)}}
+@media(prefers-reduced-motion:reduce){.countdown-screen strong{animation:none}}
+
+/* Settings roadmap is presentation-only; environment management remains the sole setting action. */
+.bottom-sheet:has(.global-settings){height:min(680px,86%)!important;max-height:86%!important;background:#1e1e20!important;color:#f6f7f4}
+.bottom-sheet:has(.global-settings) .sheet-header{padding:3px 22px 18px}
+.bottom-sheet:has(.global-settings) .sheet-title{font-size:20px;line-height:26px;font-weight:650}
+.bottom-sheet:has(.global-settings) .sheet-content{padding:4px 18px calc(var(--device-safe-area-bottom, 34px) + 20px)}
+.global-settings{display:grid;gap:22px}
+.settings-section h3{margin:0 14px 8px;color:#a2a2a7;font-size:13px;line-height:18px;font-weight:500}
+.settings-group{overflow:hidden;border-radius:24px;background:#2c2c2e}
+.global-settings .settings-row{position:relative;display:flex;align-items:center;gap:12px;width:100%;min-height:56px;margin:0;padding:0 16px;border:0;border-radius:0;background:transparent;color:#f6f7f4;text-align:left;font-size:16px;line-height:22px;font-weight:400}
+.settings-row + .settings-row:before{content:"";position:absolute;top:0;left:48px;right:16px;height:1px;background:rgba(255,255,255,.1)}
+.settings-row-icon{display:grid;place-items:center;flex:0 0 20px;width:20px;height:20px;color:#c4c4c9}
+.settings-row-icon svg{width:20px;height:20px}
+.settings-row-label{flex:1;min-width:0}
+.settings-row-value,.settings-row-status{flex:none;color:#a2a2a7;font-size:12px;line-height:18px;white-space:nowrap}
+.settings-row-value{max-width:35%;overflow:hidden;text-overflow:ellipsis}
+.settings-row-chevron{flex:none;width:16px;height:16px;color:#929297}
+.settings-row-planned .settings-row-label{color:#c1c1c6}
+.settings-row-planned .settings-row-icon{color:#a2a2a7}
+.settings-row-action:active{background:rgba(255,255,255,.06)}
+.settings-row-action:focus-visible{outline:2px solid var(--lime);outline-offset:-3px}
+.global-settings .settings-done{width:100%;min-height:54px;margin:0;border-radius:20px}
+
+/* Calendar rings encode presence of a real session, not an activity target. */
+.inline-muscle-detail{right:calc(-10px - var(--ritmo-muscle-label-shift,0px))}
+.calendar-weekdays{display:grid;grid-template-columns:repeat(7,1fr);text-align:center;color:#807b8a;font-size:12px}
+.calendar-explanation{margin:0;color:#777382;font-size:12px;line-height:1.4}
+.calendar-month-summary{margin:-4px 0 0;text-align:center;color:#36303e;font-size:14px;font-weight:750}
+.bottom-sheet:has(.calendar-picker) .sheet-content{padding:0 20px calc(var(--device-safe-area-bottom, 34px) + 18px)}
+.calendar-days{gap:4px}
+.calendar-days button{min-width:0;min-height:60px;padding:3px 0;border:0;border-radius:12px;background:transparent;display:grid;justify-items:center;align-content:center;gap:5px}
+.calendar-days button span{width:24px;height:24px;display:grid;place-items:center;border-radius:50%;font-size:13px}
+.calendar-days button.selected{background:rgba(255,255,255,.55)}
+.calendar-days button.selected span{background:var(--lime);color:#111;font-weight:850}
+.calendar-days button:disabled{opacity:.28}
+.calendar-days .calendar-training-ring{position:static;width:23px;height:23px;border:4px solid #c9c5d0;border-radius:50%;background:transparent}
+.calendar-days button.trained .calendar-training-ring{border-color:#ff4750;background:rgba(255,71,80,.12)}
+
+/* First-batch final Figma alignment. The accepted NEXT home remains isolated above. */
+.training-home:not(:has(.training-next-hero)),.scheme-home,.plan-screen{background:radial-gradient(circle at 0% 100%,rgba(255,255,255,.5) 0%,rgba(255,255,255,0) 34%),linear-gradient(155deg,#f0effe 0%,#eceafb 42%,#e1e8fa 72%,#e9edfc 100%)}
+.training-home:not(:has(.training-next-hero)) .training-home-content{min-height:852px;padding:66px 18px 124px}
+.training-home:not(:has(.training-next-hero)) .root-header{height:69px;min-height:69px;padding:8px 0;align-items:center}
+.training-home:not(:has(.training-next-hero)) .root-header h1,.scheme-home .root-header h1{font-family:var(--ritmo-font-numbers);font-size:42px;font-weight:700;line-height:53px;letter-spacing:0}
+.training-home:not(:has(.training-next-hero)) .root-header-actions,.scheme-home .root-header-actions{gap:12px}
+.training-home:not(:has(.training-next-hero)) .header-environment,.scheme-home .header-environment{width:93px;height:48px;min-height:48px;padding:0 12px;display:flex;align-items:center;justify-content:center;gap:4px;border:1px solid rgba(255,255,255,.75);border-radius:100px;background:rgba(255,255,255,.65);font-size:15px;font-weight:400;white-space:nowrap;box-shadow:none}
+.training-home:not(:has(.training-next-hero)) .header-environment svg{width:24px;height:24px}
+.training-home:not(:has(.training-next-hero)) .root-header .icon-button,.scheme-home .root-header .icon-button{width:48px;height:48px;background:rgba(255,255,255,.65);box-shadow:inset 0 0 0 1px rgba(255,255,255,.75)}
+.training-home:not(:has(.training-next-hero)) .root-header .icon-button svg,.scheme-home .root-header .icon-button svg{width:24px;height:24px}
+.training-home:not(:has(.training-next-hero))+.floating-nav,.scheme-home+.floating-nav{left:35px;right:auto;bottom:24px;width:312px;height:70px;min-height:70px;padding:4px;transform:none;border:0;border-radius:100px;background:#fff;box-shadow:none;backdrop-filter:none}
+.training-home:not(:has(.training-next-hero))+.floating-nav button,.scheme-home+.floating-nav button{width:100px;min-width:100px;height:62px;min-height:62px;padding:8px 0;border-radius:100px;gap:4px}
+.training-home:not(:has(.training-next-hero))+.floating-nav button svg,.scheme-home+.floating-nav button svg{width:28px;height:28px}
+.training-home:not(:has(.training-next-hero))+.floating-nav button span,.scheme-home+.floating-nav button span{font-size:12px;font-weight:500;line-height:14px}
+.training-home:not(:has(.training-next-hero))+.floating-nav button.on span,.scheme-home+.floating-nav button.on span{font-weight:700}
+
+/* 02 Recommended training home */
+.recommendation-home{margin-top:32px}
+.recommendation-home>h2{font-size:28px;line-height:36px;letter-spacing:-1px}
+.recommendation-home>p{font-size:14px;line-height:21px;color:#302f38}
+.home-recommendations{margin-top:13px}
+.home-recommendation-track{gap:8px;padding-bottom:0}
+.home-recommendation-card{flex:0 0 294px;height:374px;min-height:374px;padding:25px;display:flex;flex-direction:column;border-radius:24px;background:#171719;box-shadow:0 13px 24px rgba(9,8,17,.12)}
+.home-recommendation-card .recommendation-title{flex:0 0 auto;min-height:28px}
+.home-recommendation-card .recommendation-title,.preset-card .preset-title{justify-content:flex-start;gap:6px}
+.home-recommendation-card .recommendation-title>span{display:block}
+.home-recommendation-card .recommendation-title b{font-size:22px;line-height:28px;font-weight:800}
+.home-recommendation-card .recommendation-title svg{width:20px;height:20px}
+.home-recommendation-card .recommendation-meta{margin-top:8px;font-size:12px;line-height:18px;color:#8c8f8b}
+.home-recommendation-card ul{flex:1;min-height:0;margin:28px 0 0;padding:0;border:0}
+.home-recommendation-card li{height:36px;min-height:36px;border:0;font-size:13px;font-weight:600}
+.home-recommendation-card li small{font-size:11px;color:#8e918e}
+.home-recommendation-card .home-start-button{flex:0 0 56px;height:56px;min-height:56px;margin:0;border-radius:20px}
+.custom-training-entry{height:92px;min-height:92px;margin-top:16px;padding:0 20px;border-radius:24px}
+.custom-training-entry small{font-size:11px}
+.custom-training-entry b{font-size:21px}
+.custom-training-icon{width:48px;height:48px;border-radius:50%;background:#111311;color:#fff;display:grid;place-items:center}
+.custom-training-icon svg{width:24px;height:24px}
+
+/* 03 Plans home */
+.scheme-content{min-height:852px;padding:62px 18px 128px}
+.scheme-content .root-header{height:64px;min-height:64px}
+.cycle-card{height:326px;margin-top:19px;padding:20px 24px 16px;border-radius:24px;background:#171719;box-shadow:0 14px 26px rgba(9,8,17,.12)}
+.cycle-head{height:61px;padding:0}
+.cycle-head span{font-size:20px;font-weight:800;line-height:24px}
+.cycle-head b{font-size:12px;font-weight:400;color:#8d918e}
+.cycle-row{height:59px;min-height:59px;grid-template-columns:1fr 28px}
+.cycle-title-line b{font-size:15px;font-weight:700}
+.cycle-plan-main small{font-size:11px}
+.cycle-drag svg{width:22px;height:22px}
+.scheme-heading{margin:24px 0 12px}
+.scheme-heading h2{font-size:26px;line-height:32px}
+.scheme-heading p{font-size:12px;line-height:17px}
+.scheme-home .independent-list.glass-card{padding:0;display:grid;gap:8px;background:transparent!important;border:0!important;box-shadow:none;backdrop-filter:none}
+.scheme-home .plan-list-row{height:66px;min-height:66px;padding:0 18px;border:1px solid rgba(255,255,255,.9);border-radius:24px;background:rgba(255,255,255,.72);box-shadow:none}
+.scheme-home .plan-list-main{min-height:64px}
+.scheme-home .plan-list-main{justify-content:flex-start}
+.scheme-home .plan-list-main small{display:flex;align-items:center;gap:3px}
+.scheme-home .plan-list-main small svg{width:14px;height:14px;margin:0}
+.scheme-home .plan-list-main b{font-size:15px}
+.scheme-home .plan-list-main small{font-size:11px}
+
+/* 04 Create plan */
+.create-choice-content{min-height:852px;padding:72px 18px 80px}
+.subpage-header{height:48px;min-height:48px;gap:8px}
+.subpage-header .icon-button{width:48px;height:48px;flex:0 0 48px}
+.subpage-header h1{font-size:30px;font-weight:800;letter-spacing:-1px}
+.blank-plan-card.primary-create{height:154px;min-height:154px;margin-top:20px;padding:20px;border-radius:24px;gap:10px;box-shadow:none}
+.blank-plan-card.primary-create>button{width:32px;height:32px;border:2px solid #34383a;border-radius:50%;background:transparent;color:#34383a}
+.blank-plan-card.primary-create>button svg{width:24px;height:24px}
+.blank-plan-card.primary-create h2{font-size:18px;line-height:22px}
+.blank-plan-card.primary-create p{font-size:12px;line-height:16px}
+.create-section{margin-top:40px}
+.create-section h2{font-size:25px;line-height:31px}
+.preset-carousel{margin-top:12px}
+.preset-track{gap:8px}
+.preset-card{flex:0 0 294px;height:374px;min-height:374px;padding:25px;display:flex;flex-direction:column;border-radius:24px;background:#171719}
+.preset-title h3{font-size:22px;line-height:28px;font-weight:800}
+.preset-title svg{width:20px;height:20px}
+.preset-card p{margin-top:8px;color:#8c8f8b;font-size:12px;line-height:18px}
+.preset-card ul{flex:1;min-height:0;margin:28px 0 0;padding:0;border:0}
+.preset-card li{height:36px;min-height:36px;padding:0;font-size:13px;font-weight:600}
+.preset-card li small{font-size:11px}
+.preset-card .primary-button{flex:0 0 56px;min-height:56px;margin:0;border-radius:20px;font-size:16px}
+
+/* 05 Plan detail sheet */
+.bottom-sheet:has(.plan-detail){height:79%!important;max-height:79%!important;background:linear-gradient(180deg,#f9f7ff 0%,#e5eaff 100%)}
+.bottom-sheet:has(.plan-detail .expand-detail[aria-expanded="true"]){height:96%!important;max-height:96%!important}
+.bottom-sheet:has(.plan-detail) .sheet-content{height:calc(100% - 24px);max-height:none;padding:8px 20px 23px}
+.plan-detail{height:100%;display:flex;flex-direction:column}
+.expand-detail{position:absolute;right:0;top:0;width:42px;height:24px;opacity:0}
+.plan-detail-heading{flex:0 0 50px;min-height:50px;padding:0;justify-content:center;gap:6px}
+.plan-detail-heading h2{font-size:26px;line-height:32px;font-weight:800}
+.plan-detail-heading>button{width:28px;height:28px}
+.plan-detail-heading>button svg{width:20px;height:20px}
+.detail-section-head{display:none}
+.detail-exercise-list{margin-top:30px;padding:0;display:grid;gap:12px;background:transparent}
+.detail-exercise-row{height:64px;min-height:64px;padding:0 16px;border:1px solid rgba(255,255,255,.9);border-radius:24px;grid-template-columns:32px minmax(0,1fr) 32px;gap:12px;background:rgba(255,255,255,.72)}
+.detail-exercise-index{width:32px;height:32px;border-radius:50%;background:#e8edff;color:#797f88;display:grid;place-items:center;font-size:13px;font-weight:800}
+.exercise-main{min-width:0;text-align:left}
+.exercise-main b{font-size:14px;font-weight:800}
+.exercise-main small{font-size:11px;color:#777d80}
+.row-menu summary{width:32px;height:36px}
+.row-menu summary svg{width:20px;height:20px}
+.manual-add.compact{flex:0 0 64px;height:64px;min-height:64px;margin-top:12px;border:1px solid rgba(255,255,255,.9);border-radius:24px;background:rgba(255,255,255,.72);font-size:14px}
+.manual-add.compact svg{width:26px;height:26px;border:2px solid #2a2e30;border-radius:50%;padding:2px}
+.save-plan{flex:0 0 68px;height:68px;min-height:68px;margin-top:auto;margin-bottom:0;border-radius:22px;font-size:17px}
+.detail-empty{margin-top:30px}
+
+/* 06 Add exercise sheet */
+.bottom-sheet:has(.exercise-picker-layout){background:linear-gradient(180deg,#f9f7ff 0%,#e5eaff 100%)}
+.bottom-sheet:has(.exercise-picker-layout) .sheet-header{padding:19px 22px 31px}
+.bottom-sheet:has(.exercise-picker-layout) .sheet-title{font-size:26px;line-height:30px;font-weight:800}
+.bottom-sheet:has(.exercise-picker-layout) .sheet-content{height:calc(100% - 114px);padding-bottom:13px}
+/* Keep search and muscle filters reachable while the simulated keyboard is open. */
+.device-screen:has(.keyboard-dock[data-visible="true"]) .bottom-sheet:has(.exercise-picker-layout){height:52%!important;max-height:52%!important}
+.device-screen:has(.keyboard-dock[data-visible="true"]) .bottom-sheet:has(.exercise-picker-layout) .sheet-header{padding:6px 20px 10px}
+.device-screen:has(.keyboard-dock[data-visible="true"]) .bottom-sheet:has(.exercise-picker-layout) .sheet-content{height:calc(100% - 64px)}
+.search-field{height:52px;min-height:52px;padding:0 16px;border:0;border-radius:18px}
+.search-field svg{width:20px;height:20px}
+.muscle-tabs{gap:4px;margin-top:15px}
+.muscle-tabs button{min-width:52px;height:38px;padding:0 8px;border:0;background:transparent;font-size:12px;color:#7a7e80}
+.muscle-tabs button.on{background:var(--lime);border:0;color:#111;font-weight:800}
+.availability-switch{height:35px;min-height:35px;margin-top:15px;padding:0;background:transparent}
+.availability-switch b{font-size:14px;font-weight:500}
+.available-title{display:none}
+.exercise-picker-scroll .available-title{display:flex;align-items:center;gap:8px}
+.exercise-picker-scroll{padding-top:12px}
+.library-list{gap:12px}
+.library-list>button{height:64px;min-height:64px;padding:0 18px;justify-content:flex-start;gap:12px;border:0;border-radius:24px}
+.library-list>button>span{flex:1}
+.library-list b{font-size:14px}
+.library-list small{font-size:11px}
+.library-list i{order:-1;width:20px;height:20px;flex:0 0 20px;border-radius:4px}
+.library-list i svg{width:14px;height:14px}
+.picker-action{height:68px;min-height:68px;margin:0;border-radius:22px}
+
+@media(max-width:374px){
+  .training-home:not(:has(.training-next-hero)) .training-home-content,.scheme-content,.create-choice-content{padding-left:14px;padding-right:14px}
+  .training-home:not(:has(.training-next-hero))+.floating-nav,.scheme-home+.floating-nav{left:14px;width:calc(100% - 28px)}
+  .home-recommendation-card,.preset-card{flex-basis:280px}
+}
+
+/* Designer review: let both carousels run to the screen's right edge. */
+.training-home:not(:has(.training-next-hero)) .home-recommendations,
+.plan-screen .preset-carousel{width:calc(100% + 36px);max-width:none}
+.training-home:not(:has(.training-next-hero)) .home-recommendation-track,
+.plan-screen .preset-track{padding-right:0}
+.custom-training-entry>.custom-training-icon{display:grid;place-items:center;flex:0 0 48px}
+.custom-training-icon svg{display:block}
+
+/* Loop membership is a subset of My Plans, not a move between lists. */
+.scheme-home .cycle-card{height:auto;min-height:326px;padding-bottom:9px}
+.scheme-home .header-environment svg{width:24px;height:24px}
+
+.blank-plan-card.primary-create>button{display:grid;place-items:center;padding:0;border:0;background:transparent;line-height:0}
+.blank-plan-card.primary-create>button svg{display:block;width:32px;height:32px}
+.preset-card .preset-title{padding:0}
+.preset-card .preset-title h3{margin-left:0;text-indent:0}
+
+@media(max-width:374px){
+  .training-home:not(:has(.training-next-hero)) .home-recommendations,
+  .plan-screen .preset-carousel{width:calc(100% + 28px)}
+}
+
+/* Selected muscle callout stays legible without changing the time-scale colors. */
+.records-screen .heatmap-card{--ritmo-muscle-figure-shift:10px;--ritmo-muscle-label-shift:8px;--ritmo-muscle-leader-length:calc(58px + var(--ritmo-muscle-figure-shift) + var(--ritmo-muscle-label-shift))}
+.heatmap-card,.glass-card.heatmap-card{height:548px}
+.heatmap-card .model-stage{height:428px}
+.heatmap-card .muscle-object{transform:translate(calc(-26px - var(--ritmo-muscle-figure-shift,0px)),-16px)}
+.heatmap-card .heat-legend{bottom:12px}
+.heatmap-card .heat-note{bottom:16px}
+.inline-muscle-detail:before,.inline-muscle-detail:after{background:var(--lime)}
+.inline-muscle-detail strong{color:var(--lime)}
+.records-history-heading button svg{width:25px;height:25px}
+
+/* Select only the weekday; the date independently conveys recorded / empty. */
+.week-grid button{aspect-ratio:auto;min-height:76px;display:flex;flex-direction:column;justify-content:flex-start;gap:5px;padding:3px 0;border:0;border-radius:0;background:transparent}
+.week-grid button .weekday-label{width:25px;height:25px;display:grid;place-items:center;border-radius:50%;color:#858391;font-size:11px}
+.week-grid button.selected,.week-grid button.selected.trained{background:transparent;color:inherit}
+.week-grid button.selected .weekday-label{background:var(--lime);color:#111;font-weight:850}
+.week-grid button .date-number{width:36px;height:36px;display:grid;place-items:center;border-radius:50%;background:#ebeefa;color:#858391;font-size:15px;font-weight:700}
+.week-grid button.trained .date-number{background:#ff4750;color:#fff}
+.week-grid button.today:not(.trained) .date-number{background:#eef0fa;color:#111}
+.week-grid button.trained:after{display:none}
+
+/* Let the dialog runtime disable hit testing on an underlying sheet. */
+.sheet-overlay{z-index:100;pointer-events:auto}
+.bottom-sheet{z-index:102;pointer-events:auto;touch-action:pan-y}
+/* The native pointer is hidden inside the phone, so its simulated cursor must float above sheets. */
+.device-screen:has(.bottom-sheet) .mobile-cursor{z-index:103}
+.device-screen:has(.bottom-sheet) .home-indicator-svg,
+.device-screen:has(.bottom-sheet) .android-navigation-bar{z-index:104}
+.bottom-sheet:has(.environment-options){height:35%!important;max-height:35%!important}
+.bottom-sheet:has(.environment-options) .sheet-header{padding:7px 24px 18px;text-align:center}
+.bottom-sheet:has(.environment-options) .sheet-title{font-size:24px}
+.bottom-sheet:has(.environment-options) .sheet-content{padding:0 18px 24px}
+.environment-options{gap:8px}
+.environment-options>button:not(.manage-environment-link){min-height:68px;padding:0 17px;border:0;border-radius:20px;background:rgba(255,255,255,.83)}
+.environment-options>button.selected{border:0;box-shadow:none}
+.environment-options>button .environment-radio{width:24px;height:24px;flex:0 0 24px;border:2px solid #9795a0;border-radius:50%;display:grid;place-items:center}
+.environment-options>button.selected .environment-radio{border-color:#111}
+.environment-options>button.selected .environment-radio:after{content:"";width:12px;height:12px;border-radius:50%;background:var(--lime)}
+
+/* One grouped environment card; the selection is a real brand-color SVG check. */
+.device-screen .bottom-sheet .environment-options {
+  display: grid;
+  gap: 0;
+  overflow: hidden;
+  border-radius: 24px;
+  background: #2c2c2e;
+}
+.device-screen .bottom-sheet .environment-options > button[role="radio"] {
+  position: relative;
+  min-height: 54px;
+  padding: 0 17px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #f6f7f4;
+  box-shadow: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+.device-screen .bottom-sheet .environment-options > button[role="radio"] + button::before {
+  content: "";
+  position: absolute;
+  inset: 0 17px auto;
+  height: 1px;
+  background: rgba(255,255,255,.13);
+}
+.device-screen .bottom-sheet .environment-options > button[role="radio"]:active { background: rgba(255,255,255,.055); }
+.device-screen .bottom-sheet .environment-options > button[role="radio"]:focus-visible { outline: 2px solid var(--lime); outline-offset: -3px; }
+.device-screen .bottom-sheet .environment-options > button[role="radio"] > .environment-check {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--lime);
+}
+
+/* Final Rest Parameters: minus / value / plus, with caption below value. */
+.bottom-sheet:has(.rest-parameter-editor){height:51%!important;max-height:51%!important}
+.bottom-sheet:has(.rest-parameter-editor .actual-reps-disclosure){height:60%!important;max-height:60%!important}
+.bottom-sheet:has(.rest-parameter-editor) .sheet-header{padding:3px 20px 15px;text-align:center}
+.bottom-sheet:has(.rest-parameter-editor) .sheet-description{display:none}
+.bottom-sheet:has(.rest-parameter-editor) .sheet-content{height:calc(100% - 76px);max-height:none;padding:6px 20px 16px;display:flex;flex-direction:column}
+.rest-parameter-editor{display:grid;gap:20px;flex:1}
+.rest-parameter-target{text-align:center;color:#777382;font-size:12px;font-weight:650}
+.rest-parameter-row{display:grid;grid-template-columns:54px 1fr 54px;align-items:center;gap:4px;min-height:103px}
+.rest-parameter-row>button{width:48px;height:48px;border:0;border-radius:50%;background:rgba(255,255,255,.77);display:grid;place-items:center;color:#111}
+.rest-parameter-row>button:last-child{justify-self:end}
+.rest-parameter-row>button svg{width:24px;height:24px}
+.rest-parameter-row>span{display:grid;gap:8px;text-align:center}
+.rest-parameter-row b{font-size:30px;line-height:1.05}
+.rest-parameter-row small{color:#868490;font-size:11px}
+.bottom-sheet:has(.rest-parameter-editor) .sheet-save{flex:0 0 64px;margin:0 0 6px}
+
+/* Plan exercise editing uses the same centered stepper anatomy as training parameters. */
+.bottom-sheet:has(.plan-parameter-editor){height:min(550px,calc(100% - 64px))!important;max-height:calc(100% - 64px)!important}
+.bottom-sheet:has(.plan-parameter-editor) .sheet-header{padding:3px 20px 12px;text-align:center}
+.bottom-sheet:has(.plan-parameter-editor) .sheet-content{height:calc(100% - 76px);max-height:none;padding:6px 20px calc(var(--device-safe-area-bottom, 34px) + 20px);display:flex;flex-direction:column}
+.plan-parameter-editor{display:grid;gap:4px;align-content:space-around;flex:1;min-height:0}
+.plan-parameter-editor .rest-parameter-row{min-height:94px}
+.bottom-sheet:has(.plan-parameter-editor) .sheet-save{flex:0 0 64px;margin:8px 0 0}
+
+/* Root-page consistency: use the accepted training header and capsule as the shared baseline. */
+.scheme-content,.records-content{padding-top:64px}
+.scheme-home .root-header,.records-screen .root-header{height:69px;min-height:69px;padding:8px 0;align-items:center}
+.records-screen .root-header h1{font-family:var(--ritmo-font-numbers);font-size:42px;font-weight:700;line-height:53px;letter-spacing:0}
+.records-screen .root-header .icon-button{width:48px;height:48px;background:rgba(255,255,255,.65);box-shadow:inset 0 0 0 1px rgba(255,255,255,.75)}
+.records-screen .root-header .icon-button svg{width:24px;height:24px}
+.recommendation-home>h2,.scheme-heading h2,.records-history-heading h2{font-size:28px;line-height:36px;letter-spacing:-.04em}
+.recommendation-home>p,.scheme-heading p{font-size:14px;line-height:21px;color:#716d7b}
+.records-screen+.floating-nav{left:35px;right:auto;bottom:24px;width:312px;height:70px;min-height:70px;padding:4px;transform:none;border:0;border-radius:100px;background:#fff;box-shadow:none;backdrop-filter:none}
+.records-screen+.floating-nav button{width:100px;min-width:100px;height:62px;min-height:62px;padding:8px 0;border-radius:100px;gap:4px}
+.records-screen+.floating-nav button svg{width:28px;height:28px}
+.records-screen+.floating-nav button span{font-size:12px;font-weight:500;line-height:14px}
+.records-screen+.floating-nav button.on span{font-weight:700}
+
+/* Recommended cards should end cleanly without a dark shadow strip. */
+.home-recommendation-card{box-shadow:none}
+.home-recommendation-track{padding-bottom:0}
+
+/* An environment without saved plans offers the same reusable templates as creation. */
+.scheme-home .plans-recommendations{width:calc(100% + 36px);max-width:none;margin-top:14px}
+.scheme-home .plans-recommendations .preset-track{padding-right:0}
+.scheme-home .plans-recommendations .preset-card{box-shadow:none}
+
+/* Keep vertical scrolling and sheet interaction, but never draw a scroll indicator. */
+.prototype-shell .mobile-scrollbar{display:none}
+.prototype-shell .mobile-scroll,.prototype-shell .sheet-content,.prototype-shell .exercise-picker-scroll{scrollbar-width:none}
+.prototype-shell .mobile-scroll::-webkit-scrollbar,.prototype-shell .sheet-content::-webkit-scrollbar,.prototype-shell .exercise-picker-scroll::-webkit-scrollbar{display:none}
+
+/* The ring fills once over the real 3-2-1 countdown; the digit and workout timer remain independent. */
+.countdown-ring{position:relative;width:min(62vw,230px);height:min(62vw,230px);display:grid;place-items:center}
+.countdown-ring-progress{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.countdown-ring-track,.countdown-ring-fill{fill:none;stroke-width:13}
+.countdown-ring-track{stroke:#163b0b}
+.countdown-ring-fill{stroke:var(--lime);stroke-linecap:round;stroke-dasharray:100;stroke-dashoffset:100;transform:rotate(-90deg);transform-origin:center;animation:ritmo-countdown-fill 3s linear forwards}
+.countdown-ring strong{position:relative;font-size:clamp(100px,30vw,124px);font-weight:760;color:#fff;letter-spacing:-.055em}
+@keyframes ritmo-countdown-fill{to{stroke-dashoffset:0}}
+@media(prefers-reduced-motion:reduce){.countdown-ring-fill{animation:none}.countdown-ring-fill{stroke-dashoffset:0}}
+
+/* End confirmation has two actions and uses the device's safe area, not the page scroll variable. */
+.bottom-sheet:has(.end-workout-actions){height:28%!important;max-height:28%!important}
+.bottom-sheet:has(.end-workout-actions) .sheet-header{padding:3px 22px 18px;text-align:center}
+.bottom-sheet:has(.end-workout-actions) .sheet-content{max-height:calc(100% - 72px);padding:0 22px calc(var(--device-safe-area-bottom,34px) + 16px)}
+.end-workout-actions{display:grid;gap:12px}
+.end-workout-actions .danger-button{min-height:62px;border-radius:22px}
+.end-workout-continue{min-height:44px;border:0;background:transparent;color:#34303b;font-weight:750}
+
+/* The date rows change by one whole week or month per horizontal gesture. */
+.week-grid,.calendar-picker{touch-action:pan-y;user-select:none}
+.calendar-month{min-height:40px;justify-content:center}
+
+@media(max-width:374px){
+  .heatmap-card,.glass-card.heatmap-card{height:536px}
+  .heatmap-card .model-stage{height:416px}
+  .bottom-sheet:has(.environment-options){height:38%!important;max-height:38%!important}
+  .records-screen+.floating-nav{left:14px;width:calc(100% - 28px)}
+  .scheme-home .plans-recommendations{width:calc(100% + 28px)}
+}
+.system-phase-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:11px 3px 5px;border-top:1px solid #e9e8e4;font-size:12px;font-weight:850;color:#5f625c}.system-phase-heading small{font-size:10px;font-weight:650;color:#93968f}.system-phase-row{display:grid;grid-template-columns:30px 1fr auto;align-items:center;gap:8px;min-height:60px}.system-phase-row .exercise-main{cursor:default}.system-phase-row .exercise-main b{font-size:13px}.system-phase-row .exercise-main small{line-height:1.35}.system-phase-lock{font-size:10px;color:#8b8f88}.system-phase-notice{padding:11px 4px;color:#8a6152;font-size:12px}
+.phase-summary-screen{padding:88px 22px 30px;display:grid;align-content:start;gap:18px;min-height:100dvh}.phase-summary-screen .phase-kicker{font-size:12px;color:#777;font-weight:800}.phase-summary-screen h1{font-size:34px;line-height:1.15;margin:0}.phase-summary-screen p{margin:0;color:#6d706b}.phase-summary-stats{display:grid;gap:10px}.phase-summary-stats>div{display:flex;justify-content:space-between;align-items:center;padding:16px;border-radius:18px;background:#fff}.phase-summary-stats b{font-size:22px}.phase-summary-stats span{color:#777;font-size:13px}.phase-summary-screen .primary-button{margin-top:18px}.phase-record-card{margin-top:12px;padding:16px;border-radius:20px;background:#f6f5fa;display:grid;gap:9px}.phase-record-card>b{font-size:13px}.phase-record-card>div{display:flex;justify-content:space-between;gap:10px;font-size:12px}.phase-record-card small{color:#777;text-align:right}
+.recommendation-detail-list>.recommendation-phase-heading{display:block;min-height:auto;padding:12px 0 5px;border-bottom:1px solid #ddd9e9;color:#777382;font-size:12px;font-weight:850}
+
+/* V1.7: use the existing training UI at actual phone size in Safari and as a Home Screen web app. */
+@media (max-width: 600px), (display-mode: standalone) {
+  html, body, #root { width: 100%; height: 100%; min-height: 100%; background: #e9edfc; }
+  html:has(.training-screen, .countdown-screen),
+  body:has(.training-screen, .countdown-screen),
+  #root:has(.training-screen, .countdown-screen) { background: #080a09; }
+  .phone-stage { position: fixed; inset: 0; display: block; width: 100%; height: auto; padding: 0; }
+  .device-menu-bar, .phone-bezel, .device-camera, .mobile-cursor,
+  .status-bar, .home-indicator-svg, .android-navigation-bar, .keyboard-dock { display: none !important; }
+  .phone-scale-box, .phone-device, .device-screen {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    transform: none !important;
+  }
+  .device-screen {
+    --device-safe-area-bottom: max(24px, env(safe-area-inset-bottom, 0px)) !important;
+    border-radius: 0 !important;
+    box-shadow: none;
+    cursor: auto !important;
+  }
+  .device-screen, .device-screen * { cursor: auto !important; }
+  .prototype-shell .floating-nav { left: 50% !important; right: auto !important; transform: translateX(-50%) !important; }
+  .exercise-media, .transition-art { width: min(100%, 357px); height: auto; aspect-ratio: 1; margin-right: auto; margin-left: auto; }
+  .mobile-page { --keyboard-height: 0px !important; }
+  .mobile-scroll { bottom: 0 !important; }
+}
+.records-screen .session-list{gap:0;margin-top:6px}
+.records-screen .session-card{padding:16px 2px;border:0;border-top:1px solid rgba(115,107,143,.15);border-radius:0;background:transparent}
+.records-screen .session-card:first-child{border-top:0}
+.records-screen .session-head{display:block;width:100%;padding:0;border:0;background:transparent;text-align:left;color:#151619}
+.records-screen .session-meta{display:flex;justify-content:space-between;align-items:center;gap:14px;color:#777382;font-size:12px;font-weight:500;line-height:1.4}
+.records-screen .session-meta span{min-width:0;overflow-wrap:anywhere}
+.records-screen .session-meta time{flex:none;font-variant-numeric:tabular-nums}
+.records-screen .session-duration{display:block;margin-top:7px;font-size:30px;font-weight:800;line-height:1.15;letter-spacing:-.03em}
+.records-screen .session-exercises{display:grid;gap:8px;margin-top:14px;padding:0;border:0}
+.records-screen .record-exercise-card{display:grid;gap:6px;min-height:0;padding:13px 15px;border-radius:18px;background:#fff;box-shadow:inset 0 0 0 1px rgba(102,107,96,.09)}
+.records-screen .record-exercise-card span{font-size:12px;font-weight:500;color:#44464a}
+.records-screen .record-exercise-card strong{font-size:18px;font-weight:800;line-height:1.3;color:#597d00;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+
+/* The accepted brand motion lives on the real home START button. */
+.training-next-start.ritmo-brand-start-glow{isolation:isolate;overflow:hidden;display:grid;place-items:center;touch-action:manipulation}
+.ritmo-brand-start-icon{position:relative;z-index:2;display:block;width:48%;height:48%;fill:currentColor;pointer-events:none}
+.ritmo-brand-icon-hidden .ritmo-brand-start-icon{opacity:0}
+.training-next-start.ritmo-brand-start-glow::before{content:"";position:absolute;inset:-12%;border-radius:50%;pointer-events:none;opacity:.3;background:radial-gradient(circle at center,rgba(255,255,255,.84) 0%,rgba(243,255,197,.48) 17%,rgba(220,255,126,.17) 34%,transparent 55%);transform:translate3d(-18%,-15%,0);will-change:transform;animation:ritmo-brand-glow 6s ease-in-out infinite}
+@keyframes ritmo-brand-glow{0%,100%{transform:translate3d(-18%,-15%,0)}25%{transform:translate3d(12%,-16%,0)}50%{transform:translate3d(18%,13%,0)}75%{transform:translate3d(-11%,17%,0)}}
+.training-next-start.ritmo-brand-glow-paused::before{animation-play-state:paused}
+.ritmo-brand-intro{position:absolute;inset:0;z-index:90;display:grid;place-items:center;overflow:hidden;background:#080a09;pointer-events:none;opacity:0;visibility:hidden}
+.ritmo-brand-intro.ritmo-brand-intro-visible{opacity:1;visibility:visible}
+.ritmo-brand-wordmark{position:relative;width:min(65%,255px);container-type:inline-size}
+.ritmo-brand-wordmark img{display:block;width:100%;clip-path:inset(0 0 0 0)}
+.ritmo-brand-wordmark.ritmo-brand-o-free img{clip-path:inset(0 22% 0 0)}
+.ritmo-brand-moving-o{position:absolute;left:78.02%;top:2.32%;width:21.35%;aspect-ratio:1;border:5.08cqw solid #b7ff19;border-radius:50%;background:transparent;transform-origin:center center;will-change:transform;z-index:2}
+.ritmo-brand-morph-mark{position:absolute;z-index:3;display:block;transform:translate(-50%,-50%);pointer-events:none;fill:#111311;overflow:visible}
+@media(prefers-reduced-motion:reduce){.training-next-start.ritmo-brand-start-glow::before{animation:none;transform:translate3d(-10%,-10%,0)}}
+@media (max-width: 600px), (display-mode: standalone) {
+  html.ritmo-standalone, html.ritmo-standalone body, html.ritmo-standalone #root {
+    height: var(--ritmo-standalone-height);
+    min-height: var(--ritmo-standalone-height);
+  }
+  html.ritmo-standalone .phone-stage {
+    height: var(--ritmo-standalone-height);
+    bottom: auto;
+  }
+  html.ritmo-standalone .prototype-shell .floating-nav {
+    bottom: max(24px, env(safe-area-inset-bottom, 0px)) !important;
+  }
+}
+
+/* V1.8: designer-selected compact navigation and three selected/idle icon pairs. */
+:where(.prototype-shell, .device-screen .bottom-sheet) button,
+:where(.prototype-shell, .device-screen .bottom-sheet) a {
+  color: inherit;
+}
+.prototype-shell .floating-nav.ritmo-compact-nav {
+  left: 50% !important;
+  right: auto !important;
+  bottom: max(24px, env(safe-area-inset-bottom, 0px)) !important;
+  width: 296px !important;
+  height: 58px !important;
+  min-height: 58px !important;
+  padding: 4px !important;
+  display: grid !important;
+  grid-template-columns: repeat(3, 96px);
+  justify-content: start !important;
+  gap: 0 !important;
+  transform: translateX(-50%) !important;
+  border: 0 !important;
+  border-radius: 100px !important;
+  background: #fff !important;
+  box-shadow: 0 7px 20px rgba(59, 52, 95, .08) !important;
+  backdrop-filter: none !important;
+  overflow: hidden;
+}
+.ritmo-compact-nav .ritmo-nav-selection {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 96px;
+  height: 50px;
+  border-radius: 100px;
+  background: var(--lime);
+  transform: translate3d(0, 0, 0);
+  transition: transform 320ms cubic-bezier(.2, .83, .25, 1);
+  pointer-events: none;
+  will-change: transform;
+}
+.ritmo-compact-nav[data-active="plans"] .ritmo-nav-selection { transform: translate3d(96px, 0, 0); }
+.ritmo-compact-nav[data-active="records"] .ritmo-nav-selection { transform: translate3d(192px, 0, 0); }
+.prototype-shell .floating-nav.ritmo-compact-nav button {
+  position: relative;
+  z-index: 1;
+  width: 96px !important;
+  min-width: 96px !important;
+  height: 50px !important;
+  min-height: 50px !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px !important;
+  border: 0 !important;
+  border-radius: 100px !important;
+  background: transparent !important;
+  color: #878c8a;
+  transition: color 210ms ease, transform 100ms ease;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+.prototype-shell .floating-nav.ritmo-compact-nav button.on { color: #0c0d0c !important; }
+.ritmo-compact-nav button:active { transform: scale(.96); }
+.prototype-shell .floating-nav.ritmo-compact-nav button span {
+  font-size: 11px !important;
+  line-height: 12px !important;
+  font-weight: 600 !important;
+}
+.prototype-shell .floating-nav.ritmo-compact-nav button.on span { font-weight: 760 !important; }
+.ritmo-compact-nav .ritmo-nav-icon {
+  display: block;
+  width: 22px;
+  height: 22px;
+  flex: none;
+  background: currentColor;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+.ritmo-compact-nav .ritmo-nav-icon-training { -webkit-mask-image: url('/icons/nav/reference-v2/training.svg'); mask-image: url('/icons/nav/reference-v2/training.svg'); }
+.ritmo-compact-nav .ritmo-nav-icon-plans { -webkit-mask-image: url('/icons/nav/reference-v2/plans.svg'); mask-image: url('/icons/nav/reference-v2/plans.svg'); }
+.ritmo-compact-nav .ritmo-nav-icon-records { -webkit-mask-image: url('/icons/nav/reference-v2/records.svg'); mask-image: url('/icons/nav/reference-v2/records.svg'); }
+@media (prefers-reduced-motion: reduce) {
+  .ritmo-compact-nav .ritmo-nav-selection,
+  .prototype-shell .floating-nav.ritmo-compact-nav button { transition-duration: 0ms !important; }
+}
+
+/* One title-to-first-card gap for the three main tabs. Card sizes stay independent. */
+.prototype-shell { --ritmo-home-first-card-gap: 20px; }
+.training-home:has(.training-next-hero) .training-next-hero,
+.scheme-home .cycle-card,
+.records-screen .heatmap-card {
+  margin-top: var(--ritmo-home-first-card-gap);
+}
+
+/* Approved dark theme across the three main tabs. */
+.training-home-dark.home-background-chest { --ritmo-home-photo: url('/assets/home/muscle-v2/chest.webp'); }
+.training-home-dark.home-background-back { --ritmo-home-photo: url('/assets/home/muscle-v2/back.webp'); }
+.training-home-dark.home-background-shoulders { --ritmo-home-photo: url('/assets/home/muscle-v2/shoulders.webp'); }
+.training-home-dark.home-background-arms { --ritmo-home-photo: url('/assets/home/muscle-v2/arms.webp'); }
+.training-home-dark.home-background-legs { --ritmo-home-photo: url('/assets/home/muscle-v2/legs.webp'); }
+.training-home-dark.home-background-core {
+  --ritmo-home-photo: url('/assets/home/muscle-v2/core.webp');
+  --ritmo-home-photo-size: auto 1030.4px;
+  --ritmo-home-photo-position: right -95px;
+}
+.training-home.training-home-dark,
+.training-home.training-home-dark:has(.training-next-hero),
+.training-home.training-home-dark:not(:has(.training-next-hero)) {
+  color: #f7f9f3;
+  background-color: #050705;
+  background-image:
+    linear-gradient(180deg, rgba(3,5,3,.14) 0%, rgba(3,5,3,.08) 35%, #050705 84%),
+    linear-gradient(90deg, rgba(3,5,3,.78) 0%, rgba(3,5,3,.28) 62%, rgba(3,5,3,.03) 100%),
+    var(--ritmo-home-photo, url('/assets/home/immersive-athlete.jpg'));
+  background-repeat: no-repeat;
+  background-size: 100% 900px, 100% 850px, var(--ritmo-home-photo-size, auto 805px);
+  background-position: center top, center top, var(--ritmo-home-photo-position, right top);
+}
+.training-home.training-home-dark .training-home-content,
+.training-home.training-home-dark:has(.training-next-hero) .training-home-content,
+.training-home.training-home-dark:not(:has(.training-next-hero)) .training-home-content {
+  min-height: 920px;
+  padding: 64px 18px 130px;
+}
+.training-home.training-home-dark .root-header {
+  height: 69px;
+  min-height: 69px;
+  padding: 8px 0;
+  position: relative;
+  z-index: 2;
+}
+.training-home.training-home-dark .training-home-logo {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 52px;
+  margin: 0;
+}
+.training-home-logo img { display: block; width: 150px; height: auto; }
+.device-screen:has(.training-home-dark) .status-bar { color: #fff; }
+.device-screen:has(.training-home-dark) .status-indicator-svg { filter: invert(1) brightness(1.35); }
+.device-screen:has(.training-home-dark) .home-indicator-svg rect { fill: #fff; }
+
+.training-home-dark .training-next-hero.training-immersive-hero {
+  position: relative;
+  height: auto;
+  margin-top: 20px;
+  padding: 30px 0 22px;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.training-immersive-title {
+  position: relative;
+  margin: 0 8px 0 6px;
+  text-shadow: 0 2px 18px rgba(0,0,0,.42);
+}
+.training-immersive-title span {
+  color: #edf4e8;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+.training-immersive-title h2 {
+  max-width: 335px;
+  margin: 13px 0 10px;
+  color: #fff;
+  font-size: clamp(38px, 10vw, 52px);
+  font-weight: 850;
+  line-height: 1.08;
+  letter-spacing: -.045em;
+}
+.training-immersive-title p { margin: 0; color: #d8dfd2; font-size: 14px; }
+.training-immersive-list {
+  display: grid;
+  gap: 11px;
+  margin: 25px 0 0;
+  padding: 0 6px;
+  list-style: none;
+}
+.training-immersive-list li { display: flex; gap: 13px; color: #e9eee5; font-size: 14px; line-height: 20px; text-shadow: 0 2px 12px rgba(0,0,0,.62); }
+.training-immersive-list li i { color: #b9c5af; font-style: normal; font-variant-numeric: tabular-nums; }
+.training-start-orbit {
+  --ritmo-orbit-cycle: 1.976s;
+  position: relative;
+  width: 192px;
+  height: 192px;
+  flex: none;
+  align-self: center;
+  margin: 30px 0 0;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(182,255,22,.2);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(121,179,0,.12) 40%, transparent 70%);
+}
+.training-start-orbit::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: 50%;
+  background: conic-gradient(from -36deg, transparent 0deg, #d7ff67 24deg, #b6ff16 55deg, transparent 75deg, transparent 360deg);
+  -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 5px), #000 calc(100% - 4px));
+  mask: radial-gradient(farthest-side, transparent calc(100% - 5px), #000 calc(100% - 4px));
+  animation: ritmo-start-synchronized-orbit var(--ritmo-orbit-cycle) infinite;
+  pointer-events: none;
+}
+/* 90deg slow = 1352ms, remaining 270deg = 624ms (half the old fast time).
+   120ms ramps match the adjacent angular speeds; both visual layers share this. */
+@keyframes ritmo-start-synchronized-orbit {
+  0% { transform: rotate(0deg); animation-timing-function: linear; }
+  68.4210526316% { transform: rotate(90deg); animation-timing-function: cubic-bezier(.3333333333,0.0756756757,.6666666667,0.4090090090); }
+  74.4939271255% { transform: rotate(125.1859678783deg); animation-timing-function: linear; }
+  93.9271255061% { transform: rotate(324.8140321217deg); animation-timing-function: cubic-bezier(.3333333333,0.5909909910,.6666666667,0.9243243243); }
+  100% { transform: rotate(360deg); }
+}
+.training-start-orbit:has(.ritmo-brand-glow-paused)::before { animation-play-state: paused; }
+.training-home-dark .training-next-start {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 146px;
+  height: 146px;
+  border: 1px solid rgba(235,255,191,.72);
+  background: #b5f915;
+  box-shadow: inset 0 2px 10px rgba(255,255,255,.42), 0 0 34px rgba(157,255,0,.19), 0 12px 30px rgba(0,0,0,.42);
+}
+.training-home-dark .training-next-start.ritmo-brand-start-glow::before {
+  inset: -2%;
+  opacity: 1;
+  background: radial-gradient(circle at 50% 4%, rgba(255,255,204,.88) 0%, rgba(236,255,154,.66) 23%, rgba(185,242,40,.08) 51%, rgba(74,145,0,.32) 100%);
+  transform: rotate(0deg);
+  animation: ritmo-start-synchronized-orbit var(--ritmo-orbit-cycle) infinite;
+}
+.training-home-dark .training-next-start.ritmo-brand-glow-paused::before { animation-play-state: paused; }
+.training-home-dark .training-next-start:active { transform: scale(.97); }
+.training-home-dark .training-next-quick,
+.training-home-dark .custom-training-entry {
+  border: 1px solid rgba(185,225,147,.15) !important;
+  background: rgba(15,19,15,.84) !important;
+  box-shadow: inset 0 1px 0 rgba(215,255,157,.13), 0 15px 28px rgba(0,0,0,.25) !important;
+  backdrop-filter: blur(16px);
+}
+.training-home-dark .training-next-quick { margin-top: 12px; }
+/* Planned home fits the available phone viewport, with real space above the fixed nav.
+   Long custom plans retain their natural height and MobileScroll instead of being clipped. */
+.training-home.training-home-dark:has(.training-immersive-hero) {
+  container-type: size;
+  --ritmo-home-nav-clearance: 16px;
+  --ritmo-home-section-gap: 8px;
+}
+.training-home.training-home-dark:has(.training-immersive-hero) .training-home-content {
+  min-height: 100cqh;
+  padding-bottom: calc(var(--ritmo-main-nav-height) + var(--ritmo-main-nav-bottom) + var(--ritmo-home-nav-clearance));
+  display: flex;
+  flex-direction: column;
+}
+.training-home-dark:has(.training-immersive-hero) .root-header,
+.training-home-dark:has(.training-immersive-hero) .training-next-quick { flex: none; }
+.training-home-dark .training-next-hero.training-immersive-hero {
+  flex: 1;
+  margin-top: 6px;
+  padding: var(--ritmo-home-section-gap) 0;
+  justify-content: space-between;
+}
+.training-home-dark .training-immersive-list { margin-top: 16px; }
+.training-home-dark .training-start-orbit { margin-top: 16px; }
+.training-home-dark .training-next-quick { margin-top: var(--ritmo-home-section-gap); }
+.training-home-dark .training-next-quick small { color: #9ca694; }
+.training-home-dark .training-next-quick b { color: #f5f7f1; }
+.training-home-dark .training-next-quick-icon { background: #b6ff16; color: #111311; }
+.training-home-dark .recommendation-home { color: #f7f9f3; }
+.training-home-dark .recommendation-home>p { color: #c7d1c0; }
+.training-home-dark .home-recommendation-card { color: #f7f9f3; background: rgba(14,19,14,.9); border: 1px solid rgba(185,225,147,.15); }
+.training-home-dark .home-recommendation-card li,
+.training-home-dark .home-recommendation-card small { color: #c9d3c1; }
+.training-home-dark .custom-training-entry small { color: #9ca694; }
+.training-home-dark .custom-training-entry b { color: #f5f7f1; }
+.training-home-dark .custom-training-icon { color: #111311; background: #b6ff16; }
+/* Designer's Watch screenshot: ~276 × 62 CSS px at 3× screenshot density. */
+.prototype-shell {
+  --ritmo-main-nav-width: 276px;
+  --ritmo-main-nav-height: 62px;
+  --ritmo-main-nav-icon-size: 30px;
+  --ritmo-main-nav-label-size: 11px;
+  --ritmo-main-nav-bottom: max(24px, env(safe-area-inset-bottom, 0px));
+}
+.prototype-shell .floating-nav.ritmo-compact-nav {
+  bottom: var(--ritmo-main-nav-bottom) !important;
+  width: min(var(--ritmo-main-nav-width), calc(100% - 32px)) !important;
+  height: var(--ritmo-main-nav-height) !important;
+  min-height: var(--ritmo-main-nav-height) !important;
+  padding: 4px !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border: 1px solid var(--ritmo-header-control-edge) !important;
+  background: rgba(23,23,24,.72) !important;
+  box-shadow: 0 10px 28px rgba(0,0,0,.44) !important;
+  -webkit-backdrop-filter: blur(22px) saturate(125%) !important;
+  backdrop-filter: blur(22px) saturate(125%) !important;
+}
+.ritmo-compact-nav .ritmo-nav-selection {
+  top: 4px;
+  left: 4px;
+  width: calc((100% - 8px) / 3);
+  height: calc(var(--ritmo-main-nav-height) - 10px);
+  background: #39393a;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.055);
+}
+.ritmo-compact-nav[data-active="plans"] .ritmo-nav-selection { transform: translate3d(100%,0,0); }
+.ritmo-compact-nav[data-active="records"] .ritmo-nav-selection { transform: translate3d(200%,0,0); }
+.prototype-shell .floating-nav.ritmo-compact-nav button {
+  width: 100% !important;
+  min-width: 0 !important;
+  height: calc(var(--ritmo-main-nav-height) - 10px) !important;
+  min-height: calc(var(--ritmo-main-nav-height) - 10px) !important;
+  gap: 3px !important;
+  color: #fff !important;
+}
+.prototype-shell .floating-nav.ritmo-compact-nav button.on { color: #b6ff16 !important; }
+.ritmo-compact-nav .ritmo-nav-icon {
+  width: var(--ritmo-main-nav-icon-size);
+  height: var(--ritmo-main-nav-icon-size);
+  /* One 32px-viewBox SVG per Tab, shared by both color states. */
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+.prototype-shell .floating-nav.ritmo-compact-nav button span { font-size: var(--ritmo-main-nav-label-size) !important; line-height: 14px !important; font-weight: 550 !important; }
+.prototype-shell .floating-nav.ritmo-compact-nav button.on span { font-weight: 720 !important; }
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .prototype-shell .floating-nav.ritmo-compact-nav { background: #171718 !important; }
+}
+@media(max-width:374px) {
+  .training-start-orbit { margin-top: 26px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .training-start-orbit::before,
+  .training-home-dark .training-next-start.ritmo-brand-start-glow::before { animation: none; transform: rotate(0deg); }
+}
+
+/* Plans dark trial: keep the approved layout and navigation, replace only surfaces and type colors. */
+.prototype-shell:has(> .scheme-home),
+.prototype-shell:has(> .plan-screen),
+.scheme-home,
+.plan-screen {
+  background: #080a09 !important;
+  color: #f6f8f3;
+}
+.scheme-home .root-header h1,
+.plan-screen .subpage-header h1,
+.scheme-home .scheme-heading h2,
+.plan-screen .create-section h2 { color: #f6f8f3; }
+.scheme-home .root-header .header-environment,
+.scheme-home .root-header .icon-button,
+.plan-screen .subpage-header .icon-button {
+  color: #f6f8f3;
+  border-color: rgba(255,255,255,.16);
+  background: #202321;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.07);
+}
+.scheme-home .root-header .icon-button svg,
+.plan-screen .subpage-header .icon-button svg { color: #f6f8f3; }
+.scheme-home .cycle-card {
+  background: #191c1a;
+  border: 1px solid #303630;
+  box-shadow: none;
+}
+.scheme-home .cycle-row.drop-target { box-shadow: inset 0 2px var(--lime); }
+.scheme-home .scheme-heading p,
+.plan-screen .create-section>p { color: #9a9f99; }
+.scheme-home .scheme-heading>button { color: #f6f8f3; }
+.scheme-home .independent-list.glass-card { background: transparent !important; }
+.scheme-home .plan-list-row {
+  color: #f6f8f3;
+  background: #191c1a;
+  border-color: #303630;
+}
+.scheme-home .plan-list-main { color: #f6f8f3; }
+.scheme-home .plan-list-main small { color: #a2a7a1; }
+.plan-screen .blank-plan-card {
+  color: #f6f8f3;
+  background: #191c1a !important;
+  border: 1px solid #303630 !important;
+  box-shadow: none;
+}
+.plan-screen .blank-plan-card.primary-create>button { color: #b6ff16; }
+.plan-screen .blank-plan-card p { color: #a2a7a1; }
+.plan-screen .preset-card { background: #191c1a; border: 1px solid #303630; }
+.plan-screen .preset-card p { color: #a2a7a1; }
+.plan-screen .preset-card ul { border-color: #303630; }
+.device-screen:has(.scheme-home) .status-bar,
+.device-screen:has(.plan-screen) .status-bar { color: #f6f8f3; }
+.device-screen:has(.scheme-home) .status-indicator-svg,
+.device-screen:has(.plan-screen) .status-indicator-svg { filter: invert(1) brightness(1.35); }
+.device-screen:has(.scheme-home) .home-indicator-svg rect,
+.device-screen:has(.plan-screen) .home-indicator-svg rect { fill: #fff; }
+.device-screen:has(.scheme-home, .plan-screen) .bottom-sheet {
+  color: #f6f8f3;
+  background: #101310 !important;
+}
+.device-screen:has(.scheme-home, .plan-screen) .sheet-handle { background: #687068; }
+.device-screen:has(.scheme-home, .plan-screen) .sheet-description,
+.device-screen:has(.scheme-home, .plan-screen) .plan-detail>label,
+.device-screen:has(.scheme-home, .plan-screen) .detail-section-head span,
+.device-screen:has(.scheme-home, .plan-screen) .exercise-main small,
+.device-screen:has(.scheme-home, .plan-screen) .library-list small,
+.device-screen:has(.scheme-home, .plan-screen) .available-title span,
+.device-screen:has(.scheme-home, .plan-screen) .environment-options small { color: #a2a7a1; }
+.device-screen:has(.scheme-home, .plan-screen) .detail-exercise-row,
+.device-screen:has(.scheme-home, .plan-screen) .manual-add.compact,
+.device-screen:has(.scheme-home, .plan-screen) .library-list>button,
+.device-screen:has(.scheme-home, .plan-screen) .environment-options>button:not(.manage-environment-link),
+.device-screen:has(.scheme-home, .plan-screen) .detail-empty,
+.device-screen:has(.scheme-home, .plan-screen) .search-field,
+.device-screen:has(.scheme-home, .plan-screen) .availability-switch {
+  color: #f6f8f3;
+  background: #1c201d;
+  border-color: #333a34;
+}
+.device-screen:has(.scheme-home, .plan-screen) .plan-title-input,
+.device-screen:has(.scheme-home, .plan-screen) .plan-name-input,
+.device-screen:has(.scheme-home, .plan-screen) .search-field input { color: #f6f8f3; }
+.device-screen:has(.scheme-home, .plan-screen) .search-field input::placeholder { color: #a2a7a1; }
+.device-screen:has(.scheme-home, .plan-screen) .detail-exercise-index { color: #c3c9c2; background: #303730; }
+.device-screen:has(.scheme-home, .plan-screen) .row-menu summary,
+.device-screen:has(.scheme-home, .plan-screen) .plan-detail-heading>button,
+.device-screen:has(.scheme-home, .plan-screen) .manual-add.compact svg { color: #f6f8f3; }
+.device-screen:has(.scheme-home, .plan-screen) .manual-add.compact svg { border-color: #f6f8f3; }
+.device-screen:has(.scheme-home, .plan-screen) .row-menu>div { background: #292f2a; }
+.device-screen:has(.scheme-home, .plan-screen) .row-menu button { color: #f6f8f3; background: #414940; }
+.device-screen:has(.scheme-home, .plan-screen) .muscle-tabs button:not(.on) { color: #b5bab4; }
+.device-screen:has(.scheme-home, .plan-screen) .environment-options>button.selected .environment-radio { border-color: #b6ff16; }
+.device-screen:has(.scheme-home, .plan-screen) .environment-options>button.selected .environment-radio:after { background: #b6ff16; }
+.device-screen:has(.scheme-home, .plan-screen) .system-phase-heading { color: #d5dad4; border-color: #333a34; }
+.device-screen:has(.scheme-home, .plan-screen) .system-phase-heading small,
+.device-screen:has(.scheme-home, .plan-screen) .system-phase-lock { color: #a2a7a1; }
+
+/* Shared type scale and quiet surfaces, including portalled training sheets. */
+.prototype-shell, .device-screen {
+  --ritmo-root-title-size: 36px;
+  --ritmo-section-title-size: 22px;
+  --ritmo-dark-card-surface: #1d201e;
+}
+.scheme-home .root-header h1,
+.records-screen .root-header h1 {
+  font-size: var(--ritmo-root-title-size);
+  line-height: 44px;
+}
+.scheme-home .scheme-heading h2,
+.records-screen .records-history-heading h2 {
+  font-size: var(--ritmo-section-title-size);
+  line-height: 29px;
+  letter-spacing: -.025em;
+}
+.scheme-home .cycle-head span,
+.records-screen .heatmap-head h2 {
+  font-size: 18px;
+  line-height: 24px;
+}
+.training-home-dark .training-next-quick,
+.training-home-dark .custom-training-entry,
+.training-home-dark .home-recommendation-card,
+.scheme-home .cycle-card,
+.scheme-home .plan-list-row,
+.plan-screen .blank-plan-card,
+.plan-screen .preset-card {
+  background: var(--ritmo-dark-card-surface) !important;
+  border-color: var(--ritmo-dark-card-surface) !important;
+  box-shadow: none !important;
+}
+.training-home-dark .training-next-quick,
+.training-home-dark .custom-training-entry { backdrop-filter: none; }
+
+/* Dark-page sheets sit above the near-black page like a distinct panel. */
+.device-screen:has(.scheme-home, .plan-screen, .training-home-dark) .sheet-overlay {
+  background: rgba(0, 0, 0, .66);
+}
+.device-screen:has(.scheme-home, .plan-screen, .training-home-dark) .bottom-sheet {
+  color: #f6f7f4;
+  background: #1e1e20 !important;
+  box-shadow: 0 -16px 48px rgba(0, 0, 0, .52), inset 0 1px 0 rgba(255, 255, 255, .07);
+}
+.device-screen:has(.scheme-home, .plan-screen, .training-home-dark) .sheet-handle {
+  background: #727275;
+}
+.device-screen:has(.scheme-home, .plan-screen, .training-home-dark) .sheet-title,
+.device-screen:has(.scheme-home, .plan-screen) .plan-detail-heading h2,
+.device-screen:has(.scheme-home, .plan-screen) .plan-title-input {
+  font-size: 20px !important;
+  line-height: 26px !important;
+  font-weight: 650 !important;
+  letter-spacing: 0;
+}
+.device-screen:has(.scheme-home, .plan-screen) .detail-exercise-row,
+.device-screen:has(.scheme-home, .plan-screen) .manual-add.compact,
+.device-screen:has(.scheme-home, .plan-screen) .library-list > button,
+.device-screen:has(.scheme-home, .plan-screen) .environment-options > button:not(.manage-environment-link),
+.device-screen:has(.scheme-home, .plan-screen) .detail-empty,
+.device-screen:has(.scheme-home, .plan-screen) .search-field,
+.device-screen:has(.scheme-home, .plan-screen) .availability-switch {
+  background: #2c2c2e;
+  border-color: #2c2c2e;
+}
+
+/* Records joins the dark main-tab trial without changing chart or history data. */
+.prototype-shell:has(> .records-screen),
+.records-screen {
+  color: #f6f8f3;
+  background: #080a09 !important;
+}
+.records-screen .root-header h1,
+.records-screen .records-history-heading h2,
+.records-screen .recent-heading h2 { color: #f6f8f3; }
+.records-screen .root-header .icon-button {
+  color: #f6f8f3;
+  background: #202321;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.07);
+}
+.records-screen .root-header .icon-button svg,
+.records-screen .records-history-heading button { color: #f6f8f3; }
+.records-screen .heatmap-card { box-shadow: none; }
+.records-screen .history-card.glass-card {
+  color: #f6f8f3;
+  background: var(--ritmo-dark-card-surface) !important;
+  border-color: var(--ritmo-dark-card-surface) !important;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+.records-screen .date-section-inner,
+.records-screen .session-card { border-color: #3b403c; }
+.records-screen .week-grid button,
+.records-screen .week-grid button .weekday-label,
+.records-screen .recent-heading span,
+.records-screen .session-meta,
+.records-screen .empty-day { color: #a7aca6; }
+.records-screen .week-grid button .date-number,
+.records-screen .week-grid button.today:not(.trained) .date-number {
+  color: #f6f8f3;
+  background: #343936;
+}
+.records-screen .week-grid button.trained .date-number { color: #fff; background: #ff4750; }
+.records-screen .week-grid button.selected .weekday-label { color: #111311; }
+.records-screen .session-head { color: #f6f8f3; }
+.records-screen .record-exercise-card {
+  background: #2c2c2e;
+  box-shadow: none;
+}
+.records-screen .record-exercise-card span { color: #d0d4ce; }
+.records-screen .record-exercise-card strong { color: #b6ff16; }
+.device-screen:has(.records-screen) .status-bar { color: #f6f8f3; }
+.device-screen:has(.records-screen) .status-indicator-svg { filter: invert(1) brightness(1.35); }
+.device-screen:has(.records-screen) .home-indicator-svg rect { fill: #fff; }
+.device-screen:has(.records-screen) .sheet-overlay { background: rgba(0,0,0,.66); }
+.device-screen:has(.records-screen) .bottom-sheet {
+  color: #f6f8f3;
+  background: #1e1e20 !important;
+  box-shadow: 0 -16px 48px rgba(0,0,0,.52), inset 0 1px 0 rgba(255,255,255,.07);
+}
+.device-screen:has(.records-screen) .sheet-handle { background: #727275; }
+.device-screen:has(.records-screen) .sheet-title { font-size: 20px; line-height: 26px; font-weight: 650; }
+.device-screen:has(.records-screen) .calendar-month-summary { color: #f6f8f3; }
+.device-screen:has(.records-screen) .calendar-weekdays,
+.device-screen:has(.records-screen) .calendar-explanation { color: #a7aca6; }
+.device-screen:has(.records-screen) .calendar-days button { color: #f6f8f3; }
+.device-screen:has(.records-screen) .calendar-days button.selected { background: #343936; }
+.device-screen:has(.records-screen) .calendar-days button.selected span { color: #111311; }
+
+/* The history week moves as one continuous seven-day page while dragging. */
+.records-screen .week-viewport {
+  overflow: hidden;
+  touch-action: pan-y;
+  user-select: none;
+}
+.records-screen .week-track {
+  display: flex;
+  width: 300%;
+  will-change: transform;
+}
+.records-screen .week-track .week-grid {
+  flex: 0 0 33.333333%;
+  min-width: 0;
+}
+.records-screen .week-track .week-grid[aria-hidden="true"] button {
+  pointer-events: none;
+}
+
+/* Plans and Records share one dark page header and card system. Their card heights remain content-specific. */
+.prototype-shell, .device-screen {
+  --ritmo-main-title-size: 40px;
+  --ritmo-main-title-line-height: 53px;
+  --ritmo-main-settings-size: 48px;
+  --ritmo-main-settings-icon-size: 24px;
+  --ritmo-main-card-surface: var(--ritmo-dark-card-surface);
+  --ritmo-main-card-radius: 24px;
+  --ritmo-main-text: #f6f8f3;
+  --ritmo-main-muted-text: #a2a7a1;
+  --ritmo-main-card-gap: 20px;
+  --ritmo-page-surface: #080a09;
+  --ritmo-sheet-surface: #1e1e20;
+  --ritmo-sheet-control-surface: #2c2c2e;
+  --ritmo-sheet-control-raised: #3a3a3c;
+  --ritmo-sheet-danger: #ff6b64;
+}
+:is(.scheme-content, .records-content) {
+  padding-top: 64px;
+}
+:is(.scheme-home, .records-screen) .root-header {
+  height: 69px;
+  min-height: 69px;
+  padding: 8px 0;
+  align-items: center;
+}
+:is(.scheme-content, .records-content) .root-header h1 {
+  color: var(--ritmo-main-text);
+  font-size: var(--ritmo-main-title-size);
+  line-height: var(--ritmo-main-title-line-height);
+}
+:is(.scheme-home, .records-screen) .root-header .icon-button {
+  width: var(--ritmo-main-settings-size);
+  height: var(--ritmo-main-settings-size);
+}
+:is(.scheme-home, .records-screen) .root-header .icon-button svg {
+  width: var(--ritmo-main-settings-icon-size);
+  height: var(--ritmo-main-settings-icon-size);
+  color: currentColor;
+}
+.scheme-home .cycle-card,
+.records-screen .heatmap-card {
+  margin-top: var(--ritmo-main-card-gap);
+  border-radius: var(--ritmo-main-card-radius);
+  color: var(--ritmo-main-text);
+  background: var(--ritmo-main-card-surface) !important;
+  box-shadow: none;
+}
+:is(.scheme-home, .records-screen) :is(.cycle-head b, .cycle-plan-main small, .heatmap-head > div:first-child > span) {
+  color: var(--ritmo-main-muted-text);
+}
+
+/* Shared control rim: header controls and bottom navigation use one gradient. */
+.prototype-shell {
+  --ritmo-header-control-surface: rgba(19, 24, 19, .67);
+  --ritmo-header-control-ink: #f7f9f3;
+  --ritmo-header-control-edge: rgba(198, 215, 177, .13);
+  --ritmo-header-control-edge-gradient: linear-gradient(180deg,
+    rgba(236, 255, 208, .34) 0%,
+    rgba(228, 247, 201, .30) 12%,
+    rgba(213, 232, 188, .23) 30%,
+    rgba(198, 215, 177, .16) 52%,
+    rgba(185, 201, 167, .10) 76%,
+    rgba(185, 201, 167, .07) 100%);
+  --ritmo-header-control-blur: 14px;
+}
+.prototype-shell .root-header .icon-button[aria-label="设置"],
+.prototype-shell .root-header .header-environment {
+  position: relative;
+  color: var(--ritmo-header-control-ink);
+  border: 1px solid var(--ritmo-header-control-edge);
+  background: var(--ritmo-header-control-surface);
+  box-shadow: none;
+  -webkit-backdrop-filter: blur(var(--ritmo-header-control-blur));
+  backdrop-filter: blur(var(--ritmo-header-control-blur));
+}
+/* A continuous one-pixel rim follows both circle and pill contours. The mask
+   preserves the translucent surface instead of tinting the whole button. */
+@supports (mask-composite: exclude) or (-webkit-mask-composite: xor) {
+  .prototype-shell .root-header .icon-button[aria-label="设置"]::before,
+  .prototype-shell .root-header .header-environment::before,
+  .prototype-shell .floating-nav.ritmo-compact-nav::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    padding: 1px;
+    border-radius: inherit;
+    background: var(--ritmo-header-control-edge-gradient);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+}
+.prototype-shell .root-header .icon-button[aria-label="设置"] {
+  width: var(--ritmo-main-settings-size);
+  height: var(--ritmo-main-settings-size);
+}
+.prototype-shell .root-header .icon-button[aria-label="设置"] svg {
+  width: var(--ritmo-main-settings-icon-size);
+  height: var(--ritmo-main-settings-icon-size);
+  color: var(--ritmo-header-control-ink);
+}
+
+/* Shared flat switches: source-reference proportions with RITMO's active color. */
+.device-screen {
+  --ritmo-switch-width: 48px;
+  --ritmo-switch-height: 28px;
+  --ritmo-switch-inset: 2px;
+  --ritmo-switch-thumb-size: 24px;
+  --ritmo-switch-off: #e4e5e9;
+  --ritmo-switch-on: var(--lime);
+  --ritmo-switch-thumb: #fff;
+  --ritmo-switch-thumb-shadow: 0 1px 4px rgba(0,0,0,.08);
+  --ritmo-switch-travel: calc(var(--ritmo-switch-width) - var(--ritmo-switch-thumb-size) - 2 * var(--ritmo-switch-inset));
+}
+.device-screen :is(.ritmo-switch, .manager-switch > button) {
+  position: relative;
+  display: block;
+  flex: 0 0 auto;
+  width: var(--ritmo-switch-width);
+  height: var(--ritmo-switch-height);
+  min-height: 0;
+  padding: var(--ritmo-switch-inset);
+  border: 0;
+  border-radius: 999px;
+  background: var(--ritmo-switch-off);
+  box-shadow: none;
+  appearance: none;
+  -webkit-appearance: none;
+  transition: background-color 180ms ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.device-screen :is(.ritmo-switch, .manager-switch > button)::before {
+  content: "";
+  position: absolute;
+  inset: -8px 0;
+}
+.device-screen :is(.ritmo-switch, .manager-switch > button) > i {
+  display: block;
+  width: var(--ritmo-switch-thumb-size);
+  height: var(--ritmo-switch-thumb-size);
+  border: 0;
+  border-radius: 50%;
+  background: var(--ritmo-switch-thumb);
+  box-shadow: var(--ritmo-switch-thumb-shadow);
+  transform: translateX(0);
+  transition: transform 180ms cubic-bezier(.2,.8,.2,1);
+}
+.device-screen :is(.ritmo-switch, .manager-switch > button).on { background: var(--ritmo-switch-on); }
+.device-screen :is(.ritmo-switch, .manager-switch > button).on > i { transform: translateX(var(--ritmo-switch-travel)); }
+.device-screen :is(.ritmo-switch, .manager-switch > button):focus-visible { outline: 2px solid var(--lime); outline-offset: 4px; }
+.device-screen :is(.ritmo-switch, .manager-switch > button):disabled { opacity: .45; }
+@media (prefers-reduced-motion: reduce) {
+  .device-screen :is(.ritmo-switch, .manager-switch > button),
+  .device-screen :is(.ritmo-switch, .manager-switch > button) > i { transition: none; }
+}
+
+/* One measured PLAY → countdown visual handoff; executor starts afterwards. */
+.play-countdown-layer{position:absolute;inset:0;z-index:80;overflow:hidden;isolation:isolate;pointer-events:auto}
+.play-countdown-dim{position:absolute;inset:0;background:#080a09;opacity:0}
+.play-countdown-target{position:absolute;inset:0;visibility:hidden;pointer-events:none}
+.play-countdown-moving{position:absolute;overflow:visible;pointer-events:none}
+.play-countdown-running .training-next-start{visibility:hidden}
+.play-countdown-running .training-start-orbit::before{visibility:hidden;animation-play-state:paused}
+.play-countdown-running .ritmo-brand-start-glow::before{animation-play-state:paused}
+.play-countdown-running>.training-home-dark{pointer-events:none;transform-origin:center;will-change:opacity,transform}
+.play-countdown-running>.bottom-nav{pointer-events:none}
+.play-countdown-running{background:#080a09}
+.play-countdown-running .training-start-orbit{visibility:hidden}
+
+/* Add Exercise owns its palette and layout, regardless of the opening page. */
+.device-screen .bottom-sheet:has(.exercise-picker-layout) {
+  --ritmo-picker-row: #2c2c2e;
+  --ritmo-picker-text: #f6f7f4;
+  --ritmo-picker-muted: #a2a7a1;
+  color: var(--ritmo-picker-text);
+  background: #1e1e20 !important;
+}
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .sheet-handle { background:#727275; }
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .sheet-header { flex:none; }
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .sheet-title { font-size:20px!important;line-height:26px!important;font-weight:650!important; }
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .sheet-content {
+  flex:1;min-height:0;height:auto!important;max-height:none;width:100%;
+  box-sizing:border-box;overflow:hidden;padding:0 20px max(20px,var(--device-safe-area-bottom,0px),env(safe-area-inset-bottom,0px));
+}
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .exercise-picker-layout { width:100%;min-width:0;height:100%;margin:0; }
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .exercise-picker-tools { min-width:0; }
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .search-field,
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .library-list>button {
+  color:var(--ritmo-picker-text);background:var(--ritmo-picker-row);border:0;
+}
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .search-field { min-width:0;box-sizing:border-box; }
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .search-field input {
+  flex:1;min-width:0;width:0;max-width:100%;padding:0;font-size:16px;line-height:22px;color:var(--ritmo-picker-text);
+}
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .search-field input::placeholder,
+.device-screen .bottom-sheet:has(.exercise-picker-layout) :is(.library-list small,.available-title span) { color:var(--ritmo-picker-muted); }
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .search-field svg { flex:0 0 20px; }
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .muscle-tabs {
+  display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:4px;margin:15px 0 0;padding:0;overflow:visible;
+}
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .muscle-tabs button { min-width:0;width:100%; }
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .availability-switch {
+  height:44px;min-height:44px;margin:13px 0 0;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;color:var(--ritmo-picker-text);
+}
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .exercise-picker-scroll {
+  min-width:0;overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;
+}
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .library-list>button>span { min-width:0; }
+.device-screen .bottom-sheet:has(.exercise-picker-layout) .library-list small { overflow-wrap:anywhere; }
+@media (max-width:600px), (display-mode:standalone) {
+  /* On a real phone the native visual viewport, not the hidden demo keyboard,
+     determines the available height. Desktop device simulation stays intact. */
+  .device-screen:has(.exercise-picker-layout) .bottom-sheet:has(.exercise-picker-layout),
+  .device-screen:has(.keyboard-dock[data-visible="true"]) .bottom-sheet:has(.exercise-picker-layout) {
+    bottom:var(--ritmo-picker-native-bottom,0px)!important;
+    height:var(--ritmo-picker-native-height,calc(100% - 65px))!important;
+    max-height:var(--ritmo-picker-native-height,calc(100% - 65px))!important;
+    min-height:min(260px,var(--ritmo-picker-native-height,260px));
+  }
+}
+
+/* Shared sheet-title rhythm. Only the content below a title varies by sheet. */
+.device-screen {
+  --ritmo-sheet-handle-height:30px;
+  --ritmo-sheet-title-top:12px;
+  --ritmo-sheet-title-bottom:24px;
+  --ritmo-sheet-title-size:20px;
+  --ritmo-sheet-title-line:26px;
+  --ritmo-sheet-side:20px;
+  --ritmo-sheet-header-height:calc(var(--ritmo-sheet-title-top) + var(--ritmo-sheet-title-line) + var(--ritmo-sheet-title-bottom));
+}
+.device-screen .bottom-sheet .sheet-handle-zone { height:var(--ritmo-sheet-handle-height);flex:0 0 var(--ritmo-sheet-handle-height); }
+.device-screen .bottom-sheet .sheet-header {
+  flex:none;padding:var(--ritmo-sheet-title-top) var(--ritmo-sheet-side) var(--ritmo-sheet-title-bottom)!important;text-align:center;
+}
+.device-screen .bottom-sheet .sheet-title {
+  margin:0;font-size:var(--ritmo-sheet-title-size)!important;line-height:var(--ritmo-sheet-title-line)!important;font-weight:650!important;letter-spacing:0;
+}
+/* The editable plan name uses the same header metrics as the standard title. */
+.device-screen .bottom-sheet:has(.plan-detail) { height:92%!important;max-height:92%!important;color:#f6f7f4;background:#1e1e20!important; }
+.device-screen .bottom-sheet:has(.plan-detail) .sheet-content {
+  flex:1;min-height:0;height:auto;max-height:none;overflow:hidden;
+  padding:0 var(--ritmo-sheet-side) max(20px,var(--device-safe-area-bottom,0px),env(safe-area-inset-bottom,0px));
+}
+.device-screen .plan-detail { height:100%;min-height:0;display:flex;flex-direction:column; }
+.device-screen .plan-detail .plan-detail-heading {
+  flex:none;min-height:var(--ritmo-sheet-header-height);padding:var(--ritmo-sheet-title-top) 36px var(--ritmo-sheet-title-bottom);
+  margin:0;gap:6px;align-items:center;
+}
+.device-screen .plan-detail .plan-detail-heading h2,
+.device-screen .plan-detail .plan-title-input {
+  margin:0;font-size:var(--ritmo-sheet-title-size)!important;line-height:var(--ritmo-sheet-title-line)!important;font-weight:650!important;letter-spacing:0;
+}
+.device-screen .plan-detail .plan-detail-heading h2 { min-width:0;overflow-wrap:anywhere; }
+.device-screen .plan-detail .plan-title-input { height:var(--ritmo-sheet-title-line);min-width:0; }
+.device-screen .plan-detail .plan-detail-heading>button { flex:0 0 28px; }
+.device-screen .plan-detail-body { flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;padding-bottom:4px;scrollbar-width:none; }
+.device-screen .plan-detail-body::-webkit-scrollbar { display:none; }
+.device-screen .plan-phase-section + .plan-phase-section { margin-top:22px; }
+.device-screen .plan-phase-section h3 { margin:0 14px 8px;color:#a2a2a7;font-size:13px;line-height:18px;font-weight:500; }
+.device-screen .plan-phase-card { overflow:hidden;border-radius:24px;background:#2c2c2e; }
+.device-screen .plan-phase-fixed-row,
+.device-screen .exercise-row-front { position:relative;display:grid;grid-template-columns:24px minmax(0,1fr) 44px;align-items:center;gap:12px;min-height:72px;padding:10px 12px 10px 16px;color:#f6f7f4;background:#2c2c2e; }
+.device-screen .plan-phase-fixed-row { grid-template-columns:24px minmax(0,1fr);padding-right:16px; }
+.device-screen .plan-phase-fixed-row + .plan-phase-fixed-row::before,
+.device-screen .detail-exercise-row + .detail-exercise-row .exercise-row-front::before {
+  content:"";position:absolute;top:0;left:52px;right:16px;height:1px;background:rgba(255,255,255,.1);
+}
+.device-screen .plan-phase-icon { width:24px;height:24px;display:grid;place-items:center;color:#c4c4c9;pointer-events:none; }
+.device-screen .plan-phase-icon svg { display:block;width:22px;height:22px; }
+.device-screen .plan-phase-card .exercise-main { display:grid;min-width:0;gap:4px;margin:0;padding:0;border:0;background:transparent;color:#f6f7f4;text-align:left; }
+.device-screen .plan-phase-card .exercise-main b { font-size:15px;line-height:21px;font-weight:600;overflow-wrap:anywhere; }
+.device-screen .plan-phase-card .exercise-main small { font-size:12px;line-height:17px;color:#a2a7a1; }
+.device-screen .plan-phase-empty { padding:18px 16px;color:#a2a7a1;font-size:13px;line-height:20px; }
+.device-screen .plan-phase-card .detail-exercise-row { position:relative;display:block;height:auto;min-height:72px;margin:0;padding:0;border:0;border-radius:0;overflow:hidden;background:transparent;touch-action:pan-y; }
+.device-screen .exercise-row-front { z-index:1;transition:transform 160ms ease-out; }
+.device-screen .exercise-row-front button { -webkit-tap-highlight-color:transparent; }
+.device-screen .exercise-drag { -webkit-appearance:none;appearance:none;width:44px;height:44px;display:grid;place-items:center;padding:0;border:0;background:transparent;color:#aeb2ac;touch-action:none;cursor:grab; }
+.device-screen .exercise-drag svg { width:22px;height:22px; }
+.device-screen .exercise-drag:active { background:transparent;box-shadow:none;color:var(--lime);cursor:grabbing; }
+.device-screen .exercise-swipe-delete { position:absolute;inset:0 0 0 auto;width:76px;padding:0;border:0;display:flex;flex-direction:column;gap:4px;align-items:center;justify-content:center;background:#ff453a;color:#fff;font-size:12px;font-weight:600; }
+.device-screen .exercise-swipe-delete svg { width:20px;height:20px; }
+.device-screen .detail-exercise-row.dragging { z-index:3;overflow:visible; }
+/* Preserve the group's own round corners while the lifted row can leave it. */
+.device-screen .strength-phase-card>.detail-exercise-row:first-child { border-top-left-radius:24px;border-top-right-radius:24px; }
+.device-screen .strength-phase-card>.detail-exercise-row:last-child { border-bottom-left-radius:24px;border-bottom-right-radius:24px; }
+.device-screen .strength-phase-card>.detail-exercise-row:first-child .exercise-row-front { border-top-left-radius:24px;border-top-right-radius:24px; }
+.device-screen .strength-phase-card>.detail-exercise-row:last-child .exercise-row-front { border-bottom-left-radius:24px;border-bottom-right-radius:24px; }
+.device-screen .strength-phase-card>.detail-exercise-row.dragging .exercise-row-front { border-radius:16px;box-shadow:0 8px 20px rgba(0,0,0,.3);transition:none; }
+.device-screen .detail-exercise-row.dragging .exercise-row-front::before { display:none; }
+.device-screen .strength-phase-card:has(.dragging) { overflow:visible; }
+.device-screen .plan-detail .manual-add.compact { flex:0 0 52px;height:52px;min-height:52px;margin:14px 0 10px;border:0;border-radius:20px;background:#2c2c2e;color:#f6f7f4; }
+.device-screen .plan-detail .save-plan { flex:0 0 56px;height:56px;min-height:56px;margin:0; }
+.device-screen .plan-detail .delete-plan-button { flex:none;margin:6px 0 0;min-height:36px; }
+@media(prefers-reduced-motion:reduce){.device-screen .exercise-row-front{transition:none}}
+.device-screen .detail-exercise-row.swiping .exercise-row-front{transition:none}
+/* The pencil must not add 2px to the shared title line's optical baseline. */
+.device-screen .plan-detail .plan-detail-heading>button{position:relative;height:var(--ritmo-sheet-title-line)}
+.device-screen .plan-detail .plan-detail-heading>button::before{content:"";position:absolute;inset:-9px -8px}
+@media (max-width:600px), (display-mode:standalone) {
+  .device-screen:has(.plan-detail) .bottom-sheet:has(.plan-detail),
+  .device-screen:has(.keyboard-dock[data-visible="true"]) .bottom-sheet:has(.plan-detail) {
+    bottom:var(--ritmo-plan-native-bottom,0px)!important;
+    height:var(--ritmo-plan-native-height,92%)!important;
+    max-height:var(--ritmo-plan-native-height,92%)!important;
+    min-height:min(260px,var(--ritmo-plan-native-height,260px));
+  }
+}
+
+/* Training uses the same dark surfaces as the three main tabs. */
+.device-screen .light-screen:has(.transition-screen),
+.device-screen :is(.training-screen,.active-content,.rest-content,.countdown-screen) {
+  background:var(--ritmo-page-surface);color:var(--ritmo-main-text);
+}
+.device-screen .transition-screen { color:var(--ritmo-main-text); }
+.device-screen .transition-screen :is(.transition-kicker,.transition-note),
+.device-screen .training-screen :is(.immersive-title p,.motion-cue,.rest-label) { color:var(--ritmo-main-muted-text); }
+.device-screen .transition-exit,
+.device-screen .training-screen .next-set-row,
+.device-screen .training-screen .rest-actions button:not(.lime) {
+  color:var(--ritmo-main-text);background:var(--ritmo-main-card-surface);border:0;box-shadow:none;
+}
+.device-screen .training-screen .next-set-row { border-radius:var(--ritmo-main-card-radius); }
+.device-screen .training-screen .rest-actions .lime,
+.device-screen .transition-start { background:var(--lime);color:#080a09;border:0;box-shadow:none; }
+
+/* Content-sized sheets keep shared titles and safe-area clearance at every action count. */
+.device-screen .bottom-sheet:has(.training-control-actions,.rest-parameter-editor,.end-workout-actions) {
+  display:flex;flex-direction:column;height:auto!important;max-height:calc(100% - 65px)!important;
+  color:var(--ritmo-main-text);background:var(--ritmo-sheet-surface)!important;
+  box-shadow:0 -16px 48px rgba(0,0,0,.52),inset 0 1px 0 rgba(255,255,255,.07);
+}
+.device-screen:has(.training-screen,.transition-screen,.countdown-screen) .sheet-overlay { background:rgba(0,0,0,.66); }
+.device-screen .bottom-sheet:has(.training-control-actions,.rest-parameter-editor,.end-workout-actions) .sheet-handle { background:#727275; }
+.device-screen .bottom-sheet:has(.training-control-actions,.rest-parameter-editor,.end-workout-actions) .sheet-content {
+  flex:0 1 auto;min-height:0;height:auto;max-height:none;overflow-y:auto;
+  padding:0 var(--ritmo-sheet-side) max(20px,var(--device-safe-area-bottom,0px),env(safe-area-inset-bottom,0px));
+}
+.device-screen .training-control-actions { gap:12px; }
+.device-screen .training-control-actions .control-resume { box-shadow:none; }
+.device-screen .training-control-actions :is(.secondary-button,.danger-button),
+.device-screen .end-workout-actions .danger-button {
+  min-height:54px;margin:0;border:0;border-radius:22px;background:var(--ritmo-sheet-control-surface);color:var(--ritmo-main-text);
+}
+.device-screen .training-control-actions .danger-button,
+.device-screen .end-workout-actions .danger-button { color:var(--ritmo-sheet-danger); }
+.device-screen .end-workout-continue { color:var(--ritmo-main-text); }
+.device-screen .rest-parameter-editor { flex:none;gap:12px; }
+.device-screen .rest-parameter-target,
+.device-screen .rest-parameter-row small { color:var(--ritmo-main-muted-text); }
+.device-screen .rest-parameter-row {
+  min-height:94px;padding:12px;border-radius:var(--ritmo-main-card-radius);
+  background:var(--ritmo-sheet-control-surface);color:var(--ritmo-main-text);
+}
+.device-screen .rest-parameter-row>button,
+.device-screen .actual-reps-stepper button { background:var(--ritmo-sheet-control-raised);color:var(--ritmo-main-text);border:0; }
+.device-screen .actual-reps-disclosure { background:var(--ritmo-sheet-control-surface);color:var(--ritmo-main-text); }
+.device-screen .actual-reps-disclosure summary { color:var(--ritmo-main-muted-text); }
+.device-screen .actual-reps-disclosure .actual-reps-stepper { background:transparent;color:var(--ritmo-main-text); }
+.device-screen .bottom-sheet:has(.rest-parameter-editor) .sheet-save { flex:none;min-height:56px;margin:18px 0 0; }
+.device-screen .recommendation-detail-list { color:var(--ritmo-main-text); }
+.device-screen .recommendation-detail-list>div { border-color:rgba(255,255,255,.1); }
+.device-screen .recommendation-detail-list :is(i,small,.recommendation-phase-heading),
+.device-screen .bottom-sheet:has(.manage-environments,.recommendation-detail-list) .sheet-description { color:var(--ritmo-main-muted-text); }
+.device-screen .manage-environments :is(input,.custom-environment-row) { background:var(--ritmo-sheet-control-surface);border-color:transparent;color:var(--ritmo-main-text); }
+.device-screen .manage-environments input::placeholder,
+.device-screen .manage-environments .environment-empty { color:var(--ritmo-main-muted-text); }
+.device-screen .bottom-sheet:has(.training-resume-choice) {
+  display:flex;flex-direction:column;height:auto!important;max-height:calc(100% - 65px)!important;
+  color:var(--ritmo-main-text);background:var(--ritmo-sheet-surface)!important;
+  box-shadow:0 -16px 48px rgba(0,0,0,.52),inset 0 1px 0 rgba(255,255,255,.07);
+}
+.device-screen .bottom-sheet:has(.training-resume-choice) .sheet-content {
+  height:auto;padding:0 var(--ritmo-sheet-side) max(20px,var(--device-safe-area-bottom,0px),env(safe-area-inset-bottom,0px));
+}
+.training-resume-choice { display:grid;gap:12px; }
+.training-resume-choice button { min-height:56px;margin:0;border:0;border-radius:22px; }
+.training-resume-choice .secondary-button { background:var(--ritmo-sheet-control-surface);color:var(--ritmo-main-text); }
+@media (max-width:600px), (display-mode:standalone) {
+  html:has(.transition-screen),body:has(.transition-screen),#root:has(.transition-screen) { background:#080a09; }
+}
+
+/* V1.8: strength-only home preview; list never mutates plan or phase matching. */
+.home-strength-preview{min-height:0}
+.home-strength-preview .training-immersive-list{margin-bottom:0}
+.home-strength-preview .training-immersive-list li span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.home-more-exercises{display:flex;align-items:center;gap:4px;margin:6px 0 0 6px;padding:4px 0;min-height:32px;border:0;background:none;color:#abb1a8;font-size:12px;line-height:18px}
+.home-more-exercises svg{width:13px;height:13px}
+.home-full-exercise-list{list-style:none;margin:0;padding:0;display:grid}
+.home-full-exercise-list li{display:flex;align-items:center;gap:14px;min-height:58px;border-bottom:1px solid #393b38;color:var(--ritmo-main-text);font-size:15px;line-height:22px;padding:12px 0;overflow-wrap:anywhere}
+.home-full-exercise-list i{font-size:12px;color:var(--ritmo-main-muted-text);font-style:normal;flex:none}
+/* Keep the existing handlers/confirmations; presentation order only. */
+.device-screen .training-control-actions .control-resume span{font-size:14px}
+.device-screen .training-control-actions :is(.control-phase-skip,.control-workout-end){width:100%;min-height:48px;padding:12px 8px;border:0;border-radius:0;background:transparent;color:var(--ritmo-main-muted-text);font-size:14px;font-weight:500;line-height:22px}
+.device-screen .training-control-actions .control-workout-end{margin-top:4px;border-top:0;color:var(--ritmo-main-text)}
+@container (max-height:840px){
+  .training-home-dark .training-next-hero:has(.home-more-exercises) .training-immersive-list{margin-top:10px;gap:8px}
+  .training-home-dark .training-next-hero:has(.home-more-exercises) .training-start-orbit{margin-top:6px}
+}
+
+/* One shared START -> countdown handoff for every manually prepared action. */
+.next-countdown-running .transition-start{visibility:hidden}
+.next-countdown-running .transition-screen{transform-origin:center;will-change:opacity,transform}
+
+/* Stage A: environment-scoped home states share the approved PLAY component. */
+.recommendation-home-unified{margin-top:var(--ritmo-root-card-gap,24px);padding-bottom:12px}
+.recommendation-home-unified>h2{margin:0;font-size:28px;line-height:1.25;letter-spacing:-.04em}
+.recommendation-home-unified .recommendation-introduction{margin:8px 0 14px;color:var(--ritmo-main-muted-text);font-size:14px;line-height:21px}
+.free-training-inline{display:inline-block;min-height:44px;padding:0;margin:0;border:0;background:none;color:var(--lime);font:inherit;line-height:44px;vertical-align:baseline;white-space:nowrap}
+.recommendation-home-unified .home-recommendation-card{min-width:0;display:flex;flex-direction:column;padding:20px;min-height:0;height:auto;border:0;background:var(--ritmo-main-card-surface,#202420);border-radius:26px}
+.recommendation-home-unified .recommendation-title{padding:0;min-height:44px}
+.recommendation-home-unified .recommendation-title b{font-size:23px;line-height:1.25;overflow-wrap:anywhere}
+.recommendation-home-unified .recommendation-meta{margin:9px 0 12px;font-size:12px;line-height:18px}
+.recommendation-home-unified .home-recommendation-card ul{margin:0;padding:0;min-height:0}
+.recommendation-home-unified .home-recommendation-card li{min-height:35px;padding:6px 0;gap:8px;font-size:13px;line-height:20px}
+.recommendation-home-unified .home-recommendation-card li>span{min-width:0;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.recommendation-home-unified .home-recommendation-card li>small{font-size:11px;white-space:nowrap}
+.recommendation-home-unified .home-more-exercises{margin:4px 0 0;min-height:44px;font-weight:500;color:#b4bcb1}
+.recommendation-home-unified .training-start-orbit{flex:none;margin:18px auto 0;width:176px;height:176px;min-height:176px}
+.recommendation-home-unified .training-next-start{width:146px;height:146px;min-height:146px;flex:none}
+/* Recommendation cards keep the same PLAY target and geometry without idle decoration. */
+.recommendation-home-unified .training-start-orbit{border:0;background:none}
+.recommendation-home-unified .training-start-orbit::before,
+.training-home-dark .recommendation-home-unified .training-next-start.ritmo-brand-start-glow::before{content:none;animation:none}
+.training-home-dark .recommendation-home-unified .training-next-start{background:var(--lime);border-color:transparent;box-shadow:none}
+.recommendation-home-unified .home-recommendations{margin-top:0}
+@media(max-height:820px){.recommendation-home-unified .home-recommendation-card{padding:16px}.recommendation-home-unified .recommendation-introduction{margin-bottom:8px}.recommendation-home-unified .training-start-orbit{margin-top:10px}}
+
+/* Recommendation cards reveal the existing athlete scene through restrained glass. */
+@supports ((backdrop-filter:blur(12px)) or (-webkit-backdrop-filter:blur(12px))){
+  .training-home-dark .recommendation-home-unified .home-recommendation-card{background:rgba(30,34,30,.46)!important;-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+}
+.training-timing-settings{display:grid;gap:18px;color:var(--ritmo-main-text,#f7f9f3)}
+.training-timing-settings .timing-setting{padding:20px 16px}
+.training-timing-settings .timing-setting+.timing-setting{border-top:1px solid rgba(255,255,255,.1)}
+.timing-setting h3{margin:0;font-size:16px;line-height:23px;font-weight:600}
+.timing-setting p{margin:5px 0 0;color:#a2a2a7;font-size:12px;line-height:19px}
+.timing-stepper{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:12px}
+.timing-stepper button{display:grid;place-items:center;width:44px;height:44px;border:0;border-radius:50%;background:rgba(255,255,255,.07);color:#fff}
+.timing-stepper button svg{width:20px;height:20px}
+.timing-stepper button:disabled{opacity:.3}
+.timing-stepper button:focus-visible{outline:2px solid var(--lime)}
+.timing-stepper output{font-family:var(--ritmo-font-numbers);font-variant-numeric:tabular-nums;font-size:30px;line-height:36px;font-weight:650;color:var(--lime)}
+.timing-stepper output small{font-family:inherit;margin-left:6px;font-size:13px;font-weight:400;color:#c9cdc6}
+.training-timing-settings .timing-reset{min-height:44px;margin:-8px 0 0;font-size:13px;color:#a2a2a7}
+
+.bottom-sheet:has(.training-timing-settings) .sheet-content{padding:4px 20px calc(var(--device-safe-area-bottom,34px) + 16px)}
+
+/* Records anatomy atlas: one fixed information column, movable region leader. */
+.records-screen .anatomy-atlas-card {
+  height: auto;
+  padding: 20px 20px 16px;
+}
+.records-screen .anatomy-atlas-card .heatmap-head { align-items: flex-start; gap: 8px; }
+.records-screen .anatomy-atlas-card .heatmap-head h2 { font-size: 18px; line-height: 25px; white-space: nowrap; }
+.records-screen .anatomy-atlas-card .view-toggle { flex: none; padding: 3px; }
+.records-screen .anatomy-atlas-card .view-toggle button { padding: 6px 11px; font-size: 14px; line-height: 22px; }
+.records-screen .anatomy-atlas-card .model-stage {
+  height: clamp(422px, 110vw, 466px);
+  margin-top: 10px;
+  display: block;
+  overflow: visible;
+  background: transparent;
+}
+.records-screen .anatomy-atlas-card .muscle-object {
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 69%;
+  height: 100%;
+  transform: none;
+  background: transparent;
+}
+.records-screen .anatomy-atlas-card .inline-muscle-detail {
+  left: 68%; right: auto; top: 19.5%; bottom: auto;
+  width: 32%; padding: 0; border: 0; background: none;
+  gap: 6px; z-index: 2;
+}
+.records-screen .anatomy-atlas-card .inline-muscle-detail::before,
+.records-screen .anatomy-atlas-card .inline-muscle-detail::after { content: none; }
+.records-screen .anatomy-atlas-card .inline-muscle-detail b { font-size: 18px; line-height: 25px; color: var(--ritmo-main-text); overflow-wrap: anywhere; }
+.records-screen .anatomy-atlas-card .inline-muscle-detail strong { font-size: 14px; line-height: 21px; color: var(--lime); }
+.records-screen .anatomy-atlas-card .inline-muscle-detail small { font-size: 11px; line-height: 16px; color: var(--ritmo-main-muted-text); }
+.records-screen .anatomy-atlas-card .muscle-selection-leader { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; z-index: 1; }
+.muscle-selection-leader polyline { fill: none; stroke: var(--lime); stroke-width: 1; vector-effect: non-scaling-stroke; stroke-linecap: round; stroke-linejoin: round; opacity: .8; }
+.muscle-selection-leader circle { fill: var(--lime); }
+.records-screen .anatomy-atlas-card .heat-legend {
+  left: 66%; right: 0; top: 46%; bottom: auto;
+  padding: 13px 10px;
+  display: grid; gap: 12px; justify-content: stretch; align-items: center;
+  border-radius: 18px;
+  background: rgba(10,13,11,.35);
+  border: 1px solid rgba(218,232,211,.08);
+}
+.records-screen .anatomy-atlas-card .heat-legend > span { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.records-screen .anatomy-atlas-card .heat-legend i { width: 10px; height: 10px; flex: none; }
+.records-screen .anatomy-atlas-card .heat-legend small { font-size: 11.5px; line-height: 17px; color: #b4bab2; }
+@media (min-width:410px) {
+  .records-screen .anatomy-atlas-card { padding-left: 24px; padding-right: 24px; }
+  .records-screen .anatomy-atlas-card .heat-legend small { font-size: 12px; }
+}
+
+/* Final personal-use refinements: shared surfaces and phone-safe bounds. */
+.device-screen .toast {
+  left:36px;right:36px;width:auto;max-width:none;transform:none;justify-content:center;
+  min-height:44px;text-align:center;line-height:1.45;overflow-wrap:anywhere;
+}
+.plan-strength-heading { display:flex;justify-content:space-between;align-items:center;gap:12px; }
+.plan-strength-heading>span { color:var(--ritmo-main-muted-text);font-size:13px; }
+.plan-create-empty { min-height:166px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:20px;text-align:center; }
+.plan-empty-illustration { width:108px;height:58px;color:#b8babd; }
+.plan-create-empty b { font-size:17px;font-weight:600; }
+.plan-create-empty p { margin:0;color:var(--ritmo-main-muted-text);font-size:13px;line-height:1.5; }
+.device-screen .plan-create-detail .plan-create-add { min-height:56px;margin:16px 0 20px;display:flex;align-items:center;justify-content:center;gap:8px; }
+.plan-create-phases { border-top:1px solid rgba(255,255,255,.10);padding-top:18px;margin-bottom:20px; }
+.plan-create-phases>summary { display:flex;justify-content:space-between;align-items:center;gap:12px;list-style:none;cursor:pointer;min-height:52px; }
+.plan-create-phases>summary::-webkit-details-marker { display:none; }
+.plan-create-phases>summary span { display:grid;gap:6px; }
+.plan-create-phases small,.plan-create-phases>p { color:var(--ritmo-main-muted-text);font-size:13px;font-weight:400; }
+.plan-create-phases[open]>summary>svg { transform:rotate(180deg); }
+.device-screen .plan-create-detail .save-plan { margin-top:10px; }
+.device-screen .bottom-sheet:has(.environment-manager) {
+  bottom:0!important;top:auto!important;left:0!important;right:0!important;width:100%!important;
+  display:flex;flex-direction:column;height:auto!important;max-height:calc(100% - 65px)!important;
+  background:var(--ritmo-sheet-surface)!important;color:var(--ritmo-main-text);
+}
+.device-screen .bottom-sheet:has(.environment-manager) .sheet-content { height:auto;min-height:0;overflow-y:auto;padding:0 20px max(20px,var(--device-safe-area-bottom,0px),env(safe-area-inset-bottom,0px)); }
+.environment-manager { display:grid;gap:16px; }
+.environment-manager .settings-group { border-radius:24px;overflow:hidden;background:var(--ritmo-sheet-control-surface);padding:0 16px; }
+.environment-manage-row,.equipment-option,.equipment-bodyweight { width:100%;min-height:56px;display:flex;align-items:center;justify-content:space-between;gap:12px;border:0;border-bottom:1px solid rgba(255,255,255,.09);background:transparent;color:var(--ritmo-main-text);text-align:left; }
+.environment-manage-row { padding:14px 0; }
+.environment-manage-row:last-child,.equipment-option:last-child { border-bottom:0; }
+.environment-manage-row>span { min-width:0;display:grid;gap:5px; }
+.environment-manage-row b { font-weight:600;font-size:16px; }
+.environment-manage-row small { font-size:12px;line-height:1.5;color:var(--ritmo-main-muted-text);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden; }
+.environment-manage-row>svg { flex:0 0 18px;color:var(--ritmo-main-muted-text); }
+.environment-manager .primary-button,.environment-manager .secondary-button { margin:0;min-height:54px; }
+.environment-create,.environment-back { display:flex;align-items:center;justify-content:center;gap:7px; }
+.environment-back { justify-content:start;min-height:44px;padding:0;color:var(--ritmo-main-muted-text); }
+.environment-name { display:grid;gap:12px;font-size:14px;color:var(--ritmo-main-muted-text); }
+.environment-name input { box-sizing:border-box;width:100%;min-height:52px;border:0;border-radius:18px;padding:12px 16px;background:var(--ritmo-sheet-control-surface);color:var(--ritmo-main-text);font-size:16px; }
+.environment-manager h3 { margin:6px 0 0;font-size:14px;font-weight:500;color:var(--ritmo-main-muted-text); }
+.equipment-option svg,.equipment-bodyweight svg { width:22px;height:22px;color:var(--lime); }
+.equipment-bodyweight { color:var(--ritmo-main-muted-text); }
+.environment-error,.environment-delete { color:var(--ritmo-sheet-danger); }
+.records-screen .muscle-leader-dot { position:absolute;z-index:2;width:8px;height:8px;aspect-ratio:1;border-radius:50%;transform:translate(-50%,-50%);background:var(--lime);box-shadow:0 0 5px 2px rgba(182,255,22,.28);pointer-events:none; }
+.muscle-leader-dot::after { content:"";position:absolute;inset:-5px;border-radius:50%;background:radial-gradient(circle,rgba(182,255,22,.24),transparent 70%);animation:ritmo-anchor-glow 2.8s ease-in-out infinite; }
+@keyframes ritmo-anchor-glow { 0%,100% { opacity:.45; } 50% { opacity:1; } }
+@media(prefers-reduced-motion:reduce) { .muscle-leader-dot::after { animation:none; } }
+@media(max-width:600px),(display-mode:standalone) {
+  .device-screen .bottom-sheet:has(.environment-manager) { bottom:var(--ritmo-environment-native-bottom,0px)!important;max-height:var(--ritmo-environment-native-height,calc(100% - 65px))!important; }
+}
+.device-screen .plan-create-detail .plan-create-add { width:100%; }
+.device-screen .environment-manager .secondary-button { background:var(--ritmo-sheet-control-surface);color:var(--ritmo-main-text);border:0; }
+
+/* Approved final card/empty-state feedback, shared across both Plans rails. */
+.device-screen .preset-muscle-card { position:relative;isolation:isolate;overflow:hidden;background:var(--ritmo-main-card-surface)!important; }
+.preset-muscle-card>.preset-muscle-photo { position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:72% center;z-index:-2;pointer-events:none;opacity:.42; }
+.preset-muscle-card::after { content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(90deg,var(--ritmo-main-card-surface),transparent),linear-gradient(0deg,var(--ritmo-main-card-surface),transparent 65%); }
+.device-screen .preset-muscle-card :is(p,li small) { color:#d0d5ce; }
+.device-screen .plan-empty-detail .plan-create-empty { min-height:250px;padding:28px 20px;gap:22px; }
+.device-screen .plan-empty-detail .plan-empty-illustration { display:block;width:76px;height:76px;object-fit:contain;opacity:1; }
+.device-screen .plan-empty-detail .plan-empty-add { display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:52px;margin:0;font-size:16px; }
+.device-screen .plan-empty-detail .plan-create-empty p { margin:0;font-size:13px;line-height:1.6; }
+.training-timing-settings .timing-setting h3 { text-align:center; }
+
+/* One action-label scale; skip-current and skip-phase share the same surface. */
+.device-screen { --ritmo-training-action-size:16px;--ritmo-training-action-line:22px; }
+.device-screen .training-control-actions :is(.secondary-button,.control-phase-skip,.control-workout-end),
+.device-screen .end-workout-actions :is(.danger-button,.end-workout-continue) {
+  font-size:var(--ritmo-training-action-size)!important;line-height:var(--ritmo-training-action-line)!important;font-weight:500!important;
+}
+.device-screen .training-control-actions :is(.secondary-button,.control-phase-skip) {
+  width:100%;min-height:48px;margin:0;padding:12px 8px;border:0;border-radius:22px;background:var(--ritmo-sheet-control-surface);color:var(--ritmo-main-text);
+}
+.device-screen .training-control-actions .control-workout-end { color:var(--ritmo-main-text);background:transparent; }
+.device-screen .training-control-actions .control-resume .ring-action-label,
+.device-screen .ring-action-label,.device-screen .ring-shared-action { font-size:var(--ritmo-training-action-size);line-height:var(--ritmo-training-action-line);font-weight:500; }
+
+/* One creation-card component and rhythm for the page entry and empty plan. */
+.device-screen .plan-creation-card {
+  box-sizing:border-box;width:100%;height:154px;min-height:154px;padding:20px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  border:0;border-radius:var(--ritmo-main-card-radius,24px);background:var(--ritmo-main-card-surface);color:var(--ritmo-main-text);box-shadow:none;
+}
+.device-screen .plan-creation-card.creation-page-entry { margin-top:20px; }
+.device-screen .plan-creation-action {
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;
+  width:100%;min-height:64px;padding:0;border:0;background:transparent;color:inherit;cursor:pointer;
+}
+.device-screen .plan-creation-action svg { width:32px;height:32px;flex:none;color:var(--lime); }
+.device-screen .plan-creation-action span { font-size:18px;line-height:22px;font-weight:700; }
+.device-screen .plan-creation-card p { margin:5px 0 0;font-size:12px;line-height:16px;font-weight:400;text-align:center;color:#a2a7a1; }
+.device-screen .plan-phase-card:has(>.plan-creation-card) { background:transparent; }
+.device-screen .plan-empty-detail .plan-creation-card { background:var(--ritmo-page-surface); }
+.scheme-home .cycle-card { height:auto;min-height:0; }
+.device-screen .plan-creation-action:focus-visible { outline:2px solid var(--lime);outline-offset:5px;border-radius:12px; }
+
+/* Reference navigation material; preserve the shell, artwork and label sizes. */
+.ritmo-compact-nav.ritmo-spring-nav .ritmo-nav-selection { transition:none; }
+.prototype-shell {
+  --ritmo-nav-rim:linear-gradient(180deg,rgba(229,241,207,.25),rgba(191,218,147,.14) 45%,rgba(182,255,22,.12) 78%,rgba(225,241,205,.18));
+  --ritmo-nav-selected-rim:linear-gradient(135deg,#d3ff61 0%,rgba(182,255,22,.55) 23%,rgba(104,144,15,.18) 48%,rgba(146,207,21,.6) 72%,#bcff20 100%);
+}
+.prototype-shell .floating-nav.ritmo-compact-nav {
+  padding:4px 0!important;
+  /* The flush selection reaches the border box; do not clip it at the
+     shell's inner padding edge or the 1px top/bottom rim disappears. */
+  overflow:visible;
+  background:rgba(13,16,12,.8)!important;
+  border-color:rgba(202,220,169,.18)!important;
+  box-shadow:0 8px 24px rgba(0,0,0,.4),0 0 12px rgba(182,255,22,.065)!important;
+}
+.prototype-shell .floating-nav.ritmo-compact-nav::before { background:var(--ritmo-nav-rim); }
+.ritmo-compact-nav .ritmo-nav-selection {
+  top:-1px;left:-1px;width:calc((100% + 2px) / 3);height:var(--ritmo-main-nav-height);
+  box-sizing:border-box;border:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(182,255,22,.13),transparent 68%),linear-gradient(180deg,rgba(49,62,13,.6),rgba(18,25,8,.8) 58%,rgba(63,80,13,.55));
+  box-shadow:inset 0 0 8px rgba(182,255,22,.16),0 0 5px rgba(182,255,22,.1);
+}
+@supports (mask-composite:exclude) or (-webkit-mask-composite:xor) {
+  .ritmo-nav-selection::before {
+    content:"";position:absolute;inset:0;padding:1px;border-radius:inherit;background:var(--ritmo-nav-selected-rim);
+    -webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+    -webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none;
+  }
+}

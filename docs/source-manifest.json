@@ -1,0 +1,1056 @@
+{
+  "date": "2026-11-12",
+  "source_baseline": "9d11877ef035dd094915f39b75cab9b055fe59ab",
+  "files": [
+    {
+      "path": "src/App.tsx",
+      "bytes": 191,
+      "sha256": "7054b4e14304ab33153d3a2e860aa43d2a4f69e8a69630b4a37a2cbcd4ad2f16"
+    },
+    {
+      "path": "src/ExerciseMediaView.tsx",
+      "bytes": 2367,
+      "sha256": "4bbf6269f0769118b4fc05a8729af2b82b632ca83f3ac96602f7e3d81db05db9"
+    },
+    {
+      "path": "src/Prototype.tsx",
+      "bytes": 164568,
+      "sha256": "8205d6643f482ed4c8a04855896dd8f98433e770f3bdf8bcc9150df1459aa978"
+    },
+    {
+      "path": "src/brandLaunch.ts",
+      "bytes": 728,
+      "sha256": "2a70ce8c6f4b83c604e322473b477c0ff3d35ce21f02a06f32cbbb2d3857dace"
+    },
+    {
+      "path": "src/brandMotion.tsx",
+      "bytes": 12313,
+      "sha256": "7fe866cefa932e743ed3c19214d7b03084647a73ec60a02382404c9af8356686"
+    },
+    {
+      "path": "src/cycleOrder.ts",
+      "bytes": 822,
+      "sha256": "8e5bf1fd7932708031019c384271c9136b356735e9f17523dfdebd463e196332"
+    },
+    {
+      "path": "src/data/EXERCISES-DATASET-ATTRIBUTION.md",
+      "bytes": 1986,
+      "sha256": "a4e19058f7287ba5c2a3613006dc49110b601e247d495d6afcccbaf99c112b32"
+    },
+    {
+      "path": "src/data/exercises-dataset.json",
+      "bytes": 1662389,
+      "sha256": "84c958bc565656dc3585c32470009a67356c9a983dc09af3289a2f1704556c1a"
+    },
+    {
+      "path": "src/data/personalTrainingLibrary.json",
+      "bytes": 134202,
+      "sha256": "ffa00ba64088f649f743fa32eeab1a7df00574c2b12df47e19208a93227f826c"
+    },
+    {
+      "path": "src/exerciseCatalog.ts",
+      "bytes": 6651,
+      "sha256": "22c540da2a29629f85475c1d09d75b224e3b8e84890d8cca4446bc4a36d33af6"
+    },
+    {
+      "path": "src/exerciseMedia.ts",
+      "bytes": 4246,
+      "sha256": "279c31dac0cbaa12b5856c269ff784be2b3b2cb393c36d6c2209bcf39d1ebc7c"
+    },
+    {
+      "path": "src/extendedExerciseCatalog.ts",
+      "bytes": 7965,
+      "sha256": "cb0fe0b3a4225809dd6b8242dec876c0f4f4e0e594d3a5b5e1f3fb387e4c0fcb"
+    },
+    {
+      "path": "src/homeBackgrounds.ts",
+      "bytes": 757,
+      "sha256": "f7eb361b85659fd072aa3c3bca9bc2ed0458d066c15d5d626754f2199818ffed"
+    },
+    {
+      "path": "src/localTestMedia.ts",
+      "bytes": 1064,
+      "sha256": "f3e1358b02831d960e8083529402edc329f39187812b4db2b5780251fc0e0b5f"
+    },
+    {
+      "path": "src/main.tsx",
+      "bytes": 307,
+      "sha256": "01b7049715148ab645637905ccbbc91fc3f87659198a309541c2d1f03bb537d0"
+    },
+    {
+      "path": "src/mobile/BottomSheet.tsx",
+      "bytes": 4316,
+      "sha256": "f9c376dc78b8b5feb1c8752aa23414993ab66013d11e81b2ebb8342c570032ac"
+    },
+    {
+      "path": "src/mobile/COMPONENTS.md",
+      "bytes": 1982,
+      "sha256": "678379569b09d9ab789d96e8030a0eebb6606b880d8ad5b74de513f8a7b2787b"
+    },
+    {
+      "path": "src/mobile/Carousel.tsx",
+      "bytes": 10162,
+      "sha256": "242f4a7488e18c35e9b43651c9d5877288655a6f9f1734e03e56108f17526bf7"
+    },
+    {
+      "path": "src/mobile/Device.tsx",
+      "bytes": 3537,
+      "sha256": "867de9c65220f2ac7202f895d2b10a64c747f211a4b22cd8f81a1a1d66e52fc2"
+    },
+    {
+      "path": "src/mobile/FlowStack.tsx",
+      "bytes": 7244,
+      "sha256": "1e85744c5f1c1138dd5e8b7b27fbb6c05139d5aac93d94c45084a018eddd4ebc"
+    },
+    {
+      "path": "src/mobile/Keyboard.tsx",
+      "bytes": 6831,
+      "sha256": "862587264375499846385ce817ea1b813db8f118140cdb6da163f989a6946cac"
+    },
+    {
+      "path": "src/mobile/MobileCursor.tsx",
+      "bytes": 2171,
+      "sha256": "be2353205e05d823bc23ecae88179d712781ee9ede8fa317057c194c7c23ee7d"
+    },
+    {
+      "path": "src/mobile/MobileRuntime.tsx",
+      "bytes": 1338,
+      "sha256": "1ffe80a9582460005d66f10fc73deaff08b81431785a506887cc0d8320be747f"
+    },
+    {
+      "path": "src/mobile/MobileScroll.tsx",
+      "bytes": 14325,
+      "sha256": "ea3e3691f587ea13753162b9e64c1981263e5b9beddebea21a6a1551dce76430"
+    },
+    {
+      "path": "src/mobile/PhoneFrame.tsx",
+      "bytes": 4448,
+      "sha256": "73015590b468acbb4b58e3f6fe5eef99c5f68f67722caffd8f00d271ba00a91d"
+    },
+    {
+      "path": "src/mobile/assets.ts",
+      "bytes": 232,
+      "sha256": "d40cb8e5390fd2b54618266e7694e40349006dfe480f65d60559316ca8c9c234"
+    },
+    {
+      "path": "src/mobile/components.tsx",
+      "bytes": 2691,
+      "sha256": "20b02f6c6de4cfd08aa6a49bf9bc261c0ea000864b37e1001afdcd892afe4bc8"
+    },
+    {
+      "path": "src/mobile/geometry.ts",
+      "bytes": 1244,
+      "sha256": "f1382e5d6cc9adfd7ac142304f2f9a5a2330db1d74b3f0848adbaf311676bf16"
+    },
+    {
+      "path": "src/mobile/index.ts",
+      "bytes": 802,
+      "sha256": "ee69d9341571db5dee84dd2d7452a62eef09085a84a85f198a3edc48047e0412"
+    },
+    {
+      "path": "src/navigationMotion.tsx",
+      "bytes": 4978,
+      "sha256": "35ec44c3744c4b222aa207390ff67d48b9b38d6be35e62b5470341835636f8f5"
+    },
+    {
+      "path": "src/numberTypography.css",
+      "bytes": 886,
+      "sha256": "2108c0bfbd8dacab92d553d7603865c467eab53fbe8bc234812f8b7316817c7b"
+    },
+    {
+      "path": "src/personalPhaseMedia.ts",
+      "bytes": 8597,
+      "sha256": "1fc103271b8aec049ac5337d332a587ee642113a2c61f873c58f9341c40dfa8c"
+    },
+    {
+      "path": "src/personalSequenceMedia.ts",
+      "bytes": 21453,
+      "sha256": "8d4536b2c3ba9d09b4f0a44bc2a47d9a8f9dcde019686e270879c2207ca84d0e"
+    },
+    {
+      "path": "src/personalTrainingLibrary.ts",
+      "bytes": 1982,
+      "sha256": "75ee121c2be5810eaa033737431fd245c452e8903ca7f5efc8a6b1d6c4773a9d"
+    },
+    {
+      "path": "src/phaseExerciseCatalog.ts",
+      "bytes": 16051,
+      "sha256": "60781ebbef0f5ca94d3806297db02913599dde7a2c268a776cf98fdea6a90d93"
+    },
+    {
+      "path": "src/priorityExerciseCatalog.ts",
+      "bytes": 12979,
+      "sha256": "414c03cb333f8ba73d04c76bff8812f10f568c7865f47e2b60aae28b2726cd26"
+    },
+    {
+      "path": "src/priorityMediaIndex.ts",
+      "bytes": 2286,
+      "sha256": "c3f53c8108daaa565c1ccaf03c8be13428d57e3059804a5560b894a04362c20a"
+    },
+    {
+      "path": "src/prototype.css",
+      "bytes": 170534,
+      "sha256": "9271d4b79bfca77ab6b9a790fa158eefc54199842897d671204dac45771c15ef"
+    },
+    {
+      "path": "src/recordsAnatomy.ts",
+      "bytes": 1590,
+      "sha256": "205e219c30547fb10d394de9589fd0aef26def10d6dab3cd73c63867648ab059"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 14264,
+      "sha256": "844c67b27cf5e38ba395153145d058c929c6479199d245cd046f3646badd719d"
+    },
+    {
+      "path": "src/trainingMotion/CountdownHandoff.tsx",
+      "bytes": 9079,
+      "sha256": "e9d018fa1051d1cf3f25ae70e24d799def505a950f14609b5f22f1cc121ed3aa"
+    },
+    {
+      "path": "src/trainingMotion/CountdownMarkup.tsx",
+      "bytes": 528,
+      "sha256": "f713af546bc120572888e7a5b3c83d7a6bdb7c598d96e57e9a43da2b7aae6207"
+    },
+    {
+      "path": "src/trainingMotion/RingViews.tsx",
+      "bytes": 15675,
+      "sha256": "8d62d326eabccd656b89fd7a2c9e5e140f19034cdb4868c46292ece97c8a735a"
+    },
+    {
+      "path": "src/trainingMotion/pacing.ts",
+      "bytes": 222,
+      "sha256": "3d951a93d223d2177c769f80e193b9c8fdec10fd094010e1d1f81160c0963978"
+    },
+    {
+      "path": "src/trainingMotion/trainingMotion.css",
+      "bytes": 8158,
+      "sha256": "441462dabd28fc85542b922763f16585fac732e573153d211f207c7e5e69ddd6"
+    },
+    {
+      "path": "src/trainingPreferences.ts",
+      "bytes": 2766,
+      "sha256": "ade48da74015da5cf09eb25f3d5200085a687fcca801907428c7ebf19b517575"
+    },
+    {
+      "path": "src/trainingTiming.ts",
+      "bytes": 831,
+      "sha256": "99c26bb9556a8b85817c4851d764cb5a868848b8a1a0fa69191a052e9fc47f64"
+    },
+    {
+      "path": "src/visualQaFixtures.ts",
+      "bytes": 3325,
+      "sha256": "9d63502010414af6821cda103ed3587dc97d6a82eaa03da7850edff7ac40ba60"
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "bytes": 38,
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "src/workoutLifecycle.ts",
+      "bytes": 2443,
+      "sha256": "5c769820f48ea4da3f287674597256e19d60aeb5c4b01892fc0ee53c37370e65"
+    },
+    {
+      "path": "public/assets/android/Keyboard.png",
+      "bytes": 42695,
+      "sha256": "6085e50be17ca2705b4351283187be2c5b01b58262c70b90d74b3376efb4adfe"
+    },
+    {
+      "path": "public/assets/android/Pixel10.png",
+      "bytes": 214337,
+      "sha256": "a87c1250ba20756f5d020b5351a7ae71d663dcfc64aca3a1cd56452e8a05233e"
+    },
+    {
+      "path": "public/assets/android/navigation-bar.svg",
+      "bytes": 542,
+      "sha256": "077a782a3b6c2915fc518dfb4bba825c8c5861b2572f9522a7024902b9cb2850"
+    },
+    {
+      "path": "public/assets/home/immersive-athlete.jpg",
+      "bytes": 318221,
+      "sha256": "23421f4c47420fd10b0df942677828e8860693c02ac5d1e5228d38daa31d2459"
+    },
+    {
+      "path": "public/assets/home/muscle-v2/arms.webp",
+      "bytes": 107798,
+      "sha256": "005fa4fbe89573b3857225a1457ee0a5c6eef4dcc517fa75cd64efdec1fd4cbb"
+    },
+    {
+      "path": "public/assets/home/muscle-v2/back.webp",
+      "bytes": 118058,
+      "sha256": "309f59a26f72b08673d1a27f8b197319a0cea36d227ce0bd2a2a00d84e52be20"
+    },
+    {
+      "path": "public/assets/home/muscle-v2/chest.webp",
+      "bytes": 128504,
+      "sha256": "e848cc9da9bd9a9617eca983978de864b7906ea27fe1b570dd58675af5833808"
+    },
+    {
+      "path": "public/assets/home/muscle-v2/core.webp",
+      "bytes": 77378,
+      "sha256": "ebf655337dbd1e91058233d528dc809742755f1e08e76afbe816e7c3cf129bbc"
+    },
+    {
+      "path": "public/assets/home/muscle-v2/legs.webp",
+      "bytes": 108004,
+      "sha256": "716451051abcd4ef9c654274c6eb264a2a300c39e9285ef6bdfa7c6e8fed3556"
+    },
+    {
+      "path": "public/assets/home/muscle-v2/shoulders.webp",
+      "bytes": 113426,
+      "sha256": "d88bd6a2dc696471d188fef9656f7f0c18ee2a1fb795fcafceee11f9a31451e0"
+    },
+    {
+      "path": "public/assets/iphone/Bezel.png",
+      "bytes": 353980,
+      "sha256": "ee2514d74d2f75f3541405fa2f20811f159879a66586778cfd8c9c84c44959df"
+    },
+    {
+      "path": "public/assets/iphone/Keyboard.png",
+      "bytes": 53341,
+      "sha256": "292e2d83d69adaeb663d6a840ce8db8d0a5257710b472c20713e03f56b08ea88"
+    },
+    {
+      "path": "public/assets/muscle/back.svg",
+      "bytes": 77145,
+      "sha256": "538116adab5ec8f3df80edd397f92352a5c49401971124c8b49529665eb64f26"
+    },
+    {
+      "path": "public/assets/muscle/front.svg",
+      "bytes": 58458,
+      "sha256": "af6d79949ac52e47a71dac49580d61bd7fdcb0fbb51e0e685c6ccf5da1eea5d7"
+    },
+    {
+      "path": "public/assets/muscle/sculpted-v1/back.svg",
+      "bytes": 77678,
+      "sha256": "832a956211662bc87a1f9ec82ba769b4a66476bd8aa5c1a901e9571df2d80051"
+    },
+    {
+      "path": "public/assets/muscle/sculpted-v1/back.webp",
+      "bytes": 128688,
+      "sha256": "d9927e7d9f96afaca5d4f0242745d767192029f3f406ac539f9b89f9ed3828f9"
+    },
+    {
+      "path": "public/assets/muscle/sculpted-v1/front.svg",
+      "bytes": 59003,
+      "sha256": "b2bb9d6f937889f59f9971b7b102a6f3e8cb1743de26c4ab3f98a67772fdb6c8"
+    },
+    {
+      "path": "public/assets/muscle/sculpted-v1/front.webp",
+      "bytes": 172548,
+      "sha256": "d6d9c0877b409c8e5dd34d3bdef71bd355a172c2ef77ebcf40011f8e49b21fca"
+    },
+    {
+      "path": "public/assets/muscle/translucent-v2/back.svg",
+      "bytes": 78142,
+      "sha256": "0140ba4f26389f880b872348e7b0e6c0192563fab2457628dd0fc815fabc51a5"
+    },
+    {
+      "path": "public/assets/muscle/translucent-v2/back.webp",
+      "bytes": 123764,
+      "sha256": "b79a3ca3bac643637254afea7bedf2d3a0e1cc6c91583cd3cbc8c54ffd8fe987"
+    },
+    {
+      "path": "public/assets/muscle/translucent-v2/front.svg",
+      "bytes": 59329,
+      "sha256": "b6b253ba8f46dcc9e1497c113fcb426e8ebaca0d37dd3dca0b5d22fa30c1f087"
+    },
+    {
+      "path": "public/assets/muscle/translucent-v2/front.webp",
+      "bytes": 144960,
+      "sha256": "df2a6afde40cbc39bf894da9e6e9389549ddc7cba14690af0be68a78b85f9917"
+    },
+    {
+      "path": "public/assets/status/ios-status-icons.svg",
+      "bytes": 2765,
+      "sha256": "40e218b274d0973d519b50f42884e6e05ef0f2b6a0e46e102fda54218784466d"
+    },
+    {
+      "path": "public/assets/status/status-icons.svg",
+      "bytes": 824,
+      "sha256": "1a8bd4207cf34532ae514bdcdca693acc9a2b8ebc9d3182dc163c3e9ddcc4823"
+    },
+    {
+      "path": "public/assets/workout/smith-press.png",
+      "bytes": 689668,
+      "sha256": "43cfed2e1083a6019e8350423016bf52e008c498fa63c30d3578660c2d15a1e2"
+    },
+    {
+      "path": "public/brand/logo-c-precise-dark.svg",
+      "bytes": 1185,
+      "sha256": "81d7ff3328d79d77b39c57b80e5647e992d76443a46aec099bcafb94f7780b85"
+    },
+    {
+      "path": "public/icons/apple-touch-icon.png",
+      "bytes": 6842,
+      "sha256": "d43adc7b64828cec1e81d3c93d41067eaee084cc38b78210a6ccee264c240fb9"
+    },
+    {
+      "path": "public/icons/icon-192.png",
+      "bytes": 7283,
+      "sha256": "93e647e5ca735a243a12d3066b0895ef0fb62864d130677e0839efd3da89027c"
+    },
+    {
+      "path": "public/icons/icon-512.png",
+      "bytes": 19013,
+      "sha256": "7e3d36fdb14cba7634ae797394e00e54eb25ed0db01936020623c665e89958a2"
+    },
+    {
+      "path": "public/icons/nav/designer-plans-idle.svg",
+      "bytes": 2104,
+      "sha256": "78d071e51ee7451a87929e174bc667ec08346db4fef3d4370130fdd8b2565e05"
+    },
+    {
+      "path": "public/icons/nav/designer-plans-selected.svg",
+      "bytes": 1523,
+      "sha256": "14519b88388a5a85306a9a0176221e5c309ecb0a9fb8c3e7c4e3cb1fa0fb9d4e"
+    },
+    {
+      "path": "public/icons/nav/designer-records-idle.svg",
+      "bytes": 1459,
+      "sha256": "a995006e00d235008d338ed77c429d73cab2b6961e78c458b6cd9afc56d2f3b0"
+    },
+    {
+      "path": "public/icons/nav/designer-records-selected.svg",
+      "bytes": 1158,
+      "sha256": "50b5e46f52a3d48f9070684aedd3f169b709d662e3a8c911b0a200706c4d3366"
+    },
+    {
+      "path": "public/icons/nav/designer-training-idle.svg",
+      "bytes": 1161,
+      "sha256": "06244e187734e6c65eaa96e4ba0a2386a68f6ac97a6dd45523005fcef27a2723"
+    },
+    {
+      "path": "public/icons/nav/designer-training-selected.svg",
+      "bytes": 1139,
+      "sha256": "2a9fe053ce4e5dcfcd9f80e80caa586452108e89b8c6e2d1e176bcc84197bfd7"
+    },
+    {
+      "path": "public/icons/nav/reference-v2/plans.svg",
+      "bytes": 3773,
+      "sha256": "2ebe9b214668c47dd87e3a7fee4739ebdb691ec7243029cc48655c873d1bf9b1"
+    },
+    {
+      "path": "public/icons/nav/reference-v2/records.svg",
+      "bytes": 4006,
+      "sha256": "8b18e78b20167cf79338ca834b1b5d2dc2fa657772cbba4acaebebb7f601d638"
+    },
+    {
+      "path": "public/icons/nav/reference-v2/training.svg",
+      "bytes": 4976,
+      "sha256": "f3a4bc210864912d60c42fecd4242f36276937201e55e12ed5e0a42c210e2a92"
+    },
+    {
+      "path": "public/icons/nav/ritmo-plan-check.svg",
+      "bytes": 315,
+      "sha256": "5d2fdedf470c4f551fcebadd19e43c01d4de4ff4d51bc35c9223864c1ddc91cb"
+    },
+    {
+      "path": "public/icons/nav/ritmo-record-arc.svg",
+      "bytes": 233,
+      "sha256": "87d0f488da07750fa555abd1100afea26212b2b9e9814511168bf6726b5e06f3"
+    },
+    {
+      "path": "public/icons/nav/ritmo-running.svg",
+      "bytes": 290,
+      "sha256": "9d399c91a14437206b205c67c46e732ac72b863763dfb3ed6e5a280c78ce0c8e"
+    },
+    {
+      "path": "public/icons/plan-empty-gym.svg",
+      "bytes": 3302,
+      "sha256": "c94de91b1fa88bb5f2f5fd65b9e84ee05e58eca0011f0f08bf2e335edf311417"
+    },
+    {
+      "path": "public/icons/ritmo-icon.svg",
+      "bytes": 536,
+      "sha256": "8fa9be1ed7297f59a18474adb63e1d9f1dd99f52897309036b24d84b78287e7d"
+    },
+    {
+      "path": "public/icons/ritmo-reference-20261031-180.png",
+      "bytes": 32513,
+      "sha256": "f28ac9c346f40aa709f91d0a5333673909f4db55080eaa7b2c220af0011def15"
+    },
+    {
+      "path": "public/icons/ritmo-reference-20261031-192.png",
+      "bytes": 36236,
+      "sha256": "7279274ce2814c9a2bc131cfc33fbc6795723559402a257be67c0a5dddc7cbc2"
+    },
+    {
+      "path": "public/icons/ritmo-reference-20261031-32.png",
+      "bytes": 2116,
+      "sha256": "abfa673f3a3c3708dca877c0be23c0ecd21bd939a91e4ee932530530be5bbcc1"
+    },
+    {
+      "path": "public/icons/ritmo-reference-20261031-512.png",
+      "bytes": 225269,
+      "sha256": "7e51be1b41e1f1dac2bd167b77f750a58c446c157a628c8951a6709f9ed4897d"
+    },
+    {
+      "path": "public/icons/ritmo-rimless-20261031-180.png",
+      "bytes": 25230,
+      "sha256": "df30272dcfccb86ade93493d588aae75de27f8a114c59ad726d8bf10cce45a52"
+    },
+    {
+      "path": "public/icons/ritmo-rimless-20261031-192.png",
+      "bytes": 28518,
+      "sha256": "f86389ce23be550fefda514ac3e5d4354a8ae039e914fda17e88adfe9fb32823"
+    },
+    {
+      "path": "public/icons/ritmo-rimless-20261031-32.png",
+      "bytes": 1353,
+      "sha256": "94c717140b65c3dda987fbf4d85bcf49fed49a7b41318d74eeefa8c339e9eaa4"
+    },
+    {
+      "path": "public/icons/ritmo-rimless-20261031-512.png",
+      "bytes": 198899,
+      "sha256": "7d814c304e077fa5ba376fd0617f17b332c6879850dde7a88cc61121ba450246"
+    },
+    {
+      "path": "public/icons/ritmo-spacing-20261103-180.png",
+      "bytes": 21920,
+      "sha256": "023c3473b3261dde0d018cc9b458ac1aae06aeb6c078a9322ad96c533dd727ca"
+    },
+    {
+      "path": "public/icons/ritmo-spacing-20261103-192.png",
+      "bytes": 24857,
+      "sha256": "3c806e3cd3c4bdef12ef93999ea9a71da2bdde83b2f4123f4a9b1172dbbbafc6"
+    },
+    {
+      "path": "public/icons/ritmo-spacing-20261103-32.png",
+      "bytes": 1440,
+      "sha256": "9f8af0d2f22865b50cc3311fc82809fcc9bf01e75364bcc23917c6d9044ce715"
+    },
+    {
+      "path": "public/icons/ritmo-spacing-20261103-512.png",
+      "bytes": 201318,
+      "sha256": "bfe2ea66aab5de63f35dcad85af3b7d6bf130f9b1ebb0a27afe5ff720614a1ef"
+    },
+    {
+      "path": "public/manifest.webmanifest",
+      "bytes": 612,
+      "sha256": "048c89c70771b91d09d38db3c9922e786aa8ea784280566461c44d9aa5d39c1f"
+    },
+    {
+      "path": "public/media/exercises/ATTRIBUTION.md",
+      "bytes": 1185,
+      "sha256": "49481798aa6a1278a14d8a8689c40214e8ad740ed10a5df39c06ec9dd417fb78"
+    },
+    {
+      "path": "public/media/exercises/plank__forearm-hold__review-only.mp4",
+      "bytes": 16409,
+      "sha256": "20c3a20f86910f91b033ef0498e42c2ffaeaeb5c2a27dd60ecea89887ba25c67"
+    },
+    {
+      "path": "public/media/personal-library-20261030/08e39bd068f7f1d0.mp4",
+      "bytes": 125969,
+      "sha256": "08e39bd068f7f1d082dfb4f413323c0c89a233d4b588859f018fb6861252a8f4"
+    },
+    {
+      "path": "public/media/personal-library-20261030/0c5ee94372195b44.mp4",
+      "bytes": 153366,
+      "sha256": "0c5ee94372195b44ff583dd459691f6bf20984cc7fb1f7044776b770b4789828"
+    },
+    {
+      "path": "public/media/personal-library-20261030/14a6bf154a6a7bae.mp4",
+      "bytes": 130819,
+      "sha256": "14a6bf154a6a7baefd3bdc841ec8c59d49470bf7d7391d224ba04816dc64b0f7"
+    },
+    {
+      "path": "public/media/personal-library-20261030/1837cb31b9aba521.mp4",
+      "bytes": 134754,
+      "sha256": "1837cb31b9aba52164f772d9182e6e93a6bf9edf725ac1d894f95509fcd1ec5a"
+    },
+    {
+      "path": "public/media/personal-library-20261030/1bf008d36ed32888.mp4",
+      "bytes": 148285,
+      "sha256": "1bf008d36ed32888f5ca52386a016676506939271b3ae013fac8d7ba086b9348"
+    },
+    {
+      "path": "public/media/personal-library-20261030/1ddaec266a0b2fa8.mp4",
+      "bytes": 141999,
+      "sha256": "1ddaec266a0b2fa8301bcf37209d88506a1d257f49168ca329bedd4abb534d9d"
+    },
+    {
+      "path": "public/media/personal-library-20261030/1eefed0c6c618bd6.mp4",
+      "bytes": 168657,
+      "sha256": "1eefed0c6c618bd6509d63669194e453b74cbcd1ee30588edd5d3bbd0c90846e"
+    },
+    {
+      "path": "public/media/personal-library-20261030/29e8c47ef333f0b4.mp4",
+      "bytes": 138277,
+      "sha256": "29e8c47ef333f0b436ca1e44d09636309a1ec0507a635a7b32bda3cbf63b9568"
+    },
+    {
+      "path": "public/media/personal-library-20261030/30571710ca46e791.webp",
+      "bytes": 47322,
+      "sha256": "30571710ca46e791084315af452a65adff95a7bf12c33f1e6eb010d985de970c"
+    },
+    {
+      "path": "public/media/personal-library-20261030/30acafd08b403dff.mp4",
+      "bytes": 130126,
+      "sha256": "30acafd08b403dff6e40691d43008d66df977fe4562747ac87a585998ef8d098"
+    },
+    {
+      "path": "public/media/personal-library-20261030/35babc1039bde472.mp4",
+      "bytes": 182138,
+      "sha256": "35babc1039bde47206324d345f1400297ace983fb5d8f2b885e33f80fede5021"
+    },
+    {
+      "path": "public/media/personal-library-20261030/362f3ca98e39ad11.mp4",
+      "bytes": 194638,
+      "sha256": "362f3ca98e39ad11249f4c83a55ceb5cc10724e6c3e080bc45708e0b933185bd"
+    },
+    {
+      "path": "public/media/personal-library-20261030/4045fde3d164ffdf.mp4",
+      "bytes": 109620,
+      "sha256": "4045fde3d164ffdfbf1ada28bc3cdcfb7406c210f10b51ce000a0fa014b75345"
+    },
+    {
+      "path": "public/media/personal-library-20261030/5a9b08559c603a25.mp4",
+      "bytes": 143705,
+      "sha256": "5a9b08559c603a25c297c747afb10f4b30f80c6ff0ac09e04dbba7943a85d156"
+    },
+    {
+      "path": "public/media/personal-library-20261030/5e45fc303101542f.mp4",
+      "bytes": 154420,
+      "sha256": "5e45fc303101542f3cb0b43f0a6eaedee222862060ed543c788a9f6a61c59b3c"
+    },
+    {
+      "path": "public/media/personal-library-20261030/5f067d838d70a433.webp",
+      "bytes": 68118,
+      "sha256": "5f067d838d70a43381c6338b5c650bf777433ff199bf7d56f62ee33bccf2a1f2"
+    },
+    {
+      "path": "public/media/personal-library-20261030/65f22b86f2ac3c97.mp4",
+      "bytes": 132595,
+      "sha256": "65f22b86f2ac3c97897d96e5702390913c9ca51f049663d578288618245922cd"
+    },
+    {
+      "path": "public/media/personal-library-20261030/6762ec86c7406c69.mp4",
+      "bytes": 126078,
+      "sha256": "6762ec86c7406c697f4a065d4f53a7a5f6be8bb7e5913cd925388328dc1e5fd8"
+    },
+    {
+      "path": "public/media/personal-library-20261030/69ab375045dfcb9c.webp",
+      "bytes": 35460,
+      "sha256": "69ab375045dfcb9c2f828b01a946056c06e8b9ce1ed53a10797351e56a1f2018"
+    },
+    {
+      "path": "public/media/personal-library-20261030/6dbb655df32d66a3.mp4",
+      "bytes": 146101,
+      "sha256": "6dbb655df32d66a3a4b113c645f5b14c4072483795234ad2834e32a26ab19cff"
+    },
+    {
+      "path": "public/media/personal-library-20261030/6efcf3c65234f188.mp4",
+      "bytes": 145949,
+      "sha256": "6efcf3c65234f18899a70617c3db4bedb93e3ba8f7c7e96f5bcc37899acd51ee"
+    },
+    {
+      "path": "public/media/personal-library-20261030/710017514b2b5467.mp4",
+      "bytes": 182321,
+      "sha256": "710017514b2b5467ee969da0b57b93e8c5478ab4ebeff966121d3c960ee19644"
+    },
+    {
+      "path": "public/media/personal-library-20261030/763acdbbaebd8921.mp4",
+      "bytes": 110021,
+      "sha256": "763acdbbaebd8921cbf06504c81a735ee3d006a70de7c14576286abfcd6d6e1c"
+    },
+    {
+      "path": "public/media/personal-library-20261030/86d98852f63fdd19.mp4",
+      "bytes": 155032,
+      "sha256": "86d98852f63fdd198971e5ee93aeee21854b0f2f8d66fb560299f09dd6e391cd"
+    },
+    {
+      "path": "public/media/personal-library-20261030/8bb2b36f2c61dee6.webp",
+      "bytes": 42164,
+      "sha256": "8bb2b36f2c61dee65a132232c32eccf9e90b2a9fcbe9295296fc5a4a3b8d3032"
+    },
+    {
+      "path": "public/media/personal-library-20261030/8bec87783ee5079a.mp4",
+      "bytes": 181063,
+      "sha256": "8bec87783ee5079afe2d9c1eef8284607a0616f15616d0131b2492941572a70d"
+    },
+    {
+      "path": "public/media/personal-library-20261030/90ee655adf0f8a74.mp4",
+      "bytes": 171870,
+      "sha256": "90ee655adf0f8a74dcd5e2b7335138252492e01b874ca2151820955943bdaf86"
+    },
+    {
+      "path": "public/media/personal-library-20261030/91a9526dffe83de3.mp4",
+      "bytes": 174880,
+      "sha256": "91a9526dffe83de3ee0dd991559c76b9e5bd8ebe8d0ec99e0b218e177904d84b"
+    },
+    {
+      "path": "public/media/personal-library-20261030/9315d6e7328c0a11.mp4",
+      "bytes": 144982,
+      "sha256": "9315d6e7328c0a111df20dcf134dd94e1e8b46549345726d5d7f93f3415acb1a"
+    },
+    {
+      "path": "public/media/personal-library-20261030/9566edfb16273f8a.webp",
+      "bytes": 33210,
+      "sha256": "9566edfb16273f8ad0f03a61e1049fe6aabba0bd850ee56392dd175a297678de"
+    },
+    {
+      "path": "public/media/personal-library-20261030/979139d64704bd40.mp4",
+      "bytes": 117610,
+      "sha256": "979139d64704bd404cc3b073b9108fd5cc1e4850341120d944118ad67491ffaa"
+    },
+    {
+      "path": "public/media/personal-library-20261030/9efeb68e62472d9b.webp",
+      "bytes": 25168,
+      "sha256": "9efeb68e62472d9b6052611cb6cd9160a1eff3d8b2cc620de5f359084f555613"
+    },
+    {
+      "path": "public/media/personal-library-20261030/a25663875bfe203b.webp",
+      "bytes": 27940,
+      "sha256": "a25663875bfe203baa58ed834e9316952c52f40a2fc7f532411c46103048869c"
+    },
+    {
+      "path": "public/media/personal-library-20261030/aaf8bd12c590557c.webp",
+      "bytes": 51722,
+      "sha256": "aaf8bd12c590557c85bb641cfaff6555b301ea91d18b68849a67cbedc395ebff"
+    },
+    {
+      "path": "public/media/personal-library-20261030/ab870c25bd78726f.mp4",
+      "bytes": 256672,
+      "sha256": "ab870c25bd78726ff3fc68d97791883e8ccdb0a97e75cebec6f72f88c8429724"
+    },
+    {
+      "path": "public/media/personal-library-20261030/b66315957608e50e.mp4",
+      "bytes": 132624,
+      "sha256": "b66315957608e50e8acfb2e8310e5e236fa624d071305f6958750ae82180c63c"
+    },
+    {
+      "path": "public/media/personal-library-20261030/b6ab28632363b1f5.mp4",
+      "bytes": 114664,
+      "sha256": "b6ab28632363b1f59d23c31fa8602a3134e796fb3ad103de892263d51d98886f"
+    },
+    {
+      "path": "public/media/personal-library-20261030/baf40f20b3bec1c7.mp4",
+      "bytes": 105379,
+      "sha256": "baf40f20b3bec1c70575a65082229ce949182fbf24835c2fc66c841aaaa50dc4"
+    },
+    {
+      "path": "public/media/personal-library-20261030/bd614e4aa67db9fc.mp4",
+      "bytes": 185271,
+      "sha256": "bd614e4aa67db9fcdd34ffefcb57d970467bc5dd31992c1cc191e3800b2d3b64"
+    },
+    {
+      "path": "public/media/personal-library-20261030/be57f16d98a81c10.mp4",
+      "bytes": 165883,
+      "sha256": "be57f16d98a81c10b68345089cc596a5bc20e8a7f1826b7af7229913ecd6a021"
+    },
+    {
+      "path": "public/media/personal-library-20261030/c1d224d7dca38505.mp4",
+      "bytes": 169581,
+      "sha256": "c1d224d7dca3850565dd0d1774bbe9bb970ded183fe1ed106d6ac92f8cdf541b"
+    },
+    {
+      "path": "public/media/personal-library-20261030/c5c014319009506d.mp4",
+      "bytes": 94992,
+      "sha256": "c5c014319009506dd024736da3406214d6d51e9a425ff9f7eb5d9343fe5c0bb1"
+    },
+    {
+      "path": "public/media/personal-library-20261030/c6404ab33e26348c.mp4",
+      "bytes": 317606,
+      "sha256": "c6404ab33e26348c0918b3528b2a063554cfba792d6347cea761347bbf4bc42e"
+    },
+    {
+      "path": "public/media/personal-library-20261030/ccb1d54048afd167.webp",
+      "bytes": 46462,
+      "sha256": "ccb1d54048afd167d2fc54e5592774b32998cc84afa9b8e607d5fb9fda6c4af6"
+    },
+    {
+      "path": "public/media/personal-library-20261030/d26c215732bbd5e6.webp",
+      "bytes": 46032,
+      "sha256": "d26c215732bbd5e6189a8325de7651628a2b26348364e471c849fb8d84d62fef"
+    },
+    {
+      "path": "public/media/personal-library-20261030/dac78b01ef4727e5.mp4",
+      "bytes": 213835,
+      "sha256": "dac78b01ef4727e55995ca5b0892633cf92b6142a2fc3f538aded206810fd721"
+    },
+    {
+      "path": "public/media/personal-library-20261030/df9d3d0f95ec24b3.mp4",
+      "bytes": 118749,
+      "sha256": "df9d3d0f95ec24b3a3f1063d95088059c9236959d86721afce7a5f55019efe27"
+    },
+    {
+      "path": "public/media/personal-library-20261030/e1e9ab1ee1f69d0b.mp4",
+      "bytes": 145614,
+      "sha256": "e1e9ab1ee1f69d0becf4b0569ab133d1faa70d13d16ab018f77b56081ec8dc2b"
+    },
+    {
+      "path": "public/media/personal-library-20261030/e5b85a2b2b65c8e9.webp",
+      "bytes": 44330,
+      "sha256": "e5b85a2b2b65c8e91e5e0faf46c016393fb44e8089526a5ff4f00ae6cafc896e"
+    },
+    {
+      "path": "public/media/personal-library-20261030/e66470346803ce09.mp4",
+      "bytes": 151982,
+      "sha256": "e66470346803ce09e84d3e180417e7d47535345e53b1646b6fa81c8ed08964f6"
+    },
+    {
+      "path": "public/media/personal-library-20261030/edf6f15ab0e4c264.webp",
+      "bytes": 61682,
+      "sha256": "edf6f15ab0e4c264976c905bd800a89ccb2ee1232947ad16e0345fa16bd59254"
+    },
+    {
+      "path": "public/media/personal-library-20261030/ee246217910cb932.mp4",
+      "bytes": 127198,
+      "sha256": "ee246217910cb9324a108b0e1ad33ceaa36337bbf38abe5da0cd4bd7114ef8db"
+    },
+    {
+      "path": "public/media/personal-library-20261030/eecff0e4fb26a1dd.mp4",
+      "bytes": 126799,
+      "sha256": "eecff0e4fb26a1dd914c3883fd1ba31a52ff1df8a179230e7451f5e052271ea5"
+    },
+    {
+      "path": "public/media/personal-library-20261030/f7b3f19fef374225.mp4",
+      "bytes": 198960,
+      "sha256": "f7b3f19fef3742251f158c91dc58920fee30f0b29f0dd16533e011dd8e2c5e9f"
+    },
+    {
+      "path": "public/media/personal-library-20261030/f95993f4ef57f299.mp4",
+      "bytes": 127058,
+      "sha256": "f95993f4ef57f299befd3a6d74e15e30a9c3b4052ffcd22399cc093646102a5a"
+    },
+    {
+      "path": "public/media/personal-library-20261030/fbf8fd2e75cf5280.mp4",
+      "bytes": 215141,
+      "sha256": "fbf8fd2e75cf5280320c10787a8d12757843c5a1665faae1576186f15fb9431f"
+    },
+    {
+      "path": "public/media/personal-library-20261030/ff419f37a02c3d94.mp4",
+      "bytes": 147919,
+      "sha256": "ff419f37a02c3d94e6daf81e85f2fdbd256bf6ced1f0ea5a9b1ebb59891f0a30"
+    },
+    {
+      "path": "public/media/personal-library-20261030/fff33be1f3a871e1.mp4",
+      "bytes": 162377,
+      "sha256": "fff33be1f3a871e140164bb688a73e84775ef6f9dd4014ca8b37d32a8b0b1469"
+    },
+    {
+      "path": "public/media/personal-v15/curl.mp4",
+      "bytes": 112545,
+      "sha256": "518fce4cc5bb48a5ea20921681c3fe48fd8c2714ba80909b3de66e5242183d04"
+    },
+    {
+      "path": "public/media/personal-v15/glute-bridge.mp4",
+      "bytes": 110259,
+      "sha256": "bab0c11ed566357c23c32edfd4f47784a529e8540b388db8c5c4bb9d4f98bec3"
+    },
+    {
+      "path": "public/media/personal-v15/hasan-0027.mp4",
+      "bytes": 178930,
+      "sha256": "403e3234ed837b1ead997db6d5932dcdff6547e5f311d8e2d9b9c22e99c07f2d"
+    },
+    {
+      "path": "public/media/personal-v15/hasan-0227.mp4",
+      "bytes": 206804,
+      "sha256": "b25854bd75b158ac807e9e975e0dd0be9f3b6bc005bbafcada72fa217027ae37"
+    },
+    {
+      "path": "public/media/personal-v15/hasan-0241.mp4",
+      "bytes": 153087,
+      "sha256": "976407dcfc6201a93111454726d05750df83f217652fff9a3ae2ba5fd4f2e9b7"
+    },
+    {
+      "path": "public/media/personal-v15/hasan-0259.mp4",
+      "bytes": 195016,
+      "sha256": "0ffe143b0dfc9d4953db07dbcc3cdbb66efb54cee88841a4d9add0c6e06f4a06"
+    },
+    {
+      "path": "public/media/personal-v15/hasan-0298.mp4",
+      "bytes": 148974,
+      "sha256": "e143d5cf2c73d2fcf4006137186312e86119056725b77df6184f97d4a9b74bfb"
+    },
+    {
+      "path": "public/media/personal-v15/hasan-0310.mp4",
+      "bytes": 105628,
+      "sha256": "cd151258d5074e4e02ed2b9c41ed0c485fcba82276ddc5e307bec472e7bb6859"
+    },
+    {
+      "path": "public/media/personal-v15/hasan-0380.mp4",
+      "bytes": 183701,
+      "sha256": "9a5183639b4208cae003e5df584b3b20fb2e92eaa76a7d1a0f1a7027db05c0f5"
+    },
+    {
+      "path": "public/media/personal-v15/hasan-0406.mp4",
+      "bytes": 154470,
+      "sha256": "dbb2a59401130eb69e7b8efd1ed0da3d28498711d2ff64ac2084a7898411b5a8"
+    },
+    {
+      "path": "public/media/personal-v15/hasan-0585.mp4",
+      "bytes": 180777,
+      "sha256": "c82c88bd69e15010ceac5ddb28aaaa816b39118fe64465ca8d30eb117c995875"
+    },
+    {
+      "path": "public/media/personal-v15/hasan-0659.mp4",
+      "bytes": 112317,
+      "sha256": "73576990a178e2a3f8150252791bb8715814ac0815972bede435ddb6a923eb90"
+    },
+    {
+      "path": "public/media/personal-v15/hasan-1311.mp4",
+      "bytes": 189570,
+      "sha256": "00d1cbea141dccd740f749fa1af6a6f54e8976f2cfa76430e291b267f6936a10"
+    },
+    {
+      "path": "public/media/personal-v15/hasan-1760.mp4",
+      "bytes": 110985,
+      "sha256": "7171bd3c25fa26a81d6a1079422809b05fc393e3e856adbb02e212b3c4ed3bf5"
+    },
+    {
+      "path": "public/media/personal-v15/incline.mp4",
+      "bytes": 126076,
+      "sha256": "a93ae726a02fb4680f5788d7f7f7b8e034f39e41aaf3322e052893e68d4acb4b"
+    },
+    {
+      "path": "public/media/personal-v15/one-arm-row.mp4",
+      "bytes": 119091,
+      "sha256": "7e91c04b67bc9589c14689cc08a89757a4df00bd2cd10bf322787ef9493aaaa0"
+    },
+    {
+      "path": "public/media/personal-v15/plank.mp4",
+      "bytes": 78207,
+      "sha256": "ee3fd866a6f59adff253b0f0317c5e4161ebadaaea7897607bbe198882857766"
+    },
+    {
+      "path": "public/media/personal-v15/press.mp4",
+      "bytes": 131115,
+      "sha256": "dda31c65f936268ebea1c193ff14832be4dae081bd5a40c855c865ebedf0c3f7"
+    },
+    {
+      "path": "public/media/personal-v15/pushup.mp4",
+      "bytes": 142759,
+      "sha256": "ec1316a2d02db9a9bfc4e8950873f0feba057d6d132e3521d2d510743a948b01"
+    },
+    {
+      "path": "public/media/personal-v15/raise.mp4",
+      "bytes": 120316,
+      "sha256": "c68b0cf7f8b22d92cdb1e8c13d0847be3e35773150b241b363d7d8733a8558d6"
+    },
+    {
+      "path": "public/media/personal-v16/bodyweight-squat-v16.mp4",
+      "bytes": 72109,
+      "sha256": "1020a8e966845e266b9492a8cb42475c2b0ffcb62b370bd80316434082baeb69"
+    },
+    {
+      "path": "public/media/personal-v16/cat-cow.mp4",
+      "bytes": 66890,
+      "sha256": "4afbf8d3e0a428959274a7acc6ef78d3b2237b616e58c50133b33df87cece566"
+    },
+    {
+      "path": "public/media/personal-v16/child-pose-v2.webp",
+      "bytes": 18710,
+      "sha256": "ac0d13baedd59f9e547339c19e39f75a8b3f87121657b74345e20e326c7ac161"
+    },
+    {
+      "path": "public/media/personal-v16/cross-body-rear-delt-left.png",
+      "bytes": 1644213,
+      "sha256": "22370522f11bf4491cb9618ff4017e972d009b3a331bd7ddc11ba8346895b5d1"
+    },
+    {
+      "path": "public/media/personal-v16/cross-body-rear-delt-right.png",
+      "bytes": 1684048,
+      "sha256": "05cbf321a86e93c8144704ffcbdebebba13cbd04d666ca40f3c9e0293d9e2a66"
+    },
+    {
+      "path": "public/media/personal-v16/double-knee-hug-v2.webp",
+      "bytes": 47280,
+      "sha256": "a405973f2ba489e10a552b5240b5b486e8ae95dbf2181188bff6c303992b3ac3"
+    },
+    {
+      "path": "public/media/personal-v16/double-knee-hug.webp",
+      "bytes": 18024,
+      "sha256": "962547a3f9d3703c7f6de60e0b8a9260f8a5722f15bbb2648c02149f80d814a0"
+    },
+    {
+      "path": "public/media/personal-v16/lean-lateral-raise.mp4",
+      "bytes": 165713,
+      "sha256": "1ead8195672f9a6a2e32c00eebb4194359765db1ff5f5834842205a4cca236e6"
+    },
+    {
+      "path": "public/media/personal-v16/light-alternating-curl.mp4",
+      "bytes": 171375,
+      "sha256": "58934aa5e706399219881abcdb8894653e90b4ee30400f062f6e61e3a5f270fc"
+    },
+    {
+      "path": "public/media/personal-v16/light-two-hand-overhead-extension.mp4",
+      "bytes": 166538,
+      "sha256": "f9d49c6edd7dade80bea12592d00f69d60463da7c77c0fa95df08c50d1f9b076"
+    },
+    {
+      "path": "public/media/personal-v16/overhead-triceps-left.png",
+      "bytes": 1687345,
+      "sha256": "24132852df44fbb51965ff89a08a685a574acac6564e57fb0b3e0b4440fbc667"
+    },
+    {
+      "path": "public/media/personal-v16/overhead-triceps-right.png",
+      "bytes": 1669536,
+      "sha256": "5135877213db7a516914808a4f767b9f69dedd628932a96745f43226715aca70"
+    },
+    {
+      "path": "public/media/personal-v16/prone-abdominal-extension.png",
+      "bytes": 1793378,
+      "sha256": "01e90f3d5528baf04370de29f8e928d0ad94d1a6f2cca9fd552624cdf9788d77"
+    },
+    {
+      "path": "public/media/personal-v16/standing-chest-open-close.mp4",
+      "bytes": 169502,
+      "sha256": "8ba2aa09658d91d48ea839496154a12aaae3ada8d107d9599b10a9a3af5cc98e"
+    },
+    {
+      "path": "public/media/personal-v16/standing-chest-stretch.webp",
+      "bytes": 22918,
+      "sha256": "34e4a48b6adfb51f60ffc38a2f848f51c910ae517054a40d6b3da664cd6be660"
+    },
+    {
+      "path": "public/media/personal-v16/standing-quad-left.webp",
+      "bytes": 16488,
+      "sha256": "14c8952c8ddcac6a0475ebf8fecd7a1ba121222f016b5777b2ad46f128d80694"
+    },
+    {
+      "path": "public/media/personal-v16/standing-quad-right.webp",
+      "bytes": 16262,
+      "sha256": "9f02a945e32a9db7011b06991fff871446632c5b924df1c0ea5021e2fc4206af"
+    },
+    {
+      "path": "public/media/personal-v16/standing-supported-lat.png",
+      "bytes": 1813504,
+      "sha256": "8449fb1731117d6b24a7ef848cef3ec3ff6bbdae431c6586baf2bf3e9b78b351"
+    },
+    {
+      "path": "public/previews/play-countdown/digits.html",
+      "bytes": 654,
+      "sha256": "a14ad7615dc1480aac79e53862cacef29083596f9817d40f220e729e53a75894"
+    },
+    {
+      "path": "public/previews/play-countdown/index.html",
+      "bytes": 5385,
+      "sha256": "5756210cbcedee1c375291255d731cc9d44ca1f59e154b807a255643978c9902"
+    },
+    {
+      "path": "public/previews/play-countdown/numberTypography.css",
+      "bytes": 886,
+      "sha256": "2108c0bfbd8dacab92d553d7603865c467eab53fbe8bc234812f8b7316817c7b"
+    },
+    {
+      "path": "public/previews/play-countdown/prototype.css",
+      "bytes": 9509,
+      "sha256": "fced23ae569a40153e1cb39846663c15881dbd5137e90ba5cb39fd15fae3a9f0"
+    },
+    {
+      "path": "public/previews/play-countdown/prototype.js",
+      "bytes": 10064,
+      "sha256": "60a2d763789edeff53e7d4c9643a64eccc187344845e9eb71d76efc3b9e934c5"
+    },
+    {
+      "path": "public/version.json",
+      "bytes": 88,
+      "sha256": "2187381cbf91663908a7a1e1965d6116a392c409875590872a0637c04b689707"
+    }
+  ]
+}

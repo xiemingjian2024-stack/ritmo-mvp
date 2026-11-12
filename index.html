@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#080908" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="RITMO" />
+    <link rel="manifest" href="/manifest.webmanifest?v=20261103-icon-spacing" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/ritmo-spacing-20261103-180.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/ritmo-spacing-20261103-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/ritmo-spacing-20261103-192.png" />
+    <title>RITMO</title>
+    <script>
+      (() => {
+        // iOS Home Screen windows can report a visual viewport shorter than the screen.
+        const standalone = matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+        if (!standalone) return;
+        const fitScreen = () => {
+          const viewport = window.innerHeight;
+          const screenHeight = window.screen.height;
+          const height = screenHeight > viewport && screenHeight - viewport < 160 ? screenHeight : viewport;
+          document.documentElement.style.setProperty("--ritmo-standalone-height", `${height}px`);
+          document.documentElement.classList.add("ritmo-standalone");
+        };
+        fitScreen();
+        window.addEventListener("orientationchange", fitScreen);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

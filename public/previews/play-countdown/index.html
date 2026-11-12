@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>RITMO · PLAY 至 3·2·1 转场隔离原型</title>
+  <link rel="stylesheet" href="./numberTypography.css">
+  <link rel="stylesheet" href="./prototype.css">
+</head>
+<body>
+  <div class="lab" id="lab">
+    <aside class="lab-panel" aria-label="原型控制">
+      <div class="lab-kicker">RITMO V1.8 · ISOLATED MOTION</div>
+      <h1>PLAY → 3·2·1</h1>
+      <p>点击首页圆形 PLAY 体验完整转场。此页面只复刻现有首页与倒计时视觉，不启动真实训练。</p>
+      <div class="control-group"><b>预览宽度</b><div class="segmented" id="widths"><button data-width="375">375</button><button data-width="393" class="on">393</button><button data-width="430">430</button></div></div>
+      <div class="control-group"><b>PLAY 位置</b><div class="segmented" id="positions"><button data-position="top">上方</button><button data-position="middle" class="on">中部</button><button data-position="bottom">下方</button></div></div>
+      <div class="control-group"><b>统一圆环外径</b><div class="segmented" id="sizes"><button data-size="146" class="on">146 px</button><button data-size="176">176 px</button></div></div>
+      <div class="control-group"><b>播放速度</b><div class="segmented" id="speeds"><button data-speed="1" class="on">正常</button><button data-speed="0.5">0.5 倍</button></div></div>
+      <div class="control-group"><label class="check"><input id="reduce" type="checkbox"> 模拟减少动态效果</label></div>
+      <div class="control-actions"><button id="replay" class="primary">重新播放</button><button id="frame-button">查看关键帧</button></div>
+      <div class="frame-list" id="frames" hidden>
+        <button data-frame="0">0% · PLAY</button><button data-frame="0.23">23% · 三角转圆</button><button data-frame="0.5">50% · 扩张与移动</button><button data-frame="0.8">80% · 接近落点</button><button data-frame="1">100% · 数字 3</button>
+      </div>
+      <p class="lab-note">尺寸依据：正式首页 PLAY 直径 146 px；正式倒计时圆环直径约 230 px。本原型统一外径，不修改正式页面。</p>
+      <p class="lab-state" id="state">待点击 PLAY</p>
+    </aside>
+
+    <div class="phone-wrap"><div class="phone" id="phone" style="--phone-width:393px;--play-size:146px" aria-label="RITMO 手机预览">
+      <div class="status"><strong>9:41</strong><span>●●● ▰  ▣</span></div>
+      <div class="home" id="home">
+        <div class="home-content" id="home-content">
+          <header class="home-header"><img src="/brand/logo-c-precise-dark.svg" alt="RITMO"><div class="home-actions"><button type="button">健身房⌄</button><button class="gear" type="button" aria-label="设置">⚙</button></div></header>
+          <section class="hero" id="hero" data-position="middle">
+            <div class="hero-title"><span>NEXT</span><h2>胸部基础</h2><p>4 个动作 · 约 28 分钟</p></div>
+            <ol><li><i>01</i>Smith 卧推</li><li><i>02</i>上斜哑铃卧推</li><li><i>03</i>蝴蝶机夹胸</li><li><i>04</i>俯卧撑</li></ol>
+            <div class="orbit" id="orbit"><button class="play" id="play" type="button" aria-label="PLAY，开始训练"><svg viewBox="0 0 100 100" aria-hidden="true"><path id="static-triangle"></path></svg></button></div>
+          </section>
+          <div class="quick"><span><small>没有合适的计划？</small><b>快速开始</b></span><span class="plus">＋</span></div>
+        </div>
+        <nav class="bottom-nav"><span><i>♧</i>训练</span><span><i>▤</i>方案</span><span><i>◉</i>记录</span></nav>
+      </div>
+      <div class="countdown" id="countdown" aria-live="polite"><span class="countdown-label">准备开始</span><div class="countdown-anchor" id="target"><svg class="countdown-progress" viewBox="0 0 100 100" aria-hidden="true"><circle class="ring-track" cx="50" cy="50" r="47"></circle><circle id="progress" class="ring-progress" cx="50" cy="50" r="47" pathLength="100"></circle><circle id="countdown-dot" class="ring-dot" cx="97" cy="50" r="3.1"></circle></svg><strong id="digit">3</strong></div><small>胸部基础</small></div>
+      <main class="active-preview" id="active-preview" hidden aria-label="训练执行页预览">
+        <header class="active-preview-header"><div><h1>徒手站姿胸前开合</h1><p>第 1 / 1 组</p></div><button id="active-pause" type="button">暂停 / 调整</button></header>
+        <div class="active-preview-media"><video id="active-video" src="/media/personal-v16/standing-chest-open-close.mp4" muted loop playsinline preload="metadata"></video><span>姿势参考 · 待审校</span></div>
+        <section class="active-preview-progress"><strong>0</strong><p>12 次 · 徒手</p><small>动作自然，保持控制</small></section>
+      </main>
+      <svg class="moving" id="moving" viewBox="0 0 100 100" aria-hidden="true"><circle class="moving-disc" id="moving-disc" cx="50" cy="50" r="50"></circle><path class="moving-hole" id="moving-hole"></path><circle class="moving-dot" id="moving-dot" cx="50" cy="3" r="3.1"></circle></svg>
+      <div class="home-indicator"></div>
+    </div></div>
+  </div>
+  <script type="module" src="./prototype.js"></script>
+</body>
+</html>

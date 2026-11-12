@@ -1,0 +1,18 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+coverage/
+tmp/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+# Locally tested third-party exercise media must never be committed or deployed.
+.local-media/
+# Preview screenshots contain frames of the same third-party media.
+reports/ritmo-v14-gif-local-test/*.png
+
+# Also exclude local dependency symlinks.
+node_modules

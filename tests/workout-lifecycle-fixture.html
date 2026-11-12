@@ -1,0 +1,46 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>RITMO 生命周期隔离验证</title>
+<style>#fixture-tools{position:fixed;z-index:99999;top:0;left:0;right:0;background:#242426;color:white;padding:4px;font:11px system-ui}#fixture-tools button{font-size:11px;margin:2px}#fixture-state{display:block;max-height:64px;overflow:auto;white-space:pre-wrap;font-size:10px}</style></head><body><div id="root"></div><aside id="fixture-tools"><button id="fixture-hide">模拟后台</button><button id="fixture-show">模拟返回</button><button id="fixture-reset">重置此测试</button><button id="fixture-dismiss">隐藏测试栏</button><output id="fixture-state"></output><output id="fixture-events" hidden></output></aside>
+<script type="module">
+import { trainingHomeVisualQaData } from '../src/visualQaFixtures.ts';
+import { phaseItemsFor } from '../src/phaseExerciseCatalog.ts';
+const scenario=new URLSearchParams(location.search).get('scenario')||'rest';
+const fixtureKey='ritmo-lifecycle-fixture-only:'+scenario;
+const seed=structuredClone(trainingHomeVisualQaData),plan=seed.plans[0],id='fixture-run';
+const completed={setNumber:1,targetReps:10,recordedReps:10,actualReps:10,repsSource:'default',weight:20,completed:true};
+const cooldown=phaseItemsFor('手臂','cooldown').find(item=>item.segments.includes('left')&&item.segments.includes('right'));
+seed.phaseRecords=[];
+seed.activeWorkout={id,source:'cycle',environmentId:'健身房',startedAt:new Date().toISOString(),planId:plan.id,planName:plan.name,exercises:structuredClone(plan.exercises),exerciseIndex:0,setNumber:scenario==='reps'?2:1,rep:4,targetReps:10,weight:20,stage:scenario==='switch'?'phase-switch':scenario==='countdown'?'countdown':scenario==='reps'?'active':'rest',phase:scenario==='switch'?'cooldown':'strength',primaryGroup:scenario==='switch'?'手臂':'胸',warmupIds:phaseItemsFor('胸','warmup').map(x=>x.id),cooldownIds:cooldown?[cooldown.id]:[],phaseItemIndex:0,phaseSegmentIndex:scenario==='switch'?1:0,phaseRemaining:scenario==='switch'?5:12,phaseAccumulated:30,phaseHadEarly:false,restRemaining:60,restDeadlineAt:Date.now()+60000,activeRemainingSeconds:30,activeDeadlineAt:null,phaseDeadlineAt:scenario==='switch'?Date.now()+5000:null,paused:false,completedSets:{0:[completed]}};
+if(scenario==='switch'){
+ seed.sessions=[{id,source:'cycle',environmentId:'健身房',startedAt:new Date().toISOString(),endedAt:new Date().toISOString(),planId:plan.id,planName:plan.name,status:'completed',completed:true,exercises:[{...plan.exercises[0],completedSets:[completed]}]}];
+ seed.cycleIndexByEnvironment['健身房']=1;
+}
+if(scenario==='tempo') {
+ seed.activeWorkout.exercises[0].sets=2;seed.activeWorkout.exercises[0].reps=3;
+ Object.assign(seed.activeWorkout,{stage:'active',phase:'strength',setNumber:1,rep:1,targetReps:3,completedSets:{}});
+}
+if(scenario==='warmup-tempo'||scenario==='warmup-pause') {
+ const warmup=phaseItemsFor('胸','warmup').find(x=>x.measurementType==='reps');
+ Object.assign(seed.activeWorkout,{stage:'active',phase:'warmup',exerciseIndex:-1,warmupIds:[warmup.id],phaseItemIndex:0,phaseRemaining:scenario==='warmup-pause'?warmup.target:3,phaseAccumulated:0,phaseDeadlineAt:null,completedSets:{}});
+}
+if(scenario==='timed-cooldown') {
+ Object.assign(seed.activeWorkout,{stage:'active',phase:'cooldown',primaryGroup:'手臂',phaseItemIndex:0,phaseSegmentIndex:0,phaseRemaining:cooldown.target,phaseAccumulated:0,phaseDeadlineAt:null});
+ seed.sessions=[{id,source:'cycle',environmentId:'健身房',startedAt:new Date().toISOString(),endedAt:new Date().toISOString(),planId:plan.id,planName:plan.name,status:'completed',completed:true,exercises:[{...plan.exercises[0],completedSets:[completed]}]}];
+ seed.cycleIndexByEnvironment['健身房']=1;
+}
+if(scenario==='fresh') seed.activeWorkout=null;
+if(scenario==='empty') {seed.activeWorkout.completedSets={};seed.activeWorkout.stage='active';seed.activeWorkout.phase='warmup';seed.activeWorkout.exerciseIndex=-1;}
+let resetting=false;
+const memory=new Map([['ritmo-demo-v3',sessionStorage.getItem(fixtureKey)||JSON.stringify(seed)]]);
+const output=document.getElementById('fixture-state');
+const render=()=>{const d=JSON.parse(memory.get('ritmo-demo-v3')),r=d.activeWorkout;output.textContent=JSON.stringify({sessions:d.sessions.length,records:d.sessions.map(s=>({id:s.id,status:s.status,sets:s.exercises.reduce((n,e)=>n+e.completedSets.length,0)})),next:d.cycleIndexByEnvironment['健身房'],run:r&&{id:r.id,stage:r.stage,phase:r.phase,paused:r.paused,parked:r.parkedOnHome,rest:r.restRemaining,seconds:r.phaseRemaining,segment:r.phaseSegmentIndex,rep:r.rep,set:r.setNumber,completed:r.completedSets[0]?.length}},null,1);};
+// This page never reads or writes the real user's localStorage object.
+Object.defineProperty(window,'localStorage',{configurable:true,value:{getItem:key=>memory.get(key)||null,setItem:(key,value)=>{memory.set(key,String(value));if(key==='ritmo-demo-v3'&&!resetting)sessionStorage.setItem(fixtureKey,String(value));render();},removeItem:key=>memory.delete(key),clear:()=>memory.clear(),key:index=>[...memory.keys()][index]||null,get length(){return memory.size;}}});
+document.getElementById('fixture-hide').onclick=()=>{Object.defineProperty(document,'visibilityState',{configurable:true,value:'hidden'});document.dispatchEvent(new Event('visibilitychange'));window.dispatchEvent(new PageTransitionEvent('pagehide'));};
+document.getElementById('fixture-show').onclick=()=>{Object.defineProperty(document,'visibilityState',{configurable:true,value:'visible'});document.dispatchEvent(new Event('visibilitychange'));window.dispatchEvent(new PageTransitionEvent('pageshow',{persisted:true}));};
+document.getElementById('fixture-reset').onclick=()=>{resetting=true;sessionStorage.removeItem(fixtureKey);location.reload();};
+document.getElementById('fixture-dismiss').onclick=()=>document.getElementById('fixture-tools').style.display='none';
+const events=[];let last='';
+const observe=()=>{const count=document.querySelector('.countdown-screen:not(.play-countdown-target .countdown-screen) strong')?.textContent;const motion=!!document.querySelector('.play-countdown-layer');const home=!!document.querySelector('.training-home-dark');const rep=document.querySelector('.rep-count strong')?.textContent;const rest=document.querySelector('.rest-timer')?.textContent;const signature=motion?'motion':count?'count:'+count:home?'home':rep?'rep:'+rep:rest?'rest:'+rest:'executor';if(signature===last)return;last=signature;events.push({event:signature,at:performance.now(),state:output.textContent,number:document.querySelector('.rep-count strong')?.textContent,heading:document.querySelector('.immersive-title')?.textContent});document.getElementById('fixture-events').textContent=JSON.stringify(events);};
+new MutationObserver(observe).observe(document.getElementById('root'),{subtree:true,childList:true,characterData:true});
+render();await import('../src/main.tsx');
+</script></body></html>

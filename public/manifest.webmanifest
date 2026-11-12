@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "RITMO",
+  "short_name": "RITMO",
+  "description": "RITMO 个人力量训练测试版",
+  "lang": "zh-CN",
+  "start_url": "/?flow=training",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080908",
+  "theme_color": "#080908",
+  "icons": [
+    {
+      "src": "/icons/ritmo-spacing-20261103-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/ritmo-spacing-20261103-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

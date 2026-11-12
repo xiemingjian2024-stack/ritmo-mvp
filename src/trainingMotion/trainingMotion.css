@@ -1,0 +1,63 @@
+:root{--ring-resume-ink:#11180c}
+/* Approved V5 training presentation: the complete progress circle is the pause target and shared element. */
+.ring-training-screen .ring-active-content{padding:64px 18px max(24px,env(safe-area-inset-bottom,0px));min-height:100%;background:#080a09}
+.ring-training-screen .ring-active-content .immersive-header{min-height:46px;justify-content:flex-start}
+.ring-training-screen .ring-active-content .immersive-title{min-width:0;width:100%}
+.ring-training-screen .ring-active-content h1{font-size:21px;line-height:1.23;overflow-wrap:anywhere}
+.ring-training-screen .ring-active-content .exercise-media{margin-top:20px}
+.ring-feedback-panel{margin-top:28px;text-align:center;position:relative;padding:0 8px}
+.ring-progress{position:relative;display:block;width:176px;height:176px;margin:0 auto;color:#fff;container-type:inline-size}
+.ring-progress-svg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.ring-progress-svg circle{fill:none;stroke-width:13}
+.ring-track{stroke:#163b0b}
+.ring-fill{stroke:var(--lime);stroke-dasharray:100;stroke-linecap:round;transform:rotate(-90deg);transform-origin:center}
+.ring-number{display:block;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font:750 32cqw/1 var(--ritmo-font-numbers);font-variant-numeric:tabular-nums;letter-spacing:-2px;white-space:nowrap;pointer-events:none}
+[data-timed=true]>.ring-number{font-size:23cqw;letter-spacing:-1.5px}
+.ring-pause-trigger{padding:0;border:0;border-radius:50%;background:transparent!important;box-shadow:none;touch-action:manipulation;-webkit-tap-highlight-color:transparent;cursor:pointer}
+.ring-pause-trigger>*{pointer-events:none}
+.ring-action-label,.ring-shared-action{position:absolute;left:50%;top:calc(50% + 34px);transform:translateX(-50%);font-size:14px;line-height:20px;font-weight:650;letter-spacing:.02em;white-space:nowrap;pointer-events:none}
+.ring-pause-trigger:focus-visible{outline:2px solid white;outline-offset:5px}
+.ring-feedback-panel .target-summary{margin-top:10px;gap:8px;font-size:16px;line-height:22px;color:#e2e8dd}
+.ring-feedback-panel .motion-cue{margin:8px 0 0;font-size:12px;line-height:18px;color:#9fa59c;font-weight:500}
+/* Reuse the bottom-anchored real sheet. Opening/closing share the circle's
+   progress; idle returns control to the existing drag/spring behavior. */
+.device-screen.ring-training-screen .bottom-sheet:has(.ring-controls){left:0!important;right:0!important;top:auto!important;width:100%!important;height:auto!important;min-height:0!important;max-height:var(--ring-control-max-height,780px)!important;border-radius:28px 28px 0 0;box-shadow:0 -12px 32px #0007,inset 0 1px 0 #ffffff0c;overflow:hidden}
+.ring-training-screen .bottom-sheet:has(.ring-controls) .sheet-content{padding:0 var(--ritmo-sheet-side) max(20px,var(--device-safe-area-bottom,0px),env(safe-area-inset-bottom,0px));overflow:auto;max-height:none}
+.ring-training-screen:is([data-ring-motion=opening],[data-ring-motion=closing]) .bottom-sheet:has(.ring-controls){transform:translateY(calc((1 - var(--ring-motion-progress,1))*var(--ring-sheet-shift,460px)))!important}
+.ring-training-screen[data-ring-reduced=true] .bottom-sheet:has(.ring-controls){transform:none!important}
+.ring-training-screen .ring-controls{gap:8px;justify-items:center}
+.ring-training-screen .ring-controls .control-resume{position:relative;display:block;width:var(--ring-control-size,176px);height:var(--ring-control-size,176px);min-height:var(--ring-control-size,176px);padding:0;margin:0;border:0;border-radius:50%;background:var(--lime);color:var(--ring-resume-ink,#fff);box-shadow:none;container-type:inline-size}
+.ring-training-screen .ring-controls .control-resume .ring-number{font:750 32cqw/1 var(--ritmo-font-numbers);color:var(--ring-resume-ink,#fff)}
+.ring-training-screen .ring-controls .control-resume[data-timed=true] .ring-number{font-size:23cqw}
+.ring-training-screen .ring-controls .control-resume .ring-action-label{font-size:14px;line-height:20px;font-weight:650}
+.ring-secondary-actions{display:flex;gap:8px;width:100%}
+.ring-training-screen .ring-secondary-actions .secondary-button{flex:1;min-width:0;min-height:44px;margin:0;padding:6px;font-size:12px;line-height:18px;border-radius:16px;background:var(--ritmo-sheet-control-surface);color:var(--ritmo-main-text);border:0}
+.ring-secondary-actions:empty{display:none}
+.ring-training-screen .ring-controls :is(.control-phase-skip,.control-workout-end){width:100%;min-height:44px;padding:10px 4px;font-size:13px;line-height:20px;margin:0}
+.ring-training-screen .ring-controls .control-workout-end{border-top:0}
+.ring-training-screen[data-ring-motion=opening] .bottom-sheet:has(.ring-controls),.ring-training-screen[data-ring-motion=closing] .bottom-sheet:has(.ring-controls){pointer-events:none}
+.ring-training-screen[data-ring-motion=opening] .bottom-sheet:has(.ring-controls) .sheet-header,.ring-training-screen[data-ring-motion=closing] .bottom-sheet:has(.ring-controls) .sheet-header,
+.ring-training-screen[data-ring-motion=opening] .ring-secondary-actions,.ring-training-screen[data-ring-motion=closing] .ring-secondary-actions,
+.ring-training-screen[data-ring-motion=opening] .ring-controls>:is(.control-phase-skip,.control-workout-end),.ring-training-screen[data-ring-motion=closing] .ring-controls>:is(.control-phase-skip,.control-workout-end){opacity:clamp(0,calc((var(--ring-motion-progress,1) - .65)*2.86),1)}
+.ring-shared-element{position:absolute;z-index:110;pointer-events:none;border-radius:50%;overflow:hidden;will-change:left,top,width,height;color:white;container-type:inline-size}
+.ring-shared-element>.ring-number{color:color-mix(in srgb,white calc((1 - var(--icon-morph,0))*100%),var(--ring-resume-ink,#fff))}
+@media(max-height:820px){.ring-training-screen .ring-active-content{padding-top:60px}.ring-progress{width:160px;height:160px}.ring-feedback-panel .target-summary{margin-top:8px}.ring-feedback-panel .motion-cue{margin-top:6px}.ring-action-label,.ring-shared-action{top:calc(50% + 30px)}}
+@media(prefers-reduced-motion:reduce){.ring-shared-element{will-change:auto}.ring-training-screen .ring-fill{transition:none}}
+.ring-training-screen .sheet-overlay:has(+.bottom-sheet .ring-controls){background:rgba(0,0,0,.42)!important;opacity:var(--ring-motion-progress,1)!important}
+.ring-training-screen:has(.ring-controls) .ring-active-content>.immersive-header{opacity:calc(1 - var(--ring-motion-progress,1)*.15)}
+.ring-training-screen:has(.ring-controls) .ring-active-content .exercise-media>:is(video,img){opacity:calc(1 - var(--ring-motion-progress,1)*.3)}
+.ring-training-screen[data-ring-control=false] .bottom-sheet:has(.ring-controls){visibility:hidden!important;pointer-events:none!important}
+.ring-training-screen[data-ring-control=false] .sheet-overlay:has(+.bottom-sheet .ring-controls){opacity:0!important;pointer-events:none!important}
+/* The completed real countdown supplies the source; the real active view supplies the target. */
+.countdown-source-wrapper{display:contents}
+.countdown-entry-active>.immersive-header,.countdown-entry-active>.exercise-media,.countdown-entry-active .target-summary,.countdown-entry-active .motion-cue{opacity:var(--countdown-entry-progress,0)}
+.countdown-entry-active .ring-progress{visibility:hidden!important}
+.countdown-entry-layer{position:absolute;inset:0;z-index:85;pointer-events:none;overflow:hidden}
+.countdown-entry-proxy{position:absolute;pointer-events:none;color:white}
+.countdown-entry-proxy>svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.countdown-entry-proxy circle{fill:none;stroke-width:13}
+.countdown-entry-number{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-family:var(--ritmo-font-numbers);font-weight:750;line-height:1;font-variant-numeric:tabular-nums;white-space:nowrap;color:white}
+.countdown-entry-copy{position:absolute;text-align:center;line-height:1.3;pointer-events:none}
+/* Current-item actions stack above the low-emphasis phase/workout exits. */
+.ring-secondary-actions{flex-direction:column}
+.ring-training-screen .ring-secondary-actions .secondary-button{flex:none;width:100%;min-height:48px}

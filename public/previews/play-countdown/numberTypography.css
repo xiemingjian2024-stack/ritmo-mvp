@@ -1,0 +1,21 @@
+/* Apple maps ui-rounded to SF Pro Rounded in Safari and iPhone Web Apps.
+   Keep one shared family for app data and the isolated motion previews. */
+:root {
+  --ritmo-font-numbers: ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+}
+
+.prototype-shell,
+.device-screen .bottom-sheet,
+.device-screen .action-sheet,
+.ritmo-number-text {
+  font-family: var(--ritmo-font-numbers);
+}
+
+/* Stable numeral widths for changing counts, timers, dates and saved metrics. */
+:is(.rep-count, .target-summary, .rest-timer, .countdown-ring strong,
+    .immersive-title p, .rest-parameter-target, .rest-parameter-row b,
+    .precise-stepper b, .actual-reps-stepper b, .date-number, .calendar-days,
+    .calendar-month, .session-meta time, .session-duration,
+    .record-exercise-card strong, .training-immersive-list i) {
+  font-variant-numeric: tabular-nums;
+}
