@@ -1,0 +1,315 @@
+{
+  "captured_at": "2026-11-12",
+  "source_page": "http://127.0.0.1:5173/project/ai-ritmo",
+  "scope": "仅搬运原 RITMO 作品集案例，原文、原图与原录屏；不修改作品集或 App",
+  "original_assets": [
+    {
+      "path": "assets/brand/app-icon/user-icon-v2.png",
+      "bytes": 1412907,
+      "sha256": "336bc08e5e62539703259342c928a711a7a6f9d130fb1888f112618fe7f851dd",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/brand/brand-recording.mp4",
+      "bytes": 18325498,
+      "sha256": "2fc4a8dda465e40b16f6aca8768bcb55d1424729ef759824f195e773d02e55bd",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/brand/design-goals-decoration.png",
+      "bytes": 371650,
+      "sha256": "c5e55c2c763425f6c0c10820c5b4197bfd658cb546c1a5edb5c972b4d8736743",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/brand/logo/logo-c-precise-dark.svg",
+      "bytes": 1185,
+      "sha256": "81d7ff3328d79d77b39c57b80e5647e992d76443a46aec099bcafb94f7780b85",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/brand/moodboard/control.jpg",
+      "bytes": 83200,
+      "sha256": "2fda436b39aec60b7aa456e50b53a62febac6638945b839ecfcc0a0f19a4d702",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/brand/moodboard/focus.jpg",
+      "bytes": 124587,
+      "sha256": "6e314542f10b381d8097d59d169b8f6f58e331292ee693181f3f1776364fabdd",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/brand/moodboard/rhythm.jpg",
+      "bytes": 117470,
+      "sha256": "304af5a0880da6587c39cbb8c0abd80e7b663829d4daf80108316c9a22ac11a9",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/brand/muscle-recording.mp4",
+      "bytes": 7806259,
+      "sha256": "fad1325cf6a9800c44244b4a3114a6c1b374c86d4e0405b33359ca2f1bd5305a",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/brand/phone-mockup-spaced.png",
+      "bytes": 1903096,
+      "sha256": "ca1268dda277e1280aaea62245d22cda41d6a0fd28fec23f300d65f83b2de5da",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/brand/six-home-backgrounds/chest.webp",
+      "bytes": 128504,
+      "sha256": "e848cc9da9bd9a9617eca983978de864b7906ea27fe1b570dd58675af5833808",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/competitors/fitbod.jpg",
+      "bytes": 3905,
+      "sha256": "5b6fe96366c6bf297ab6148647376aef7d4861cf8eafae887cc05becca7d53dc",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/competitors/hevy.ico",
+      "bytes": 478,
+      "sha256": "7c1bfd9ad204152e2ea75529359b37b1f9522158f3dab38d61627150c29da0c6",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/discover/scene-complex.png",
+      "bytes": 2060031,
+      "sha256": "f9daee3d80d10823707eeb20bc861758cca0a0897bbe69a6daa7fa4a3fec0b30",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/discover/scene-equipment.png",
+      "bytes": 2699788,
+      "sha256": "14ec919d0647c3a14fa761a00e3c627dec1da5a46f472c876f1b96aab231f5af",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/discover/scene-phone-v2.png",
+      "bytes": 2184619,
+      "sha256": "7e14af47b5b1da5efcd9d26ec543e464ce7def23d22e671805e9734a1b4306e8",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/experiment/00-start.png",
+      "bytes": 1777318,
+      "sha256": "2ebce0447c2cbffdf355caba7bbe20bbf77f3d0cfe98932fe64823b6976f69c9",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/experiment/01-mid.png",
+      "bytes": 1676734,
+      "sha256": "624cd2d8c1e291951c9a310566f4eb23f1db5cac234a3562abe3181280e6bcad",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/experiment/02-top.png",
+      "bytes": 1661333,
+      "sha256": "5b5756a7ee4fc3558fca0531d9709c62b3fcfa913dbb0c8020b5074eb909faa8",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/experiment/alternating-curl.mp4",
+      "bytes": 171375,
+      "sha256": "58934aa5e706399219881abcdb8894653e90b4ee30400f062f6e61e3a5f270fc",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/experiment/anatomy-study.png",
+      "bytes": 1724970,
+      "sha256": "a980a598c4f2176ee83ec4146da480d858b65be6351d59f0b65c7afffd385336",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/experiment/goblet-squat.mp4",
+      "bytes": 110985,
+      "sha256": "7171bd3c25fa26a81d6a1079422809b05fc393e3e856adbb02e212b3c4ed3bf5",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/experiment/handdrawn-study.png",
+      "bytes": 3020067,
+      "sha256": "e8ff15a894f6824013c1bb9ed5a81fc143fe4f7e6212fcf66603437f929a2191",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/experiment/keyframe-loop.gif",
+      "bytes": 202164,
+      "sha256": "6626b69ecc9f48f857446cf4e3948d7d135221ed42434d77b4a9870fdf69a4d3",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/experiment/press.mp4",
+      "bytes": 131115,
+      "sha256": "dda31c65f936268ebea1c193ff14832be4dae081bd5a40c855c865ebedf0c3f7",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/experiment/source-example-1.gif",
+      "bytes": 105290,
+      "sha256": "7d953ba977fb42f54065e64615876d82a3a62dbca1037831aa73f935df89ce4f",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/experiment/source-example-2.gif",
+      "bytes": 163534,
+      "sha256": "3c053f02919ee51adca7ccea1320aff379e1e78a62334757cf8e3ea6f3af6fc8",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/experiment/source-example-3.gif",
+      "bytes": 100546,
+      "sha256": "507ff97ae8a85ae6f8cb10871096aa5b7265196c2164d314fc847755065607e7",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/experiment/source-example-4.gif",
+      "bytes": 92828,
+      "sha256": "b572f07a646ec97da6bf243a3e4db3dac563d8347814e6dc9fb7b6f84814dcbe",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/experiment/squat-realistic-3d-concept.png",
+      "bytes": 1862416,
+      "sha256": "19c6b50eea7aa2a243f7c11213b8d6a8af900388935371867e46a8151349a6e4",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/experiment/squat-simplified-3d-concept.png",
+      "bytes": 1657436,
+      "sha256": "1ce33621efdd6ea253e5b23d1bd7c29bd21e4fccec71cc4203aa4b55cb4c245f",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/process/ai-interface.jpg",
+      "bytes": 1203828,
+      "sha256": "8c5586a1bdecfc3f7ad91d2a61c85fd0e0e1bc698a04f682def425283d418758",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/process/ai-media.png",
+      "bytes": 12862965,
+      "sha256": "d5085eb0d418ce976a7134fff8b0cf25421982ab4138a02449e09ac6436339d3",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/process/figma-bridge-dark.svg",
+      "bytes": 2427,
+      "sha256": "8a57676d0e2c1a0815ea80842996c6be6de7e5a02d96485d711e3c702098abcd",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/process/figma-bridge.png",
+      "bytes": 99879,
+      "sha256": "48c6c4cd9cbadb38f4fe49382452f8e3b06b35677ccc0f0bd35b4a3721d63722",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/process/problem-needs-constraints.png",
+      "bytes": 205810,
+      "sha256": "b1d9a80e63e08a3f54cf8cf55e3e9a6104134456dfe7853a05fa16967149be70",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/process/talk-work-collaboration.png",
+      "bytes": 1553284,
+      "sha256": "06b33b5794adcbabdacc07946d932b58d1fc552ba810bbe53537d4f79a65e3df",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/process/training-flow-v2.png",
+      "bytes": 1614647,
+      "sha256": "320023f5290560fb2a3ab668554c864e25c1c934b45281381c21c80a1a0b3cf5",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/strategy/environment-icons.png",
+      "bytes": 1059366,
+      "sha256": "09dfd453e2353bcb0e68d7125d2f493b1c13dcb9e6ed65c3e1c637b1b9f77dc3",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/strategy/ux-framework.mp4",
+      "bytes": 22208261,
+      "sha256": "d005837c2d11ec384e6017963b0bae72dfaa48889b957f07bc65bddc028a5bce",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/visual/design/1.png",
+      "bytes": 295030,
+      "sha256": "0c622c2f056daddba6e95e17c102fa0d3964d005acd9e9141809866d211f841a",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/visual/design/2.png",
+      "bytes": 299315,
+      "sha256": "6cb1c22a304a744ecd4368a7b9a3d0b0179c72cdda09ff8b718588468c605471",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/visual/design/3.png",
+      "bytes": 600200,
+      "sha256": "237bd70c30befecf7fa21b05e1b95cf018145c3dc9ec71801732544c336c22db",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/visual/design/4.png",
+      "bytes": 624252,
+      "sha256": "cdbd327d39b7b199019c1c4ee1d8656d610f5cb01e7a197a3a5b22ec3847e7c4",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/visual/design/5.png",
+      "bytes": 368480,
+      "sha256": "10a14be48de6a37f94d526542dd84f648674a1ab69034d4c877b927f9805177b",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/visual/design/6.png",
+      "bytes": 340672,
+      "sha256": "d22a492e6c6df962f40317d710b3d1dd88c7ad13ec46a2a10dc512e30d769637",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/visual/design/7.png",
+      "bytes": 497696,
+      "sha256": "0887fcd9e61707623161653cbc2505a160993caa63961991f34f7a3acb0f22e6",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/visual/design/8.png",
+      "bytes": 1504481,
+      "sha256": "4d23888bb2dfbe522c02c376716c9c4a1fd8460a5a2e5ef581e880618066840f",
+      "matches_running_portfolio": true
+    },
+    {
+      "path": "assets/visual/design/final-screen.mp4",
+      "bytes": 2836845,
+      "sha256": "11dbd590efdd9165f4b17fa3b3fc2494529b65ebb626345a10f6fd32e4ee042f",
+      "matches_running_portfolio": true
+    }
+  ],
+  "source_files": [
+    {
+      "path": "source/RitmoCase.jsx",
+      "sha256": "a2b5c46b54d5a81a090deb4eeb50491dfea84995a6f5fa832d5bc854ca1d535f"
+    },
+    {
+      "path": "source/ritmo.css",
+      "sha256": "a83301f4d03468a60a304f1a73f7fa379578b405effbe4b07a8d593b5774cdf4"
+    },
+    {
+      "path": "source/brandMotion.tsx",
+      "sha256": "cbc62e3a4a4f2411983c7daaf738e2f35af0d490f3eb0f46e184d5f734263a48"
+    },
+    {
+      "path": "source/recordsAnatomy.ts",
+      "sha256": "205e219c30547fb10d394de9589fd0aef26def10d6dab3cd73c63867648ab059"
+    }
+  ],
+  "capture_method": "Playwright 从原页面直接采集。CSS 动画选择已展开状态；仅隐藏页面外侧返回控件，未重绘案例界面。",
+  "display_adaptation": "GitHub README 用 Markdown 排版；原网页 CSS/React 动效不在 GitHub 内运行，附原视频文件和原组件源码。"
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "name": "00-project",
+    "selector": ".ritmo-hero-chapter",
+    "index": 0,
+    "width": 1195.21875,
+    "height": 1666.046875
+  },
+  {
+    "name": "01-comparison",
+    "selector": ".ritmo-comparison",
+    "index": 0,
+    "width": 1195.21875,
+    "height": 521.078125
+  },
+  {
+    "name": "02-environment",
+    "selector": ".ritmo-strategy-live-stack > figure",
+    "index": 0,
+    "width": 550.015625,
+    "height": 591.015625
+  },
+  {
+    "name": "03-cycle",
+    "selector": ".ritmo-strategy-live-stack > figure",
+    "index": 1,
+    "width": 550.015625,
+    "height": 591.015625
+  },
+  {
+    "name": "04-phases",
+    "selector": ".ritmo-strategy-live-stack > figure",
+    "index": 2,
+    "width": 550.015625,
+    "height": 591.015625
+  },
+  {
+    "name": "05-pipeline",
+    "selector": ".ritmo-data-pipeline",
+    "index": 0,
+    "width": 1115.21875,
+    "height": 101.984375
+  },
+  {
+    "name": "06-prepare",
+    "selector": ".ritmo-operation-stage",
+    "index": 0,
+    "width": 550.015625,
+    "height": 550.015625
+  },
+  {
+    "name": "07-rest",
+    "selector": ".ritmo-operation-stage",
+    "index": 1,
+    "width": 550.015625,
+    "height": 550.015625
+  },
+  {
+    "name": "08-brand-rings",
+    "selector": ".ritmo-brand-rings",
+    "index": 0,
+    "width": 1195.21875,
+    "height": 410
+  }
+]

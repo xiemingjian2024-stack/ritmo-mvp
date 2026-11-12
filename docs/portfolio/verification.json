@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-12",
+  "original_asset_count": 48,
+  "original_asset_bytes": 99858726,
+  "paragraphs_checked": 20,
+  "missing_original_paragraphs": [],
+  "design_panels": 8,
+  "section_order": "same as source page",
+  "local_link_failures": [],
+  "checksums": "all original copied media match source and running portfolio",
+  "runtime_changes": false,
+  "privacy": "existing private repository; no website deployment",
+  "video_note": "用户体验框架原 MP4 为 HEVC；通过 macOS Quick Look 提取预览，不改动原文件。其他录屏从原视频提取预览帧。GitHub 不保证内嵌播放所有编码，可下载原文件。"
+}

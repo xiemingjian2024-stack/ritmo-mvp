@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" role="img" aria-labelledby="title">
+  <title id="title">Figma Bridge 深色界面示意</title>
+  <rect width="720" height="720" fill="#0b0e0b"/>
+  <rect x="54" y="62" width="612" height="596" rx="28" fill="#171b16" stroke="#343d31"/>
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif">
+    <rect x="84" y="91" width="42" height="42" rx="11" fill="#b5ff00"/>
+    <text x="105" y="119" text-anchor="middle" fill="#151d0d" font-size="19" font-weight="700">&lt;/&gt;</text>
+    <text x="143" y="120" fill="#f5f7f1" font-size="29" font-weight="700">Figma Bridge</text>
+    <text x="636" y="118" text-anchor="end" fill="#a9b3a5" font-size="17">V0.2.3</text>
+    <text x="84" y="165" fill="#b4bdb0" font-size="19">导入可编辑图层，导出选中的 Frame</text>
+    <rect x="84" y="196" width="552" height="58" rx="14" fill="#222820"/>
+    <rect x="90" y="202" width="270" height="46" rx="10" fill="#374332"/>
+    <text x="225" y="232" text-anchor="middle" fill="#f5f7f1" font-size="20">导入文件</text>
+    <text x="498" y="232" text-anchor="middle" fill="#b4bdb0" font-size="20">粘贴 JSON</text>
+    <rect x="84" y="271" width="552" height="122" rx="16" fill="#1d231c" stroke="#5c6956" stroke-dasharray="6 5"/>
+    <text x="360" y="328" text-anchor="middle" fill="#f5f7f1" font-size="22" font-weight="600">选择 Design JSON 文件</text>
+    <text x="360" y="360" text-anchor="middle" fill="#a9b3a5" font-size="17">或拖放到这里</text>
+    <rect x="84" y="411" width="178" height="52" rx="12" fill="#2b3527"/>
+    <rect x="274" y="411" width="362" height="52" rx="12" fill="#b5ff00"/>
+    <text x="173" y="444" text-anchor="middle" fill="#f5f7f1" font-size="18">检查 JSON</text>
+    <text x="455" y="444" text-anchor="middle" fill="#151d0d" font-size="19" font-weight="700">导入到当前页面</text>
+    <path d="M84 494h552" stroke="#343d31"/>
+    <text x="84" y="535" fill="#f5f7f1" font-size="23" font-weight="600">导出选中设计</text>
+    <rect x="84" y="557" width="270" height="58" rx="12" fill="#252e22" stroke="#3a4635"/>
+    <rect x="366" y="557" width="270" height="58" rx="12" fill="#252e22" stroke="#3a4635"/>
+    <text x="219" y="593" text-anchor="middle" fill="#f5f7f1" font-size="18">导出 Design JSON</text>
+    <text x="501" y="593" text-anchor="middle" fill="#f5f7f1" font-size="18">导出 PNG</text>
+  </g>
+</svg>

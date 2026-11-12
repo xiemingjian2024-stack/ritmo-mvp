@@ -1,0 +1,29 @@
+{
+  "id": "ai-ritmo",
+  "title": "RITMO",
+  "year": "2026",
+  "type": "个人运动健身产品",
+  "summary": "从个人力量训练出发，连接方案、动作示范、训练节奏与记录，用连续的圆形交互建立清晰的训练体验。",
+  "caseStudy": {
+    "intro": "RITMO 是一款个人力量训练 App，可以按家里或健身房的器械安排训练，跟着动作示范完成热身、力量和拉伸，再回看自己的训练记录。",
+    "facts": [
+      {
+        "label": "品牌",
+        "value": "个人项目"
+      },
+      {
+        "label": "状态",
+        "value": "已上传",
+        "link": "https://github.com/xiemingjian2024-stack/ritmo-mvp"
+      },
+      {
+        "label": "角色",
+        "value": "全流程"
+      },
+      {
+        "label": "范围",
+        "value": "品牌、界面、开发"
+      }
+    ]
+  }
+}

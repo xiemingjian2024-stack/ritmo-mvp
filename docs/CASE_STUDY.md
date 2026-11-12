@@ -1,81 +1,235 @@
-# RITMO｜个人运动健身产品设计案例
-
-> 整理自设计师当前作品集 RITMO 项目页（2026-11-12），并与实际实现核对。作品集本机地址不是外部 Demo；运行与安装见 [DEMO](DEMO.md)。
-
-## 项目概览
+# RITMO
 
 RITMO 是一款个人力量训练 App，可以按家里或健身房的器械安排训练，跟着动作示范完成热身、力量和拉伸，再回看自己的训练记录。
 
-| 项目 | 内容 |
-| --- | --- |
-| 类型 | 个人运动健身产品／AI 协作实践 |
-| 状态 | V1.8 个人使用版 MVP、iPhone 主屏幕网页 App |
-| 我的角色 | 产品定义、交互设计、品牌、界面、实现约束与验收 |
-| AI 角色 | 分析讨论、代码构建、素材制作与验证辅助 |
-| 范围 | 训练流程、方案、动作示范、节奏、暂停恢复与记录 |
+| 品牌 | 状态 | 角色 | 范围 |
+| --- | --- | --- | --- |
+| 个人项目 | 已上传 · [GitHub](https://github.com/xiemingjian2024-stack/ritmo-mvp) | 全流程 | 品牌、界面、开发 |
 
-## 01｜从自己的训练问题开始
+![原作品集项目封面](portfolio/captures/00-cover.png)
 
 刚好那段时间我在健身，练着练着，就发现有些地方用起来不太顺手。我想，不如借助 AI，给自己做一个训练 App，也试试能不能把自己的设计想法真正用起来。
 
-训练中有三个反复出现的问题：**动作不熟悉、器械随场地变化、操作打断节奏**。我常常要确认动作怎么做、眼前的器械够不够用，还得停下来翻手机。设计目标因此落在降低完成一次训练所需的判断与操作，从训练前的安排，一直到训练后的回看。
+<p>
+<img src="portfolio/assets/brand/phone-mockup-spaced.png" width="460" alt="使用真实主屏幕截图制作的 RITMO 手机样机展示" />
+<img src="portfolio/assets/brand/app-icon/user-icon-v2.png" width="220" alt="RITMO 应用图标" />
+</p>
 
-## 02｜用户体验框架与产品策略
+<img src="portfolio/assets/brand/logo/logo-c-precise-dark.svg" width="360" alt="RITMO" />
 
-一次训练沿热身、力量、拉伸与记录展开。用户可以应用推荐，也可以自定义或自由搭配动作；训练环境决定推荐与器械可用性。
+---
 
-- **表现层：统一视觉。** 从 O 到训练圆环，用同一套形状和荧光绿串起开始、倒数、计次与继续，让状态容易认出来。
-- **业务逻辑层：简化安排。** 理顺场地、器械与方案的关系；切换环境时调整推荐，选择力量动作后自动安排热身与拉伸。
-- **交互层：减少操作。** 休息与下一组衔接，换动作时保留手动开始；点圆环暂停，再按需要调整或退出。
+训练时，我常常要确认动作怎么做、眼前的器械够不够用，还得停下来翻手机。设计目标不是提供更多训练功能，而是降低完成一次训练所需的判断与操作。
 
-情绪板与视觉方向围绕 **专注、节奏、掌控**。
+| 动作不熟悉 | 器械随场地变化 | 操作打断节奏 |
+| --- | --- | --- |
+| ![动作不熟悉的训练情境示意](portfolio/assets/discover/scene-complex.png) | ![器械随场地变化的训练情境示意](portfolio/assets/discover/scene-equipment.png) | ![操作打断节奏的训练情境示意](portfolio/assets/discover/scene-phone-v2.png) |
 
-## 03｜动作素材库从哪里来
+### 同类产品比较
 
-一开始我想找一套现成的动作示范，省下逐个制作的时间。后来也尝试 3D 和 AI 序列帧，比较哪种方式能把动作讲清楚，也便于继续扩展。
+| 产品 | 训练计划配置 | 环境适配 | 动作教学 | 训练中操作 | 训练历史反馈 | 优缺点与需求适配 |
+| --- | --- | --- | --- | --- | --- | --- |
+| <img src="portfolio/assets/competitors/hevy.ico" width="28" alt="" /> Hevy | 创建训练方案、文件夹，复用动作与组数 | 动作库按器械查找，支持自定义动作 | 动作库提供示范与指导 | 记录组数、重量，提供自动休息计时 | 动作表现、肌群分布与月度报告 | 记录与复用清晰；仍需自行编排，部分满足少做判断的需求。 |
+| <img src="portfolio/assets/competitors/fitbod.jpg" width="28" alt="" /> Fitbod | 根据目标、经验、时长与历史生成训练 | 以可用器械和个人设置约束推荐 | How To 提供步骤、视频与目标肌群 | 可调整组数、次数与重量 | 训练历史进入后续推荐，提供表现记录 | 器械适配与推荐较完整；需先配置条件，适合借助推荐训练。 |
+| <img src="portfolio/assets/brand/app-icon/user-icon-v2.png" width="28" alt="" /> RITMO | 保留推荐、自定义与自由训练，按轮次执行 | 家里／健身房分别保留器械与方案 | 常用动作匹配自制媒体，专业审校仍待完成 | 组间自动衔接，换动作手动开始，可暂停调整 | 历史成果与最近训练时间的肌群可视化 | 更贴合我的场地与训练节奏；动作覆盖和专业审校仍需完善。 |
 
-探索包含开源动作数据与媒体、个人提供的六段动作示范资料、3D、手绘及解剖方向，以及 AI Sequence。最终以统一写实摄影风格制作关键帧，动态动作合成可循环 Sequence，静态拉伸使用姿势图。
+## 让训练跟着我的生活走
 
-动作先核对定义、目标肌群、器械、侧别与参数，再建立稳定 ID 和媒体映射；视觉效果好不能替代动作准确性。用户逐项审核，复杂轨迹或器械问题采用换视角、有限修正，必要时选择目标一致且变式明确的替代动作。原动作与替代动作保留独立 ID，不因相近名称自动复用媒体。
+我有时在家练，有时去健身房。在家手边只有几样器械，到了健身房又有别的选择，同一套动作不一定都做得了。我想打开 App 就知道今天在这里能练什么，少花点时间临时改计划。
 
-数据管线从核对来源到匹配示范，把训练所需信息整理到每个动作里。当前资产见 `src/data/personalTrainingLibrary.json`、`src/personalPhaseMedia.ts` 与 `src/personalSequenceMedia.ts`；专业审校状态独立保留。
+### 切换场地，推荐跟着可用器械调整。
 
-## 04｜把准备、执行与回顾接起来
+![原页面场地切换示意](portfolio/captures/02-environment.png)
 
-**开练先准备。** 点击 PLAY 后，按钮与倒计时圆环连续变化。完整保留 3·2·1，让人有时间放下手机、拿稳器械。
+居家／健身房 · 哑铃 · 训练凳 · 训练垫
 
-**练的时候少操作。** 上方媒体是第一视觉中心，下方圆环显示次数或时间。数字与暂停入口整合在圆环内，保留目标、重量和动作提示。休息到时接下一组；动作之间手动 START。
+上斜哑铃卧推 · 平板哑铃飞鸟
 
-**暂停与继续。** 点圆环立即冻结计次、计时与媒体，共享元素过渡到继续状态。恢复原进度，不重触发 3·2·1。参数、跳过、结束有明确层级，并保护已完成力量组记录。
+### 漏练一天，后续顺延，下次接着练。
 
-**练后看记录。** 结束后进入记录 Tab，先看肌群分布，再用日历和动作卡回顾成果。正背图表示最近一次训练时间，不将其表述为身体恢复程度。
+![原页面训练循环示意](portfolio/captures/03-cycle.png)
 
-## 05｜RITMO 品牌：找到属于你的训练节奏
+### 选好力量动作，自动补齐热身和拉伸。
 
-RITMO 意为「节奏」。我想到的是每次动作里的发力、控制和呼吸，也是一组练完，歇一会儿，再接着练的节奏。我希望 App 把这些环节接得顺一点，让我少看几次手机，把注意力留给动作。
+![原页面阶段匹配示意](portfolio/captures/04-phases.png)
 
-每个人练得快慢不同，训练与恢复安排也不一样。找到自己的节奏，就是找到一种愿意一练再练的方式。
+热身：徒手站姿胸前开合 → 力量训练：史密斯卧推 → 拉伸：站姿徒手胸部伸展
 
-字标采用确认的 C 方案：倾斜切角 RITM 与标准正圆荧光绿 O。经过原图提取、轮廓矢量化和叠加校准，避免用近似字体替代。圆形延伸为 **Logo O → PLAY → 倒计时 → 训练圆环 → 暂停／继续**。深色背景、六肌群局部摄影、荧光绿焦点、圆角数字与统一 Tab 建立视觉系统。
+## 用户体验框架
 
-## 06｜从 AI 协作到真实使用
+[![用户体验框架录屏预览](portfolio/captures/video-ux-framework.png)](portfolio/assets/strategy/ux-framework.mp4)
 
-我将 AI 作为跨越设计与实现之间距离的协作工具。持续提出需求、比较方案、制定实现约束与验收结果，在没有完整开发团队的条件下，将想法推进为可使用的应用。
+[播放原作品集「用户体验框架」录屏](portfolio/assets/strategy/ux-framework.mp4)
 
-1. 提出问题，明确需求与约束。
-2. 使用 Talk 讨论分析，Work 执行构建，我负责最终设计判断与验收。
-3. 分析新手与有基础用户路径、环境、方案与记录关系。
-4. 结合需求和参考生成初稿，再以真实页面持续修正。
-5. 用 Figma Bridge 在 AI 与 Figma 之间传递设计。
-6. 制作统一风格的人物、背景与动作素材，逐项筛选和替代。
-7. 装到 iPhone 主屏幕，在真实训练中反馈并迭代。
+## 动作素材库从哪里来？
 
-设计展示覆盖首页、推荐、力量训练、暂停、创建方案、添加动作、记录，以及色彩、按钮、字体、图标、Tab 与品牌动效。
+一开始我想找一套现成的动作示范，省下逐个制作的时间。后来我也试着用 3D 和 AI 序列帧来做，想看看哪种方式能把动作讲清楚，又方便以后继续加新动作。
 
-## 07｜交付与当前边界
+### 开源动作数据与媒体
 
-交付包含可运行源码、六肌群双环境流程、动作媒体、PWA 配置、品牌动效、真实页面截图与过程资料。
+<p>
+<img src="portfolio/assets/experiment/source-example-1.gif" width="220" alt="用户提供的动作示范素材 1" />
+<img src="portfolio/assets/experiment/source-example-2.gif" width="220" alt="用户提供的动作示范素材 2" />
+<img src="portfolio/assets/experiment/source-example-3.gif" width="220" alt="用户提供的动作示范素材 3" />
+<img src="portfolio/assets/experiment/source-example-4.gif" width="220" alt="用户提供的动作示范素材 4" />
+</p>
 
-个人使用确认来自设计师手机反馈。浏览器回归与真机验证分开；技术初查不等同于教练签核。当前没有传感器计次、Watch 联动、云端账户同步或可靠离线冷启动。
+### 3D 表现探索
 
-公开 Demo 使用独立域名与演示数据，不影响个人使用版。[体验与运行说明](DEMO.md)
+<p>
+<img src="portfolio/assets/experiment/squat-realistic-3d-concept.png" width="300" alt="历史写实3D视觉概念样本" />
+<img src="portfolio/assets/experiment/squat-simplified-3d-concept.png" width="300" alt="历史简化3D视觉概念样本" />
+<img src="portfolio/assets/experiment/handdrawn-study.png" width="300" alt="手绘动作方向" />
+<img src="portfolio/assets/experiment/anatomy-study.png" width="300" alt="解剖图动作方向" />
+</p>
+
+### AI 序列帧方案
+
+<p>
+<img src="portfolio/assets/experiment/00-start.png" width="220" alt="早期弯举试产关键姿势1" />
+<img src="portfolio/assets/experiment/01-mid.png" width="220" alt="早期弯举试产关键姿势2" />
+<img src="portfolio/assets/experiment/02-top.png" width="220" alt="早期弯举试产关键姿势3" />
+<img src="portfolio/assets/experiment/keyframe-loop.gif" width="220" alt="三张关键帧合成的循环动画" />
+</p>
+
+## 数据管线
+
+从核对来源到匹配动作示范，把训练会用到的信息整理到每一个动作里。
+
+![原页面数据管线](portfolio/captures/05-pipeline.png)
+
+| Raw Data | Cross-check | Normalization | Exercise Schema | Media Mapping | Training |
+| --- | --- | --- | --- | --- | --- |
+| 汇集原始资料 | 核对动作与器械 | 统一命名与格式 | 定义动作字段 | 关联动作示范 | 接入训练流程 |
+
+原页面的三个动作实例：
+
+| 参数 | 站姿交替哑铃弯举 | 坐姿哑铃推举 | 高脚杯深蹲 |
+| --- | --- | --- | --- |
+| 目标肌群 | 肱二头肌 | 三角肌前束、三角肌中束 | 股四头肌、臀大肌 |
+| 所需器械 | 哑铃 | 哑铃＋靠背凳 | 一只哑铃 |
+| 训练配置 | 3 组 × 12 次 | 4 组 × 10 次 | 4 组 × 10 次 |
+| 组间休息 | 90 秒 | 90 秒 | 90 秒 |
+| 默认重量 | 2.5 kg × 2 | 2.5 kg × 2 | 2.5 kg |
+| 动作时长 | 4 秒 / 次 | 4 秒 / 次 | 4 秒 / 次 |
+| 示范时长 | 2.88 秒 / 循环 | 3.04 秒 / 循环 | 2.67 秒 / 循环 |
+| 示范帧数 | 69 帧 · 24 fps | 73 帧 · 24 fps | 64 帧 · 24 fps |
+| 循环演示 | [播放原视频](portfolio/assets/experiment/alternating-curl.mp4) | [播放原视频](portfolio/assets/experiment/press.mp4) | [播放原视频](portfolio/assets/experiment/goblet-squat.mp4) |
+
+[![站姿交替哑铃弯举循环演示](portfolio/captures/video-alternating-curl.jpg)](portfolio/assets/experiment/alternating-curl.mp4)
+
+## 体验
+
+我想让一次训练从开始到回看都更顺手。开练前有时间放好手机、拿稳器械，练的时候能看动作示范和进度，组间休息结束后就接着练。练完再看看肌群图，知道上次练了哪里、离现在有多久。
+
+### 开练先准备
+
+![原页面开练准备示意](portfolio/captures/06-prepare.png)
+
+### 组间自动接
+
+![原页面动作示范与组间休息](portfolio/captures/07-rest.png)
+
+[播放原动作循环示范](portfolio/assets/experiment/alternating-curl.mp4)
+
+### 练后看记录
+
+[![肌群训练总览原录屏预览](portfolio/captures/video-muscle-recording.jpg)](portfolio/assets/brand/muscle-recording.mp4)
+
+[播放原肌群训练总览录屏，展示正背面和不同肌群的训练时间](portfolio/assets/brand/muscle-recording.mp4)
+
+## RITMO｜找到属于你的训练节奏
+
+![原页面圆形视觉语言](portfolio/captures/08-brand-rings.png)
+
+开始训练 → 3、2、1 倒数 → 训练中计次 → 暂停后继续
+
+RITMO 意为「节奏」。我想到的是每次动作里的发力、控制和呼吸，也是一组练完，歇一会儿，再接着练的节奏。我希望 App 能把这些环节接得顺一点，让我少看几次手机，把注意力留给动作。每个人练得快慢不同，训练和恢复的安排也不一样。对我来说，找到自己的节奏，就是找到一种愿意一练再练的方式。
+
+[![从字标的 O 到训练里的圆](portfolio/captures/video-brand-recording.jpg)](portfolio/assets/brand/brand-recording.mp4)
+
+[从字标的 O 到训练里的圆 · 播放原录屏](portfolio/assets/brand/brand-recording.mp4)
+
+## 设计目标
+
+从打开 App 到练完一组，尽量少做临时判断，把注意力留给训练。
+
+### 表现层 · 统一视觉
+
+从字标的 O 到训练圆环，用同一套形状和荧光绿串起开始、倒数、计次和继续，让每个状态都容易认出来。
+
+<img src="portfolio/assets/brand/design-goals-decoration.png" width="380" alt="原作品集设计目标配图" />
+
+### 业务逻辑层 · 简化训练安排
+
+把场地、器械和训练方案的关系理顺。切换场地时，推荐跟着可用器械调整；选好力量动作后，自动补上对应的热身和拉伸。
+
+### 交互层 · 减少操作
+
+让休息和下一组自动衔接。换动作时留出准备时间，训练中点圆环就能暂停，按需要调整重量、次数或休息。
+
+## 情绪板
+
+用于灵感收集、制定设计基调、辅助决策
+
+| 专注 FOCUS | 节奏 RHYTHM | 掌控 CONTROL |
+| --- | --- | --- |
+| ![专注 FOCUS](portfolio/assets/brand/moodboard/focus.jpg) | ![节奏 RHYTHM](portfolio/assets/brand/moodboard/rhythm.jpg) | ![掌控 CONTROL](portfolio/assets/brand/moodboard/control.jpg) |
+
+## 从 AI 协作到真实使用
+
+在 RITMO 的开发过程中，我将 AI 作为跨越设计与实现之间距离的协作工具。通过持续提出需求、比较方案、制定实现约束和验收结果，我能够在没有完整开发团队的条件下，将产品想法逐步推进为可使用的应用。
+
+### 提出问题、明确需求和约束
+
+![问题、需求与约束三个相互关联的圆形](portfolio/assets/process/problem-needs-constraints.png)
+
+### 使用 Talk 和 Work 两个对话协作推进。
+
+![我负责设计与决策，Talk 负责讨论分析，Work 负责执行构建，共同推进可使用的产品](portfolio/assets/process/talk-work-collaboration.png)
+
+### 分析讨论并生成对应的训练流程。
+
+![训练流程探索图，包含新手和有基础的路径、训练环境、训练方案与训练记录](portfolio/assets/process/training-flow-v2.png)
+
+### 结合我的需求和界面参考，生成界面初稿。
+
+[![AI 生成的 RITMO 初稿，包含训练首页、方案、记录、执行与休息等界面](portfolio/assets/process/ai-interface.jpg)](portfolio/assets/process/ai-interface.jpg)
+
+### 用 Figma Bridge 在 AI 与 Figma 之间传递设计。
+
+[![Figma Bridge 深色界面示意，支持导入原生图层和导出 Design JSON 或 PNG](portfolio/assets/process/figma-bridge-dark.svg)](portfolio/assets/process/figma-bridge.png)
+
+### 用 AI 生成统一风格的人物和动作素材。
+
+[![AI 生成的训练素材合集，包含人物局部特写和多种训练动作示范](portfolio/assets/process/ai-media.png)](portfolio/assets/process/ai-media.png)
+
+### 借助 AI 完成实现，让应用在手机上用起来。
+
+![手机主屏幕上的 RITMO 应用图标](portfolio/assets/brand/phone-mockup-spaced.png)
+
+## 设计展示
+
+[![色彩与按钮规范](portfolio/assets/visual/design/1.png)](portfolio/assets/visual/design/1.png)
+
+[![字体、图标与底部导航规范](portfolio/assets/visual/design/2.png)](portfolio/assets/visual/design/2.png)
+
+[![训练、方案和记录界面](portfolio/assets/visual/design/3.png)](portfolio/assets/visual/design/3.png)
+
+[![首页与推荐训练方案](portfolio/assets/visual/design/4.png)](portfolio/assets/visual/design/4.png)
+
+[![力量训练与暂停界面](portfolio/assets/visual/design/5.png)](portfolio/assets/visual/design/5.png)
+
+[![创建方案和添加动作](portfolio/assets/visual/design/6.png)](portfolio/assets/visual/design/6.png)
+
+[![真实界面合集](portfolio/assets/visual/design/7.png)](portfolio/assets/visual/design/7.png)
+
+[![RITMO 品牌与手机展示](portfolio/assets/visual/design/8.png)](portfolio/assets/visual/design/8.png)
+
+[![RITMO 真机使用录屏](portfolio/captures/video-final-screen.jpg)](portfolio/assets/visual/design/final-screen.mp4)
+
+[播放原作品集最后一张展示中的真机使用录屏](portfolio/assets/visual/design/final-screen.mp4)
+
+---
+
+以上图文按现有作品集原顺序搬运。GitHub 使用文档排版；原网页 CSS 交互以页面采集及原录屏呈现。[原素材与采集记录](portfolio/README.md) · [体验与安装](DEMO.md) · [运行源码](DEVELOPMENT.md)
